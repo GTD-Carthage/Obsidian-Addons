@@ -442,6 +442,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 }
 
 function CRANEO_DOOM3_PACK.merge_tables()
+  gui.printf("--== Doom 3 Resource Pack Activated ==--\n\n")
+
   table.deep_merge(GAME.MATERIALS, CRANEO_DOOM3_PACK.MATERIALS, 2)
   table.deep_merge(GAME.THEMES, CRANEO_DOOM3_PACK.THEMES, 3)
   table.deep_merge(GAME.ROOM_THEMES, CRANEO_DOOM3_PACK.ROOM_THEMES, 2)
@@ -449,6 +451,8 @@ end
 
 function CRANEO_DOOM3_PACK.put_the_texture_wad_in()
   local wad_file = "games/doom/data/D3_Textures.wad"
+
+  gui.wad_merge_sections(wad_file)
 end
 ----------------------------------------------------------------
 
