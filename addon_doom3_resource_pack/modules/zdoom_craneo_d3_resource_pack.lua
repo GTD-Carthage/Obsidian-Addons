@@ -99,6 +99,31 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FRHEX1 = {t="D3MTHUL6", f="D3FRHEX1"}, -- brown small hex
   D3FRHEX2 = {t="D3SLAD01", f="D3FRHEX2"}, -- brown big hex bolted
   D3FRHEX3 = {t="D3SLAD02", f="D3FRHEX3"}, -- brown big hex grated
+
+  -- rails
+  D3MDSPC1 = {t="D3MDSPC1", rail_h=64},
+  D3MDSPC2 = {t="D3MDSPC2", rail_h=128},
+}
+
+CRANEO_DOOM3_PACK.THEMES =
+{
+  tech =
+  {
+    scenic_fences =
+    {
+      D3MDSPC1 = 10,
+      D3MDSPC2 = 10,
+    }
+  }
+
+  urban =
+  {
+    scenic_fences =
+    {
+      D3MDSPC1 = 10,
+      D3MDSPC2 = 10,
+    }
+  }
 }
 
 CRANEO_DOOM3_PACK.ROOM_THEMES =
@@ -418,6 +443,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
 function CRANEO_DOOM3_PACK.merge_tables()
   table.deep_merge(GAME.MATERIALS, CRANEO_DOOM3_PACK.MATERIALS, 2)
+  table.deep_megre(GAME.THEMES, CRANEO_DOOM3_PACK.THEMES, 3)
   table.deep_merge(GAME.ROOM_THEMES, CRANEO_DOOM3_PACK.ROOM_THEMES, 2)
 end
 
