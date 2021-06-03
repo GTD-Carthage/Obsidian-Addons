@@ -114,7 +114,7 @@ CRANEO_DOOM3_PACK.THEMES =
       D3MDSPC1 = 10,
       D3MDSPC2 = 10,
     }
-  }
+  },
 
   urban =
   {
@@ -443,7 +443,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
 function CRANEO_DOOM3_PACK.merge_tables()
   table.deep_merge(GAME.MATERIALS, CRANEO_DOOM3_PACK.MATERIALS, 2)
-  table.deep_megre(GAME.THEMES, CRANEO_DOOM3_PACK.THEMES, 3)
+  table.deep_merge(GAME.THEMES, CRANEO_DOOM3_PACK.THEMES, 3)
   table.deep_merge(GAME.ROOM_THEMES, CRANEO_DOOM3_PACK.ROOM_THEMES, 2)
 end
 
