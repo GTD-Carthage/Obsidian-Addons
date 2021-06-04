@@ -381,7 +381,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       FLOOR0_3 = 2,
       FLOOR0_5 = 2,
       FLOOR4_8 = 2,
-    },=
+    }
   },
 
   tech_CDoom3_green_hulls=
@@ -500,7 +500,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
       D3FLATB1 = 15,
     }
-  }
+  },
 
   urban_CDoom3 =
   {
@@ -656,7 +656,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3TFLOR2 = 20,
       D3TFLOR3 = 20,
     }
-  }
+  },
 
   urban_CDoom3_brown_hulls =
   {
@@ -746,7 +746,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       FLOOR0_3 = 2,
       FLOOR0_5 = 2,
       FLOOR4_8 = 2,
-    },=
+    },
   },
 
   urban_CDoom3_green_hulls=
