@@ -3,7 +3,7 @@ PREFABS.Pic_box_d3_single =
   file   = "picture/pic_box_d3.wad",
   map    = "MAP01",
 
-  prob  = 25,
+  prob  = 100,
   skip_prob = 25,
 
   theme = "!hell",
