@@ -70,7 +70,16 @@ CRANEO_DOOM3_PACK.MATERIALS =
 
   D3BRTALL = {t="D3BRTALL", f="D3FMETL2"},
 
---flats
+  -- brick
+  D3BRCK_1 = {t="D3BRCK_1", f="D3FLATB2"},
+  D3BRCK_2 = {t="D3BRCK_2", f="D3FLATB3"},
+  D3BRCK_3 = {t="D3BRCK_3", f="D3FLATB2"},
+  D3BRCK_4 = {t="D3BRCK_4", f="D3FLATB3"},
+  D3BRCK_5 = {t="D3BRCK_5", f="D3FLATB2"},
+  D3BRCK_6 = {t="D3BRCK_6", f="D3FLATB3"},
+  D3BRCK_7 = {t="D3BRCK_7", f="D3FLATB2"},
+
+-- flats
   D3FLATB1 = {t="D3CEMNT3", f="D3FLATB1"}, -- dark
   D3FLATB2 = {t="D3WBASE2", f="D3FLATB2"}, -- rusty
   D3FLATB3 = {t="D3WBASE2", f="D3FLATB3"}, -- brown
@@ -128,7 +137,7 @@ CRANEO_DOOM3_PACK.THEMES =
 
 CRANEO_DOOM3_PACK.ROOM_THEMES =
 {
-  tech_Doom3 =
+  tech_CDoom3_all =
   {
     env = "building",
     prob = 100,
@@ -284,7 +293,216 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
     }
   },
 
-  urban_Doom3 =
+  tech_CDoom3_brown_hulls =
+  {
+    env = "building",
+    prob = 50,
+
+    walls =
+    {
+      D3CEMNT1 = 10,
+      D3CEMNT2 = 10,
+      D3CEMNT3 = 10,
+    
+      D3MTHUL1 = 15,
+      D3MTHUL3 = 5,
+      D3MTHUL4 = 5,
+      D3MTHUL5 = 5,
+      D3MTHUL6 = 5,
+  
+      D3SLAD01 = 5,
+      D3SLAD02 = 5,
+
+      D3STARB1 = 25,
+      D3STARK1 = 5,
+    },
+
+    floors =
+    {
+      D3FMETL1 = 10,
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+    
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      D3FMETD1 = 2,
+      D3FMETL2 = 2,
+      D3FMETL4 = 2,
+      D3FMETL7 = 2,
+      D3FTILE1 = 2,
+      D3TFLOR1 = 2,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },
+
+    ceilings =
+    {
+      D3FMETL1 = 10,
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+    
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      D3FMETD1 = 2,
+      D3FMETL2 = 2,
+      D3FMETL4 = 2,
+      D3FMETL7 = 2,
+      D3FTILE1 = 2,
+      D3TFLOR1 = 2,
+
+      D3FLATB1 = 5,
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },=
+  },
+
+  tech_CDoom3_green_hulls=
+  {
+    env = "building",
+    prob = 50,
+
+    walls =
+    {
+      D3MTHUL2 = 5,
+      D3MTHUL7 = 20,
+      D3MTHUL8 = 20,
+      D3MTSD1 = 20,
+
+      D3STARG1 = 20,
+      D3STARK1 = 5,
+    },
+
+    floors =
+    {
+      D3FMETL6 = 10,
+
+      D3FMETD1 = 5,
+      D3FMETL2 = 5,
+      D3FMETL4 = 5,
+      D3FMETL7 = 5,
+      D3FTILE1 = 5,
+      D3TFLOR1 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },
+
+    ceilings =
+    {
+      D3FMETL6 = 10,
+
+      D3FMETD1 = 5,
+      D3FMETL2 = 5,
+      D3FMETL4 = 5,
+      D3FMETL7 = 5,
+      D3FTILE1 = 5,
+      D3TFLOR1 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 2,
+      D3FLATB4 = 2,
+    }
+  },
+
+  tech_CDoom3_grey_hulls =
+  {
+    env = "building",
+    prob = 40,
+
+    walls =
+    {
+      D3BRTALL = 5,
+      D3MTTIL3 = 10,
+
+      D3STARK1 = 25,
+
+      D3WIRES1 = 10,
+      D3WMETL1 = 25,
+      D3WMETL2 = 25,
+      D3WMETL3 = 25,
+      D3WMETL4 = 25,
+      D3WMETL5 = 25,
+      D3WTTLE1 = 15,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+    },
+
+    ceilings =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 15,
+    }
+  }
+
+  urban_CDoom3 =
   {
     env = "building",
     prob = 25,
@@ -438,7 +656,217 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3TFLOR2 = 20,
       D3TFLOR3 = 20,
     }
-  } 
+  }
+
+  urban_CDoom3_brown_hulls =
+  {
+    env = "building",
+    prob = 10,
+
+    walls =
+    {
+      D3CEMNT1 = 10,
+      D3CEMNT2 = 10,
+      D3CEMNT3 = 10,
+    
+      D3MTHUL1 = 15,
+      D3MTHUL3 = 5,
+      D3MTHUL4 = 5,
+      D3MTHUL5 = 5,
+      D3MTHUL6 = 5,
+  
+      D3SLAD01 = 5,
+      D3SLAD02 = 5,
+
+      D3STARB1 = 25,
+      D3STARK1 = 5,
+    },
+
+    floors =
+    {
+      D3FMETL1 = 10,
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+    
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      D3FMETD1 = 2,
+      D3FMETL2 = 2,
+      D3FMETL4 = 2,
+      D3FMETL7 = 2,
+      D3FTILE1 = 2,
+      D3TFLOR1 = 2,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },
+
+    ceilings =
+    {
+      D3FMETL1 = 10,
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+    
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      D3FMETD1 = 2,
+      D3FMETL2 = 2,
+      D3FMETL4 = 2,
+      D3FMETL7 = 2,
+      D3FTILE1 = 2,
+      D3TFLOR1 = 2,
+
+      D3FLATB1 = 5,
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },=
+  },
+
+  urban_CDoom3_green_hulls=
+  {
+    env = "building",
+    prob = 10,
+
+    walls =
+    {
+      D3MTHUL2 = 5,
+      D3MTHUL7 = 20,
+      D3MTHUL8 = 20,
+      D3MTSD1 = 20,
+
+      D3STARG1 = 20,
+      D3STARK1 = 5,
+    },
+
+    floors =
+    {
+      D3FMETL6 = 10,
+
+      D3FMETD1 = 5,
+      D3FMETL2 = 5,
+      D3FMETL4 = 5,
+      D3FMETL7 = 5,
+      D3FTILE1 = 5,
+      D3TFLOR1 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+    },
+
+    ceilings =
+    {
+      D3FMETL6 = 10,
+
+      D3FMETD1 = 5,
+      D3FMETL2 = 5,
+      D3FMETL4 = 5,
+      D3FMETL7 = 5,
+      D3FTILE1 = 5,
+      D3TFLOR1 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 2,
+      D3FLATB4 = 2,
+    }
+  },
+
+  urban_CDoom3_grey_hulls =
+  {
+    env = "building",
+    prob = 8,
+
+    walls =
+    {
+      D3BRTALL = 5,
+      D3MTTIL3 = 10,
+
+      D3STARK1 = 25,
+
+      D3WIRES1 = 10,
+      D3WMETL1 = 25,
+      D3WMETL2 = 25,
+      D3WMETL3 = 25,
+      D3WMETL4 = 25,
+      D3WMETL5 = 25,
+      D3WTTLE1 = 15,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+    },
+
+    ceilings =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 15,
+    }
+  }
+
 }
 
 function CRANEO_DOOM3_PACK.merge_tables()
