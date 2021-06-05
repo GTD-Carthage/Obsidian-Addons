@@ -79,6 +79,18 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3BRCK_6 = {t="D3BRCK_6", f="D3FLATB3"},
   D3BRCK_7 = {t="D3BRCK_7", f="D3FLATB2"},
 
+  -- marble =
+  D3MBLWL1 = {t="D3MBTLF2", f="D3MBLWL1"},
+  D3MBLWL2 = {t="D3MBTLF1", f="D3MBLWL2"},
+  D3MBLWL3 = {t="D3MBTLF1", f="D3MBLWL3"},
+
+  -- wood
+  D3BRWDW1 = {t="D3BRWDW1", f="D3FBRWD1"}, -- technically modwall
+  D3BRWDW2 = {t="D3BRWDW2", f="D3FBRWD2"}, 
+  D3BRWDW3 = {t="D3BRWDW3", f="D3FBRWD3"}, 
+  D3BRWDW4 = {t="D3BRWDW4", f="D3FBRWD2"}, 
+  D3BRWDW5 = {t="D3BRWDW5", f="D3FLATB3"}, 
+
 -- flats
   D3FLATB1 = {t="D3CEMNT3", f="D3FLATB1"}, -- dark
   D3FLATB2 = {t="D3WBASE2", f="D3FLATB2"}, -- rusty
@@ -109,7 +121,27 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FRHEX2 = {t="D3SLAD01", f="D3FRHEX2"}, -- brown big hex bolted
   D3FRHEX3 = {t="D3SLAD02", f="D3FRHEX3"}, -- brown big hex grated
 
-  -- rails
+  -- browny wood
+  D3FBRWD1 = {t="D3BRWDW1", f="D3FBRWD1"},
+  D3FBRWD2 = {t="D3BRWDW2", f="D3FBRWD2"},
+  D3FBRWD3 = {t="D3BRWDW4", f="D3FBRWD3"},
+
+  -- rocky tiles
+  D3MBTLF1 = {t="D3MBLWL2", f="D3MBTLF1"}, -- marble-green (small tile)
+  D3MBTLF2 = {t="D3MBLWL1", f="D3MBTLF2"}, -- marble-green (big tile)
+
+  D3RKTL1 = {t="D3BRCK_1", f="D3RKTL1"}, -- brown
+  D3RKTL2 = {t="D3MTTIL3", f="D3RKTL2"}, -- dark
+  D3RKTL3 = {t="D3BRCK_2", f="D3RKTL3"}, -- brown
+  D3RKTL4 = {t="D3BRCK_3", f="D3RKTL4"}, -- brown
+  D3RKTL5 = {t="D3WBASE3", f="D3RKTL5"}, -- green
+  D3RKTL6 = {t="D3WTTLE1", f="D3RKTL6"}, -- grey
+
+  -- flesh
+  D3FLSH1 = {t="D3FLSH1", f="D3FLSH1"}, -- FIX-ME!
+  D3FLSH2 = {t="D3FLSH2", f="D3FLSH2"}, -- FIX-ME!
+
+-- rails
   D3MDSPC1 = {t="D3MDSPC1", rail_h=64},
   D3MDSPC2 = {t="D3MDSPC2", rail_h=128},
 }
@@ -137,6 +169,7 @@ CRANEO_DOOM3_PACK.THEMES =
 
 CRANEO_DOOM3_PACK.ROOM_THEMES =
 {
+-- TECH ROOM THEMES
   tech_CDoom3_all =
   {
     env = "building",
@@ -658,6 +691,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
     }
   },
 
+-- URBAN ROOM THEMES
   urban_CDoom3_brown_hulls =
   {
     env = "building",
@@ -865,8 +899,321 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
       D3FLATB1 = 15,
     }
-  }
+  },
 
+  urban_CDoom3_brick =
+  {
+    prob = 75,
+    env = "building",
+
+    walls =
+    {
+      D3BRCK_1 = 10,
+      D3BRCK_2 = 10,
+      D3BRCK_3 = 10,
+      D3BRCK_4 = 10,
+      D3BRCK_5 = 10,
+      D3BRCK_6 = 10,
+      D3BRCK_7 = 10,
+
+      D3BRWDW1 = 10,
+      
+      D3CEMNT1 = 15,
+      D3CEMNT1 = 15,
+      D3CEMNT1 = 15,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 10,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL6 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 20,
+      D3MBTLF2 = 20,
+
+      D3RKTIL1 = 20,
+      D3RKTIL2 = 20,
+      D3RKTIL3 = 20,
+      D3RKTIL4 = 20,
+      D3RKTIL5 = 20,
+      D3RKTIL6 = 20,
+
+      D3TFLOR1 = 20,
+      D3TFLOR2 = 20,
+      D3TFLOR3 = 20,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 10,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL6 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 20,
+      D3MBTLF2 = 20,
+
+      D3RKTIL1 = 20,
+      D3RKTIL2 = 20,
+      D3RKTIL3 = 20,
+      D3RKTIL4 = 20,
+      D3RKTIL5 = 20,
+      D3RKTIL6 = 20,
+
+      D3TFLOR1 = 20,
+      D3TFLOR2 = 20,
+      D3TFLOR3 = 20,
+
+      D3FLATB1 = 40,
+      D3FLATB2 = 40,
+      D3FLATB3 = 40,
+      D3FLATB4 = 40,
+    },
+  },
+
+  urban_CDoom3_wood =
+  {
+    prob = 50,
+    env = "building",
+
+    walls =
+    {
+      D3BRWDW1 = 20,
+      D3BRWDW2 = 20,
+      D3BRWDW3 = 20,
+      D3BRWDW4 = 20,
+      D3BRWDW5 = 20,
+    },
+
+    floors =
+    {
+      D3FBRWD1 = 35,
+      D3FBRWD2 = 35,
+      D3FBRWD3 = 35,
+
+      D3FMETL1 = 10,
+      D3FRHEX1 = 7,
+      D3FRHEX2 = 7,
+      D3FRHEX3 = 7,
+
+      D3RKTIL1 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      FLAT5_1 = 10,
+      FLAT5_2 = 10,
+
+      FLOOR5_4 = 10,
+      FLOOR7_1 = 8,
+    },
+
+    ceilings =
+    {
+      D3FLATB1 = 25,
+      D3FLATB2 = 25,
+      D3FLATB3 = 25,
+
+      D3FBRWD1 = 35,
+      D3FBRWD2 = 35,
+      D3FBRWD3 = 35,
+
+      D3FMETL1 = 10,
+      D3FRHEX1 = 7,
+      D3FRHEX2 = 7,
+      D3FRHEX3 = 7,
+
+      D3RKTIL1 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+
+      D3TFLOR2 = 10,
+      D3TFLOR3 = 10,
+
+      FLAT5_1 = 10,
+      FLAT5_2 = 10,
+
+      FLOOR5_4 = 10,
+      FLOOR7_1 = 25,
+    }
+  },
+
+-- HELL ROOM THEMES
+  hell_CDoom3_marble =
+  {
+    prob = 75,
+    env = "building",
+
+    walls =
+    {
+      D3MBLWL1 = 10,
+      D3MBLWL2 = 10,
+      D3MBLWL3 = 10,
+  
+      D3MTHUL8 = 10,
+      D3STARG1 = 10,  
+    },
+
+    floors =
+    {
+      DEM1_5 = 10,
+      DEM1_6 = 10,
+      FLOOR7_2 = 10,
+
+      D3FLATB1 = 10,
+      D3FLATB2 = 10,
+      D3FLATB3 = 10,
+      D3FLATB4 = 10,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 30,
+      D3MBTLF2 = 30,
+
+      D3RKTIL1 = 10,
+      D3RKTIL2 = 30,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+      D3RKTIL5 = 30,
+      D3RKTIL6 = 30,
+    },
+
+    ceilings =
+    {
+      DEM1_5 = 10,
+      DEM1_6 = 10,
+      FLOOR7_2 = 10,
+
+      D3FLATB1 = 40,
+      D3FLATB2 = 40,
+      D3FLATB3 = 40,
+      D3FLATB4 = 40,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 30,
+      D3MBTLF2 = 30,
+
+      D3RKTIL1 = 10,
+      D3RKTIL2 = 30,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+      D3RKTIL5 = 30,
+      D3RKTIL6 = 30,
+    },
+  },
+
+  hell_CDoom3_brick =
+  {
+    prob = 50,
+    env = "building",
+
+    walls =
+    {
+      D3BRCK_1 = 10,
+      D3BRCK_2 = 10,
+      D3BRCK_3 = 10,
+      D3BRCK_4 = 10,
+      D3BRCK_5 = 10,
+      D3BRCK_6 = 10,
+      D3BRCK_7 = 10,
+
+      D3BRWDW1 = 10,
+      
+      D3CEMNT1 = 15,
+      D3CEMNT1 = 15,
+      D3CEMNT1 = 15,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 10,
+
+      D3FMETL1 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL6 = 10,
+      D3FMETL8 = 10,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 20,
+      D3MBTLF2 = 20,
+
+      D3RKTIL1 = 20,
+      D3RKTIL2 = 20,
+      D3RKTIL3 = 20,
+      D3RKTIL4 = 20,
+      D3RKTIL5 = 20,
+      D3RKTIL6 = 20,
+
+      D3TFLOR1 = 20,
+      D3TFLOR2 = 20,
+      D3TFLOR3 = 20,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 10,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL6 = 10,
+      D3FMETL8 = 10,
+
+      D3FTILE1 = 10,
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3MBTLF1 = 20,
+      D3MBTLF2 = 20,
+
+      D3RKTIL1 = 20,
+      D3RKTIL2 = 20,
+      D3RKTIL3 = 20,
+      D3RKTIL4 = 20,
+      D3RKTIL5 = 20,
+      D3RKTIL6 = 20,
+
+      D3TFLOR1 = 20,
+      D3TFLOR2 = 20,
+      D3TFLOR3 = 20,
+
+      D3FLATB1 = 40,
+      D3FLATB2 = 40,
+      D3FLATB3 = 40,
+      D3FLATB4 = 40,
+    },
+  },
 }
 
 function CRANEO_DOOM3_PACK.merge_tables()
