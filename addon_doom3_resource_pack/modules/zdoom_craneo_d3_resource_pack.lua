@@ -45,7 +45,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3MTHUL2 = {t="D3MTHUL2", f="D3FLATB4"}, -- green vert
   D3MTHUL3 = {t="D3MTHUL3", f="D3FLATB3"}, -- orange pipey
   D3MTHUL4 = {t="D3MTHUL4", f="D3FMETL8"}, -- brown vert
-  D3MTHUL5 = {t="D3MTHUL5", f="DRFTHEX2"}, -- brown vert
+  D3MTHUL5 = {t="D3MTHUL5", f="D3FRHEX2"}, -- brown vert
   D3MTHUL6 = {t="D3MTHUL6", f="D3FMETL8"}, -- brown vert
   D3MTHUL7 = {t="D3MTHUL7", f="D3FLATB4"}, -- green plates
   D3MTHUL8 = {t="D3MTHUL8", f="D3FLATB4"}, -- green plates
@@ -57,7 +57,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
 
   D3PLAT01 = {t="D3PLAT01", f="D3TFLOR1"},
 
-  D3SLAD01 = {t="D3SLAD01", f="DRFTHEX2"},
+  D3SLAD01 = {t="D3SLAD01", f="D3FRHEX2"},
   D3SLAD02 = {t="D3SLAD02", f="DRFTHEX3"},
 
   D3STARB1 = {t="D3STARB1", f="D3FLATB3"},
