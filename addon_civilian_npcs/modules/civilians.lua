@@ -816,7 +816,6 @@ CIVILIANS_MODULE.ACTORS =
   {
     id = 7940,
     cluster = 1,
-		theme = "urban",
     r = 40,
     h = 65,	
   },
@@ -825,7 +824,6 @@ CIVILIANS_MODULE.ACTORS =
   {
     id = 7941,
     cluster = 1,
-		theme = "tech"
     r = 40,
     h = 65,	
   }
