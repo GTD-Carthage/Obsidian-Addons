@@ -855,7 +855,7 @@ function CIVILIANS_MODULE.add_civilians()
 	if LEVEL.theme_name == "urban" then
 		if PARAM.bool_civilians ~= 1 then return end
 	end
-	if LEVLE.theme_name == "tech" then
+	if LEVEL.theme_name == "tech" then
 		if PARAM.bool_scientists ~= 1 then return end
 	end
 	
@@ -932,8 +932,8 @@ function CIVILIANS_MODULE.all_done()
   end
 
 	if PARAM.bool_scientists == 1 then
-    SCRIPTS.scientists_SNDINFO = SCIENTISTS_MODULE.SCI_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
-    SCRIPTS.fauna_dec = SCIENTISTS_MODULE.SCI_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
+    SCRIPTS.scientists_SNDINFO = CIVILIANS_MODULE.SCI_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
+    SCRIPTS.fauna_dec = CIVILIANS_MODULE.SCI_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
 	
     gui.wad_insert_file("games/doom/data/sounds/SCIDIE1",   "SCIDIE1")
     gui.wad_insert_file("games/doom/data/sounds/SCIDIE2",   "SCIDIE2")
@@ -987,7 +987,7 @@ OB_MODULES["civilians_module"] =
     bool_civilians =
     {
       name = "bool_civilians",
-      label=_("CIVILIANS"),
+      label=_("Civilians"),
       valuator = "button",
       default = 0,
       tooltip = _("Adds civilians to urban maps.\n"),
@@ -996,7 +996,7 @@ OB_MODULES["civilians_module"] =
 		bool_scientists =
     {
       name = "bool_scientists",
-      label=_("SCIENTISTS"),
+      label=_("Scientists"),
       valuator = "button",
       default = 0,
       tooltip = _("Adds scientists to tech maps.\n"),
