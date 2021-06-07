@@ -49,7 +49,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3MTHUL6 = {t="D3MTHUL6", f="D3FMETL8"}, -- brown vert
   D3MTHUL7 = {t="D3MTHUL7", f="D3FLATB4"}, -- green plates
   D3MTHUL8 = {t="D3MTHUL8", f="D3FLATB4"}, -- green plates
-  D3MTSD1 = {t="D3MTSD1", f="D3METL6"}, -- green plates
+  D3MTSD1 = {t="D3MTSD1", f="D3FMETL6"}, -- green plates
 
   D3MTTIL1 = {t="D3MTTIL1", f="D3FMETL3"}, -- brown trimmy tech
   D3MTTIL2 = {t="D3MTTIL2", f="D3FMETL8"}, -- brown trimmy tech
@@ -86,10 +86,28 @@ CRANEO_DOOM3_PACK.MATERIALS =
 
   -- wood
   D3BRWDW1 = {t="D3BRWDW1", f="D3FBRWD1"}, -- technically modwall
-  D3BRWDW2 = {t="D3BRWDW2", f="D3FBRWD2"}, 
-  D3BRWDW3 = {t="D3BRWDW3", f="D3FBRWD3"}, 
-  D3BRWDW4 = {t="D3BRWDW4", f="D3FBRWD2"}, 
+  D3BRWDW2 = {t="D3BRWDW2", f="D3FBRWD2"},
+  D3BRWDW3 = {t="D3BRWDW3", f="D3FBRWD3"},
+  D3BRWDW4 = {t="D3BRWDW4", f="D3FBRWD2"},
   D3BRWDW5 = {t="D3BRWDW5", f="D3FLATB3"}, 
+  D3BRWDW6 = {t="D3BRWDW6", f="D3FBRWD3"}, 
+
+  -- flesh
+  D3SKINW1 = {t="D3SKINW1", f="D3FLSH_1"},
+  D3SKINW2 = {t="D3SKINW2", f="D3FLSH_1"},
+  D3SKINW3 = {t="D3SKINW3", f="D3RKTIL3"},
+  D3SKINW4 = {t="D3SKINW4", f="D3RKTIL4"},
+
+  D3FLSHW1 = {t="D3FLSHW1", f="D3FLSH_1"},
+  D3FLSHW2 = {t="D3FLSHW2", f="D3RKTIL1"},
+  D3FLSHW3 = {t="D3FLSHW3", f="D3FLSH_3"},
+  D3FLSHW4 = {t="D3FLSHW4", f="D3RKTIL1"},
+  D3FLSHW5 = {t="D3FLSHW5", f="D3RKTIL6"},
+  D3FLSHW6 = {t="D3FLSHW6", f="D3FLSH_4"},
+
+  -- hell metal
+  D3HLMTL1 = {t="D3HLMTL1", f="D3FMETL8"},
+  D3HLMTL2 = {t="D3HLMTL2", f="D3RKTIL1"},
 
 -- flats
   D3FLATB1 = {t="D3CEMNT3", f="D3FLATB1"}, -- dark
@@ -138,8 +156,10 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3RKTL6 = {t="D3WTTLE1", f="D3RKTL6"}, -- grey
 
   -- flesh
-  D3FLSH1 = {t="D3FLSH1", f="D3FLSH1"}, -- FIX-ME!
-  D3FLSH2 = {t="D3FLSH2", f="D3FLSH2"}, -- FIX-ME!
+  D3FLSH_1 = {t="D3SKINW1", f="D3FLSH_1"}, -- FIX-ME!
+  D3FLSH_2 = {t="D3WBASE3", f="D3FLSH_2"}, -- FIX-ME!
+  D3FLSH_3 = {t="D3SKINW3", f="D3FLSH_3"},
+  D3FLSH_4 = {t="D3SKINW4", f="D3FLSH_4"},
 
 -- rails
   D3MDSPC1 = {t="D3MDSPC1", rail_h=64},
@@ -1003,6 +1023,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3BRWDW3 = 20,
       D3BRWDW4 = 20,
       D3BRWDW5 = 20,
+      D3BRWDW6 = 20,
     },
 
     floors =
@@ -1073,7 +1094,10 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3MBLWL3 = 10,
   
       D3MTHUL8 = 10,
-      D3STARG1 = 10,  
+      D3STARG1 = 10, 
+
+      D3HLMTL1 = 10,
+      D3HLMTL2 = 10,
     },
 
     floors =
@@ -1127,6 +1151,85 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3RKTIL5 = 30,
       D3RKTIL6 = 30,
     },
+  },
+
+  hell_CDoom3_flesh =
+  {
+    prob = 40,
+    env = "building",
+
+    walls =
+    {
+      D3FLSHW1 = 10,
+      D3FLSHW2 = 10,
+      D3FLSHW3 = 10,
+      D3FLSHW4 = 10,
+      D3FLSHW5 = 10,
+      D3FLSHW6 = 10,
+
+      D3HLMTL1 = 10,
+      D3HLMTL2 = 10,
+
+      D3SKINW1 = 10,
+      D3SKINW2 = 10,
+      D3SKINW3 = 10,
+      D3SKINW4 = 10,
+
+      D3SLAD01 = 10,
+      D3SLAD02 = 10,
+      D3STARB1 = 10,
+    },
+
+    floors =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3MBTLF1 = 10,
+      D3MBTLF2 = 10,
+
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+      D3FRHEX3 = 10,
+
+      D3RKTIL1 = 10,
+      D3RKTIL2 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+      D3RKTIL5 = 10,
+      D3RKTIL6 = 7,
+    },
+
+    ceilings =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3FMETL3 = 10,
+      D3FMETL8 = 10,
+      D3FRHEX3 = 10,
+
+      D3RKTIL1 = 10,
+      D3RKTIL2 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+      D3RKTIL5 = 10,
+      D3RKTIL6 = 7,
+
+
+      D3TFLOR1 = 7,
+      D3TFLOR2 = 7,
+      D3TFLOR3 = 7,
+
+      D3FLATB1 = 10,
+      D3FLATB2 = 10,
+      D3FLATB3 = 10,
+      D3FLATB4 = 10,
+    }
   },
 
   hell_CDoom3_brick =
