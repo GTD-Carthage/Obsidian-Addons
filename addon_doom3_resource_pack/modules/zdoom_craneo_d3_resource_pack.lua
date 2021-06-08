@@ -184,7 +184,15 @@ CRANEO_DOOM3_PACK.THEMES =
     {
       D3MDSPC1 = 10,
       D3MDSPC2 = 10,
-    }
+    },
+
+    outdoor_wall_groups =
+    {
+      d3_tech_o_1 = 1,
+      d3_tech_o_2 = 1,
+      d3_tech_o_3 = 1,
+      d3_tech_o_4 = 1,
+    },
   },
 
   urban =

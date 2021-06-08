@@ -50,6 +50,8 @@ PREFABS.Wall_tech_d3_3_a =
   template = "Wall_tech_d3_1",
   map = "MAP03",
 
+  height = 136,
+
   prob = 8,
 
   group = "d3_tech_o_4",
@@ -58,7 +60,9 @@ PREFABS.Wall_tech_d3_3_a =
   {
     D3DOORW5 = 5,
     D3DOORW6 = 5,
-  }
+  },
+
+  bound_z2 = 136,
 }
 
 PREFABS.Wall_tech_d3_3_b =
