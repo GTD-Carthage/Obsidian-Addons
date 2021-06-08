@@ -40,6 +40,8 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3CEMNT1 = {t="D3CEMNT1", f="D3FMETL6"},
   D3CEMNT2 = {t="D3CEMNT2", f="D3FMETL6"},
   D3CEMNT3 = {t="D3CEMNT3", f="D3FLATB4"},
+  D3CEMNT4 = {t="D3CEMNT4", f="D3FLATB4"},
+  D3CEMNT5 = {t="D3CEMNT5", f="D3FLATB4"},
 
   D3MTHUL1 = {t="D3MTHUL1", f="D3FLATB3"}, -- brown vert
   D3MTHUL2 = {t="D3MTHUL2", f="D3FLATB4"}, -- green vert
@@ -202,6 +204,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3CEMNT1 = 15,
       D3CEMNT2 = 15,
       D3CEMNT3 = 15,
+      D3CEMNT4 = 15,
+      D3CEMNT5 = 15,
 
       D3METCP1 = 20,
       D3METCP2 = 20,
@@ -356,6 +360,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3CEMNT1 = 10,
       D3CEMNT2 = 10,
       D3CEMNT3 = 10,
+      D3CEMNT4 = 10,
+      D3CEMNT5 = 10,
     
       D3MTHUL1 = 15,
       D3MTHUL3 = 5,
@@ -567,6 +573,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3CEMNT1 = 15,
       D3CEMNT2 = 15,
       D3CEMNT3 = 15,
+      D3CEMNT4 = 15,
+      D3CEMNT5 = 15,
 
       D3METCP1 = 20,
       D3METCP2 = 20,
@@ -722,6 +730,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3CEMNT1 = 10,
       D3CEMNT2 = 10,
       D3CEMNT3 = 10,
+      D3CEMNT4 = 10,
+      D3CEMNT5 = 10,
     
       D3MTHUL1 = 15,
       D3MTHUL3 = 5,
