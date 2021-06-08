@@ -858,6 +858,10 @@ function CIVILIANS_MODULE.add_civilians()
 	if LEVEL.theme_name == "tech" then
 		if PARAM.bool_scientists ~= 1 then return end
 	end
+	if LEVEL.theme_name ~= "urban" 
+	and LEVEL.theme_name ~= "tech" then
+		return
+	end
 	
   for _,A in pairs(LEVEL.areas) do
     if (A.mode and A.mode == "floor") then
