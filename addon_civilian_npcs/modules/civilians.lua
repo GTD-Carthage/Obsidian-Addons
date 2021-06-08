@@ -178,6 +178,83 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 	}
 }
 
+ACTOR FatCivilianBase : SwitchableDecoration
+{
+	Health 20
+	Radius 20
+	Height 56
+	Scale 0.9
+	Speed 8
+	PainChance 200
+	Activation THINGSPEC_Activate
+	Monster
+	+FLOORCLIP
+	+FRIENDLY
+	+FRIGHTENED
+	+USESPECIAL
+	+FIXMAPTHINGPOS
+	-COUNTKILL
+	AttackSound "gciv/help"
+	SeeSound "gciv/help"
+	DeathSound "gciv/death"
+	ActiveSound "gciv/help"
+	Obituary "$o was killed by a crazed civilian... somehow."
+	States
+	{
+	Spawn:
+		CIV3 B 10 A_Look
+		Loop
+	See:
+        CIV3 A 0 A_CheckSight("NotSee")
+        CIV3 A 0 A_ChangeFlag("INVULNERABLE", False)
+	    CIV3 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 A 4 A_Chase
+	    CIV3 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 B 4 A_Chase
+	    CIV3 C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 C 4 A_Chase
+	    CIV3 D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 D 4 A_Chase
+		Loop
+	NotSee:
+        CIV3 A 0 A_ChangeFlag("INVULNERABLE", true)
+	    CIV3 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 A 4 A_Chase
+	    CIV3 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 B 4 A_Chase
+	    CIV3 C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 C 4 A_Chase
+	    CIV3 D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
+	    CIV3 D 4 A_Chase
+		Goto See
+	Active:
+        CIV3 B 0 A_ChangeFlag("INVULNERABLE", true)
+	    CIV3 B 8 A_PlaySoundEx("gciv/thanks", 2)
+		CIV3 B 0 A_SpawnItemEx("CivPrizeSpawner", 0, 0, 0)
+		CIV3 B 4 A_SpawnItemEx("TeleportFog", 0, 0, 0)
+		Stop
+	Pain:
+		CIV3 D 3
+		CIV3 D 3 A_Pain
+		Goto See
+	Death:
+        CIV3 E 0 A_ChangeFlag("USESPECIAL", false)
+		CIV3 E 5 A_Scream
+		CIV3 F 5 A_NoBlocking
+		CIV3 G 5
+		CIV3 H -1
+		Stop
+	XDeath:
+        CIV3 I 0 A_ChangeFlag("USESPECIAL", false)
+		CIV3 I 5
+		CIV3 J 5 A_XScream
+		CIV3 K 5 A_NoBlocking
+		CIV1 PQRST 5
+		CIV1 U -1
+		Stop
+	}
+}
+
 //////////////////////
 /// MALE VARIANTS ///
 ////////////////////
@@ -257,24 +334,71 @@ ACTOR FemaleCivilianAlt7 : FemaleCivilianBase
 }
 
 
+//////////////////////
+/// FAT FUCK VARIANTS ///
+////////////////////
+
+ACTOR FatCivilianAlt1 : FatCivilianBase
+{
+  Translation "116:127=128:143", "162:167=155:159", "196:207=216:223"
+}
+
+ACTOR FatCivilianAlt2 : FatCivilianBase
+{
+  Translation "116:127=106:111", "162:167=184:191", "196:207=120:123"
+}
+
+ACTOR FatCivilianAlt3 : FatCivilianBase
+{
+  Translation "116:127=176:191", "162:167=106:111", "196:207=148:151", "48:79=64:79"
+}
+
+ACTOR FatCivilianAlt4 : FatCivilianBase
+{
+  Translation "116:127=200:207", "162:167=80:95", "196:207=104:111", "48:79=64:79"
+}
+
+ACTOR FatCivilianAlt5 : FatCivilianBase
+{
+  Translation "116:127=161:166", "162:167=146:151", "196:207=232:235", "48:79=56:79"
+}
+
+ACTOR FatCivilianAlt6 : FatCivilianBase
+{
+  Translation "116:127=16:31", "162:167=251:254", "196:207=163:167"
+}
+
+ACTOR FatCivilianAlt7 : FatCivilianBase
+{
+  Translation "116:127=152:159", "162:167=200:207", "196:207=88:95", "48:79=56:79"
+}
+
 ACTOR CivilianSpawner : RandomSpawner 7940
 {
   DropItem "MaleCivilianBase", 255, 5
   DropItem "FemaleCivilianBase", 255, 5
+  DropItem "FatCivilianBase", 255, 5
   DropItem "MaleCivilianAlt1", 255, 5
   DropItem "FemaleCivilianAlt1", 255, 5
+  DropItem "FatCivilianAlt1", 255, 5
   DropItem "MaleCivilianAlt2", 255, 5
   DropItem "FemaleCivilianAlt2", 255, 5
+  DropItem "FatCivilianAlt2", 255, 5
   DropItem "MaleCivilianAlt3", 255, 5
   DropItem "FemaleCivilianAlt3", 255, 5
+  DropItem "FatCivilianAlt3", 255, 5
   DropItem "MaleCivilianAlt4", 255, 5
   DropItem "FemaleCivilianAlt4", 255, 5
+  DropItem "FatCivilianAlt4", 255, 5
   DropItem "MaleCivilianAlt5", 255, 5
   DropItem "FemaleCivilianAlt5", 255, 5
+  DropItem "FatCivilianAlt5", 255, 5
   DropItem "MaleCivilianAlt6", 255, 5
   DropItem "FemaleCivilianAlt6", 255, 5
+  DropItem "FatCivilianAlt6", 255, 5
   DropItem "MaleCivilianAlt7", 255, 5
   DropItem "FemaleCivilianAlt7", 255, 5
+  DropItem "FatCivilianAlt7", 255, 5
 }
 
 ACTOR CivPrizeSpawner : RandomSpawner
@@ -760,6 +884,20 @@ $random mciv/thanks { CMTHX1 CMTHX2 }
 
 mciv/death CMDIE
 
+
+$random gciv/help { CGHELP1 CGHELP2 CGHELP3 } //The "G" stands for "gordo" (fat in Spanish)
+	CGHELP1 CGHELP1
+	CGHELP2 CGHELP2
+	CGHELP3 CGHELP3
+
+$random gciv/thanks { CGTHX1 CGTHX2 CGTHX3 CGTHX4 }
+	CGTHX1 CGTHX1
+	CGTHX2 CGTHX2
+	CGTHX3 CGTHX3
+	CGTHX4 CGTHX4
+
+gciv/death CGDIE
+
 $random fciv/help { CFHELP1 CFHELP2 CFHELP3 }
 	CFHELP1 CFHELP1
 	CFHELP2 CFHELP2
@@ -918,7 +1056,7 @@ function CIVILIANS_MODULE.all_done()
 	end
 
   if PARAM.bool_civilians == 1 then
-    SCRIPTS.civilians_SNDINFO = CIVILIANS_MODULE.CIV_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
+    SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.CIV_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
     SCRIPTS.fauna_dec = CIVILIANS_MODULE.CIV_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
 	
     gui.wad_insert_file("games/doom/data/sounds/CFDIE",   "CFDIE")
@@ -933,10 +1071,18 @@ function CIVILIANS_MODULE.all_done()
 		gui.wad_insert_file("games/doom/data/sounds/CMHELP3",  "CMHELP3")
 		gui.wad_insert_file("games/doom/data/sounds/CMTHX1",  "CMTHX1")
 		gui.wad_insert_file("games/doom/data/sounds/CMTHX2",  "CMTHX2")
+		gui.wad_insert_file("games/doom/data/sounds/CGDIE",   "CGDIE")
+		gui.wad_insert_file("games/doom/data/sounds/CGHELP1",  "CGHELP1")
+		gui.wad_insert_file("games/doom/data/sounds/CGHELP2",  "CGHELP2")
+		gui.wad_insert_file("games/doom/data/sounds/CGHELP3",  "CGHELP3")
+		gui.wad_insert_file("games/doom/data/sounds/CGTHX1",  "CGTHX1")
+		gui.wad_insert_file("games/doom/data/sounds/CGTHX2",  "CGTHX2")
+		gui.wad_insert_file("games/doom/data/sounds/CGTHX3",  "CGTHX3")
+		gui.wad_insert_file("games/doom/data/sounds/CGTHX4",  "CGTHX4")
   end
 
 	if PARAM.bool_scientists == 1 then
-    SCRIPTS.scientists_SNDINFO = CIVILIANS_MODULE.SCI_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
+    SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.SCI_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
     SCRIPTS.fauna_dec = CIVILIANS_MODULE.SCI_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
 	
     gui.wad_insert_file("games/doom/data/sounds/SCIDIE1",   "SCIDIE1")
