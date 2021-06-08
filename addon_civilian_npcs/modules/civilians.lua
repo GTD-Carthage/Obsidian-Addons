@@ -1056,9 +1056,15 @@ function CIVILIANS_MODULE.all_done()
 	end
 
   if PARAM.bool_civilians == 1 then
-    SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.CIV_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
-    SCRIPTS.fauna_dec = CIVILIANS_MODULE.CIV_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
-	
+		--FIX-ME: Use SCRIPTS.soundinfo and SCRIPTS.decorate in the future
+		if SCRIPTS.fauna_SNDINFO then
+	    SCRIPTS.fauna_SNDINFO = SCRIPTS.fauna_SNDINFO .. CIVILIANS_MODULE.CIV_SNDINFO
+  	  SCRIPTS.fauna_dec = SCRIPTS.fauna_dec .. CIVILIANS_MODULE.CIV_DEC
+		else
+			SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.CIV_SNDINFO
+  	  SCRIPTS.fauna_dec = CIVILIANS_MODULE.CIV_DEC 
+		end
+
     gui.wad_insert_file("games/doom/data/sounds/CFDIE",   "CFDIE")
     gui.wad_insert_file("games/doom/data/sounds/CFHELP1", "CFHELP1")
     gui.wad_insert_file("games/doom/data/sounds/CFHELP2", "CFHELP1")
@@ -1082,8 +1088,13 @@ function CIVILIANS_MODULE.all_done()
   end
 
 	if PARAM.bool_scientists == 1 then
-    SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.SCI_SNDINFO -- CHANGE TO USE SCRIPTS.soundinfo ON NEXT RELEASE
-    SCRIPTS.fauna_dec = CIVILIANS_MODULE.SCI_DEC -- CHANGE TO USE SCRIPTS.decorate ON NEXT RELEASE
+		if SCRIPTS.fauna_SNDINFO then
+			SCRIPTS.fauna_SNDINFO = SCRIPTS.fauna_SNDINFO .. CIVILIANS_MODULE.SCI_SNDINFO
+			SCRIPTS.fauna_dec = SCRIPTS.fauna_dec .. CIVILIANS_MODULE.SCI_DEC
+		else
+			SCRIPTS.fauna_SNDINFO = CIVILIANS_MODULE.SCI_SNDINFO
+			SCRIPTS.fauna_dec = CIVILIANS_MODULE.SCI_DEC
+		end
 	
     gui.wad_insert_file("games/doom/data/sounds/SCIDIE1",   "SCIDIE1")
     gui.wad_insert_file("games/doom/data/sounds/SCIDIE2",   "SCIDIE2")
