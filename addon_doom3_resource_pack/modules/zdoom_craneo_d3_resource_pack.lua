@@ -90,9 +90,9 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3BRCK_7 = {t="D3BRCK_7", f="D3FLATB2"},
 
   -- marble =
-  D3MBLWL1 = {t="D3MBTLF2", f="D3MBLWL1"},
-  D3MBLWL2 = {t="D3MBTLF1", f="D3MBLWL2"},
-  D3MBLWL3 = {t="D3MBTLF1", f="D3MBLWL3"},
+  D3MBLWL1 = {t="D3MBLWL1", f="D3MBTLF2"},
+  D3MBLWL2 = {t="D3MBLWL2", f="D3MBTLF1"},
+  D3MBLWL3 = {t="D3MBLWL3", f="D3MBTLF1"},
 
   -- wood
   D3BRWDW1 = {t="D3BRWDW1", f="D3FBRWD1"}, -- technically modwall
