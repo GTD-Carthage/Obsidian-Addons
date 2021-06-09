@@ -136,6 +136,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FMETL6 = {t="D3MTSD1", f="D3FMETL6"}, -- green
   D3FMETL7 = {t="D3WBASE1", f="D3FMETL7"}, -- grey
   D3FMETL8 = {t="D3SLAD01", f="D3FMETL8"}, -- brown
+  D3FMETL9 = {t="D3FMETL9", f="D3MTHUL1"}, -- rusty vertical
 
   D3FTILE1 = {t="D3WTTLE1", f="D3FTILE1"}, -- grey tiles
   D3FTILE2 = {t="D3MTTIL1", f="D3FTILE2"}, -- brown big tiles
@@ -148,6 +149,9 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FRHEX1 = {t="D3MTHUL6", f="D3FRHEX1"}, -- brown small hex
   D3FRHEX2 = {t="D3SLAD01", f="D3FRHEX2"}, -- brown big hex bolted
   D3FRHEX3 = {t="D3SLAD02", f="D3FRHEX3"}, -- brown big hex grated
+
+  -- crate
+  D3DCRAT1 = {t="D3DCRAT1", f="D3FLATB1"},
 
   -- browny wood
   D3FBRWD1 = {t="D3BRWDW1", f="D3FBRWD1"},
@@ -351,6 +355,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL6 = 15,
       D3FMETL7 = 15,
       D3FMETL8 = 15,
+      D3FMETL9 = 15,
 
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
@@ -428,6 +433,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL1 = 10,
       D3FMETL3 = 10,
       D3FMETL8 = 10,
+      D3FMETL9 = 10,
 
       D3FRHEX1 = 10,
       D3FRHEX2 = 10,
@@ -563,6 +569,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
+      D3FMETL9 = 8,    
+
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
 
@@ -798,6 +806,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL1 = 10,
       D3FMETL3 = 10,
       D3FMETL8 = 10,
+      D3FMETL9 = 10,
 
       D3FRHEX1 = 10,
       D3FRHEX2 = 10,
@@ -933,6 +942,8 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
+      D3FMETL9 = 8,
+
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
 
@@ -1000,7 +1011,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3TFLOR3 = 20,
     },
 
-    floors =
+    ceilings =
     {
       D3FMETD1 = 10,
 
@@ -1011,6 +1022,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL6 = 10,
       D3FMETL7 = 10,
       D3FMETL8 = 10,
+      D3FMETL9 = 10,
 
       D3FTILE1 = 10,
       D3FTILE2 = 10,
