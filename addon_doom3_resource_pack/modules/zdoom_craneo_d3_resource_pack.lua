@@ -1321,7 +1321,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3TFLOR3 = 20,
     },
 
-    floors =
+    ceilings =
     {
       D3FMETD1 = 10,
 
