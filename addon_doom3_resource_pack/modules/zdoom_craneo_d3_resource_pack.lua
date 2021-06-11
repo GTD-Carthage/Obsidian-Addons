@@ -240,25 +240,25 @@ CRANEO_DOOM3_PACK.THEMES =
   {
     facades =
     {
-      D3BRCK_1 = 50,
-      D3BRCK_2 = 50,
-      D3BRCK_3 = 50,
-      D3BRCK_4 = 50,
-      D3BRCK_5 = 50,
-      D3BRCK_6 = 50,
-      D3BRCK_7 = 50,
+      D3BRCK_1 = 30,
+      D3BRCK_2 = 30,
+      D3BRCK_3 = 30,
+      D3BRCK_4 = 30,
+      D3BRCK_5 = 30,
+      D3BRCK_6 = 30,
+      D3BRCK_7 = 30,
 
       D3CEMNT3 = 20,
 
-      D3MTHUL7 = 35,
-      D3MTHUL8 = 35,
+      D3MTHUL7 = 20,
+      D3MTHUL8 = 20,
 
-      D3BRWDW1 = 50,
-      D3MBLWL1 = 20,
+      D3BRWDW1 = 30,
+      D3MBLWL1 = 12,
 
-      D3WBASE1 = 50,
-      D3WBASE2 = 50,
-      D3WBASE3 = 50,
+      D3WBASE1 = 35,
+      D3WBASE2 = 35,
+      D3WBASE3 = 35,
     },
 
     scenic_fences =
@@ -272,13 +272,13 @@ CRANEO_DOOM3_PACK.THEMES =
   {
     facades =
     {
-      D3BRCK_1 = 50,
-      D3BRCK_2 = 50,
-      D3BRCK_3 = 50,
-      D3BRCK_4 = 50,
-      D3BRCK_5 = 50,
-      D3BRCK_6 = 50,
-      D3BRCK_7 = 50,
+      D3BRCK_1 = 30,
+      D3BRCK_2 = 30,
+      D3BRCK_3 = 30,
+      D3BRCK_4 = 30,
+      D3BRCK_5 = 30,
+      D3BRCK_6 = 30,
+      D3BRCK_7 = 30,
 
       D3BRWDW1 = 15,
       D3BRWDW2 = 15,
@@ -288,32 +288,32 @@ CRANEO_DOOM3_PACK.THEMES =
       D3BRWDW6 = 15,
       D3BRWDW7 = 15,
 
-      D3MBLWL1 = 70,
-      D3MBLWL2 = 70,
-      D3MBLWL3 = 70,
+      D3MBLWL1 = 35,
+      D3MBLWL2 = 35,
+      D3MBLWL3 = 35,
 
-      D3FLSHW1 = 20,
-      D3FLSHW2 = 20,
-      D3FLSHW3 = 20,
-      D3FLSHW4 = 20,
-      D3FLSHW5 = 20,
-      D3FLSHW6 = 20,
+      D3FLSHW1 = 10,
+      D3FLSHW2 = 10,
+      D3FLSHW3 = 10,
+      D3FLSHW4 = 10,
+      D3FLSHW5 = 10,
+      D3FLSHW6 = 10,
 
-      D3HLMTL1 = 40,
-      D3HLMTL2 = 40,
+      D3HLMTL1 = 10,
+      D3HLMTL2 = 10,
 
-      D3SKINW1 = 30,
-      D3SKINW2 = 30,
-      D3SKINW3 = 30,
-      D3SKINW4 = 30,
+      D3SKINW1 = 15,
+      D3SKINW2 = 15,
+      D3SKINW3 = 15,
+      D3SKINW4 = 15,
 
-      D3SLAD01 = 20,
-      D3STARB1 = 20,
-      D3STARK1 = 20,
+      D3SLAD01 = 15,
+      D3STARB1 = 15,
+      D3STARK1 = 15,
 
-      D3MTTIL3 = 30,
-      D3WMETL5 = 30,
-      D3WTTLE1 = 30,
+      D3MTTIL3 = 15,
+      D3WMETL5 = 15,
+      D3WTTLE1 = 15,
     }
   }
 }
