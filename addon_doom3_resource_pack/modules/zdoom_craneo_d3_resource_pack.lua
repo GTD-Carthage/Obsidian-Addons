@@ -184,6 +184,43 @@ CRANEO_DOOM3_PACK.THEMES =
 {
   tech =
   {
+    facades =
+    {
+      D3BRTALL = 20,
+
+      D3STARB1 = 80,
+      D3STARG1 = 80,
+      D3STARK1 = 80,
+
+      D3PLAT01 = 20,
+
+      D3SLAD01 = 60,
+      D3SLAD02 = 60,
+
+      D3METCP1 = 20,
+      D3METCP2 = 20,
+
+      D3MTHUL1 = 35,
+      D3MTHUL2 = 35,
+      D3MTHUL3 = 35,
+      D3MTHUL4 = 35,
+      D3MTHUL5 = 35,
+      D3MTHUL6 = 35,
+      D3MTHUL7 = 35,
+      D3MTHUL8 = 35,
+      D3MTSD1 = 20,
+
+      D3CEMNT1 = 50,
+      D3CEMNT2 = 50,
+      D3CEMNT3 = 50,
+      D3CEMNT4 = 30,
+      D3CEMNT5 = 30,
+
+      D3WMETL1 = 50,
+      D3WMETL4 = 50,
+      D3WMETL6 = 50,
+    },
+   
     scenic_fences =
     {
       D3MDSPC1 = 10,
@@ -201,10 +238,82 @@ CRANEO_DOOM3_PACK.THEMES =
 
   urban =
   {
+    facades =
+    {
+      D3BRCK_1 = 50,
+      D3BRCK_2 = 50,
+      D3BRCK_3 = 50,
+      D3BRCK_4 = 50,
+      D3BRCK_5 = 50,
+      D3BRCK_6 = 50,
+      D3BRCK_7 = 50,
+
+      D3CEMNT3 = 20,
+
+      D3MTHUL7 = 35,
+      D3MTHUL8 = 35,
+
+      D3BRWDW1 = 50,
+      D3MBLWL1 = 20,
+
+      D3WBASE1 = 50,
+      D3WBASE2 = 50,
+      D3WBASE3 = 50,
+    },
+
     scenic_fences =
     {
       D3MDSPC1 = 10,
       D3MDSPC2 = 10,
+    }
+  },
+
+  hell =
+  {
+    facades =
+    {
+      D3BRCK_1 = 50,
+      D3BRCK_2 = 50,
+      D3BRCK_3 = 50,
+      D3BRCK_4 = 50,
+      D3BRCK_5 = 50,
+      D3BRCK_6 = 50,
+      D3BRCK_7 = 50,
+
+      D3BRWDW1 = 15,
+      D3BRWDW2 = 15,
+      D3BRWDW3 = 15,
+      D3BRWDW4 = 15,
+      D3BRWDW5 = 15,
+      D3BRWDW6 = 15,
+      D3BRWDW7 = 15,
+
+      D3MBLWL1 = 70,
+      D3MBLWL2 = 70,
+      D3MBLWL3 = 70,
+
+      D3FLSHW1 = 20,
+      D3FLSHW2 = 20,
+      D3FLSHW3 = 20,
+      D3FLSHW4 = 20,
+      D3FLSHW5 = 20,
+      D3FLSHW6 = 20,
+
+      D3HLMTL1 = 40,
+      D3HLMTL2 = 40,
+
+      D3SKINW1 = 30,
+      D3SKINW2 = 30,
+      D3SKINW3 = 30,
+      D3SKINW4 = 30,
+
+      D3SLAD01 = 20,
+      D3STARB1 = 20,
+      D3STARK1 = 20,
+
+      D3MTTIL3 = 30,
+      D3WMETL5 = 30,
+      D3WTTLE1 = 30,
     }
   }
 }
