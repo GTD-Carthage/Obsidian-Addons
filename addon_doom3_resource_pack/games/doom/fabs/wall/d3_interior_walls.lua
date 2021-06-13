@@ -22,7 +22,7 @@ PREFABS.Wall_d3_tech_green_tile_v_lite =
   template = "Wall_d3_tech_bronze_light",
   map = "MAP02",
 
-  group = "d3_tech_green_tile_v_lite"
+  group = "d3_tech_green_tile_v_lite",
 
   height = 128,
 
@@ -34,7 +34,7 @@ PREFABS.Wall_d3_silver_v_lite =
   template = "Wall_d3_tech_bronze_light",
   map = "MAP03",
 
-  group = "d3_tech_silver_v_lite"
+  group = "d3_tech_silver_v_lite",
 
   height = 128,
 
@@ -46,7 +46,7 @@ PREFABS.Wall_d3_tech_red_light_cement =
   template = "Wall_d3_tech_bronze_light",
   map = "MAP04",
 
-  group = "d3_tech_red_light_cement"
+  group = "d3_tech_red_light_cement",
 
   height = 136,
 
@@ -58,7 +58,7 @@ PREFABS.Wall_d3_tech_bronze_warn =
   template = "Wall_d3_tech_bronze_light",
   map = "MAP05",
 
-  group = "d3_tech_bronze_warn"
+  group = "d3_tech_bronze_warn",
 
   height = 136,
 
@@ -70,7 +70,7 @@ PREFABS.Wall_d3_tech_comp_machine_light =
   template = "Wall_d3_tech_bronze_light",
   map = "MAP06",
 
-  group = "d3_tech_comp_machine_light"
+  group = "d3_tech_comp_machine_light",
 
   height = 96,
 
