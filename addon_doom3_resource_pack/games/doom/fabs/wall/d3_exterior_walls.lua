@@ -4,7 +4,6 @@ PREFABS.Wall_tech_d3_1 = --#
   map = "MAP01",
 
   prob = 50,
-  env = "outdoor",
 
   group = "d3_tech_o_1",
 

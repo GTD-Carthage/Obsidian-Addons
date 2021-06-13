@@ -67,10 +67,14 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3STARK1 = {t="D3STARK1", f="D3FLATB1"},
 
   D3WIRES1 = {t="D3WIRES1", f="D3FTILE3"},
+  D3PIPES1 = {t="D3PIPES1", f="D3FMETL8"},
 
   D3WTTLE1 = {t="D3WTTLE1", f="D3FLATB1"},
 
   D3BRTALL = {t="D3BRTALL", f="D3FMETL2"},
+
+  -- step
+  D3_WSTEP = {t="D3_WSTEP", f="D3FLATB1"},
 
   -- light
   D3VLITE1 = {t="D3VLITE1", f="D3FLATB1"},
@@ -235,6 +239,16 @@ CRANEO_DOOM3_PACK.THEMES =
       D3MDSPC2 = 10,
     },
 
+    wall_groups =
+    {
+      d3_tech_bronze_light = 20,
+      d3_tech_green_tile_v_lite = 20,
+      d3_tech_silver_v_lite = 20,
+      d3_tech_red_light_cement = 20,
+      d3_tech_bronze_warn = 20,
+      d3_tech_comp_machine_light = 20,
+    },
+
     outdoor_wall_groups =
     {
       d3_tech_o_1 = 1,
@@ -267,6 +281,16 @@ CRANEO_DOOM3_PACK.THEMES =
       D3WBASE1 = 35,
       D3WBASE2 = 35,
       D3WBASE3 = 35,
+    },
+
+    wall_groups =
+    {
+      d3_tech_bronze_light = 12,
+      d3_tech_green_tile_v_lite = 12,
+      d3_tech_silver_v_lite = 12,
+      d3_tech_red_light_cement = 12,
+      d3_tech_bronze_warn = 12,
+      d3_tech_comp_machine_light = 12,
     },
 
     scenic_fences =

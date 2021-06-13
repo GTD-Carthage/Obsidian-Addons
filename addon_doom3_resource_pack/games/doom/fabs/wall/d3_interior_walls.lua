@@ -1,0 +1,84 @@
+PREFABS.Wall_d3_tech_bronze_light = --#
+{
+  file = "wall/d3_interior_walls.wad",
+  map = "MAP01",
+
+  prob = 50,
+
+  group = "d3_tech_bronze_light",
+
+  where = "edge",
+  height = 136,
+  deep = 16,
+
+  bound_z1 = 0,
+  bound_z2 = 136,
+
+  z_fit = "top",
+}
+
+PREFABS.Wall_d3_tech_green_tile_v_lite =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP02",
+
+  group = "d3_tech_green_tile_v_lite"
+
+  height = 128,
+
+  bound_z2 = 128,
+}
+
+PREFABS.Wall_d3_silver_v_lite =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP03",
+
+  group = "d3_tech_silver_v_lite"
+
+  height = 128,
+
+  bound_z2 = 128,
+}
+
+PREFABS.Wall_d3_tech_red_light_cement =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP04",
+
+  group = "d3_tech_red_light_cement"
+
+  height = 136,
+
+  bound_z2 = 136,
+}
+
+PREFABS.Wall_d3_tech_bronze_warn =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP05",
+
+  group = "d3_tech_bronze_warn"
+
+  height = 136,
+
+  bound_z2 = 136,
+}
+
+PREFABS.Wall_d3_tech_comp_machine_light =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP06",
+
+  group = "d3_tech_comp_machine_light"
+
+  height = 96,
+
+  bound_z2 = 96,
+
+  tex_D3METCP1 =
+  {
+    D3METCP1 = 5,
+    D3METCP2 = 5,
+  }
+}
