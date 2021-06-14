@@ -28,7 +28,7 @@ ACTOR MaleCivilianBase : SwitchableDecoration //Actor
 	Scale 0.9
 	Speed 8
 	PainChance 200
-	Activation THINGSPEC_Activate
+	Activation THINGSPEC_Activate | THINGSPEC_ThingTargets
 	Monster
 	+FLOORCLIP
 	+FRIENDLY
@@ -60,16 +60,10 @@ ACTOR MaleCivilianBase : SwitchableDecoration //Actor
 		Loop
 	NotSee:
         CIV1 A 0 A_ChangeFlag("INVULNERABLE", true)
-	    CIV1 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV1 A 4 A_Chase
-	    CIV1 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV1 B 4 A_Chase
-	    CIV1 C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV1 C 4 A_Chase
-	    CIV1 D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV1 D 4 A_Chase
+	    CIV1 ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         CIV1 F 0 A_ChangeFlag("INVULNERABLE", true)
 	    CIV1 F 8 A_PlaySoundEx("mciv/thanks", 2)
 		CIV1 F 0 A_SpawnItemEx("CivPrizeSpawner", 0, 0, 0)
@@ -81,6 +75,7 @@ ACTOR MaleCivilianBase : SwitchableDecoration //Actor
 		Goto See
 	Death:
         CIV1 G 0 A_ChangeFlag("USESPECIAL", false)
+        CIV1 G 0 A_ChangeFlag("NOTARGET", true)
 		CIV1 G 5
 		CIV1 H 5 A_Scream
 		CIV1 I 5 A_NoBlocking
@@ -90,6 +85,7 @@ ACTOR MaleCivilianBase : SwitchableDecoration //Actor
 		Stop
 	XDeath:
         CIV1 M 0 A_ChangeFlag("USESPECIAL", false)
+        CIV1 M 0 A_ChangeFlag("NOTARGET", true)
 		CIV1 M 5
 		CIV1 N 5 A_XScream
 		CIV1 O 5 A_NoBlocking
@@ -107,7 +103,7 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 	Speed 8
 	Scale 0.9
 	PainChance 200
-	Activation THINGSPEC_Activate
+	Activation THINGSPEC_Activate | THINGSPEC_ThingTargets
 	Monster
 	+FLOORCLIP
 	+FRIENDLY
@@ -128,7 +124,6 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 	See:
         CIV2 A 0 A_CheckSight("NotSee")
         CIV2 A 0 A_ChangeFlag("INVULNERABLE", False)
-	    CIV2 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
 	    CIV2 A 4 A_Chase
 	    CIV2 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
 	    CIV2 B 4 A_Chase
@@ -139,16 +134,10 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 		Loop
 	NotSee:
         CIV2 A 0 A_ChangeFlag("INVULNERABLE", true)
-	    CIV2 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV2 A 4 A_Chase
-	    CIV2 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV2 B 4 A_Chase
-	    CIV2 C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV2 C 4 A_Chase
-	    CIV2 D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV2 D 4 A_Chase
+	    CIV2 ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         CIV2 F 0 A_ChangeFlag("INVULNERABLE", true)
 	    CIV2 F 8 A_PlaySoundEx("fciv/thanks", 2)
 		CIV2 F 0 A_SpawnItemEx("CivPrizeSpawner", 0, 0, 0)
@@ -160,6 +149,7 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 		Goto See
 	Death:
         CIV2 G 0 A_ChangeFlag("USESPECIAL", false)
+        CIV2 G 0 A_ChangeFlag("NOTARGET", true)
 		CIV2 G 5
 		CIV2 H 5 A_Scream
 		CIV2 I 5 A_NoBlocking
@@ -169,6 +159,7 @@ ACTOR FemaleCivilianBase : SwitchableDecoration //Actor
 		Stop
 	XDeath:
         CIV2 M 0 A_ChangeFlag("USESPECIAL", false)
+        CIV2 M 0 A_ChangeFlag("NOTARGET", true)
 		CIV2 M 5
 		CIV1 N 5 A_XScream
 		CIV1 O 5 A_NoBlocking
@@ -186,7 +177,7 @@ ACTOR FatCivilianBase : SwitchableDecoration
 	Scale 0.9
 	Speed 8
 	PainChance 200
-	Activation THINGSPEC_Activate
+	Activation THINGSPEC_Activate | THINGSPEC_ThingTargets
 	Monster
 	+FLOORCLIP
 	+FRIENDLY
@@ -202,7 +193,7 @@ ACTOR FatCivilianBase : SwitchableDecoration
 	States
 	{
 	Spawn:
-		CIV3 B 10 A_Look
+		CIV3 L 10 A_Look
 		Loop
 	See:
         CIV3 A 0 A_CheckSight("NotSee")
@@ -218,27 +209,22 @@ ACTOR FatCivilianBase : SwitchableDecoration
 		Loop
 	NotSee:
         CIV3 A 0 A_ChangeFlag("INVULNERABLE", true)
-	    CIV3 A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV3 A 4 A_Chase
-	    CIV3 B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV3 B 4 A_Chase
-	    CIV3 C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV3 C 4 A_Chase
-	    CIV3 D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    CIV3 D 4 A_Chase
+	    CIV3 ABCD 4 A_Chase
 		Goto See
 	Active:
-        CIV3 B 0 A_ChangeFlag("INVULNERABLE", true)
-	    CIV3 B 8 A_PlaySoundEx("gciv/thanks", 2)
-		CIV3 B 0 A_SpawnItemEx("CivPrizeSpawner", 0, 0, 0)
-		CIV3 B 4 A_SpawnItemEx("TeleportFog", 0, 0, 0)
+        TNT1 A 0 A_FaceTarget
+        CIV3 L 0 A_ChangeFlag("INVULNERABLE", true)
+	    CIV3 L 8 A_PlaySoundEx("gciv/thanks", 2)
+		CIV3 L 0 A_SpawnItemEx("CivPrizeSpawner", 0, 0, 0)
+		CIV3 L 4 A_SpawnItemEx("TeleportFog", 0, 0, 0)
 		Stop
 	Pain:
-		CIV3 D 3
-		CIV3 D 3 A_Pain
+		CIV3 L 3
+		CIV3 L 3 A_Pain
 		Goto See
 	Death:
         CIV3 E 0 A_ChangeFlag("USESPECIAL", false)
+        CIV3 E 0 A_ChangeFlag("NOTARGET", true)
 		CIV3 E 5 A_Scream
 		CIV3 F 5 A_NoBlocking
 		CIV3 G 5
@@ -246,6 +232,7 @@ ACTOR FatCivilianBase : SwitchableDecoration
 		Stop
 	XDeath:
         CIV3 I 0 A_ChangeFlag("USESPECIAL", false)
+        CIV3 I 0 A_ChangeFlag("NOTARGET", true)
 		CIV3 I 5
 		CIV3 J 5 A_XScream
 		CIV3 K 5 A_NoBlocking
@@ -431,7 +418,7 @@ ACTOR Scientist1 : SwitchableDecoration //Actor
 	Scale 0.9
 	Speed 8
 	PainChance 200
-	Activation THINGSPEC_Activate
+	Activation THINGSPEC_Activate | THINGSPEC_ThingTargets
 	Monster
 	+FLOORCLIP
 	+FRIENDLY
@@ -464,16 +451,10 @@ ACTOR Scientist1 : SwitchableDecoration //Actor
 		Loop
 	NotSee:
         1SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    1SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    1SCI A 4 A_Chase
-	    1SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    1SCI B 4 A_Chase
-	    1SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    1SCI C 4 A_Chase
-	    1SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    1SCI D 4 A_Chase
+	    1SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         1SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    1SCI A 8 A_PlaySoundEx("bmsci/thanks", 2)
 		1SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -485,6 +466,7 @@ ACTOR Scientist1 : SwitchableDecoration //Actor
 		Goto See
 	Death:
         1SCI E 0 A_ChangeFlag("USESPECIAL", false)
+        1SCI E 0 A_ChangeFlag("NOTARGET", true)
 		1SCI E 5
 		1SCI F 5 A_Scream
 		1SCI G 5 A_NoBlocking
@@ -493,6 +475,7 @@ ACTOR Scientist1 : SwitchableDecoration //Actor
 		Stop
 	XDeath:
         1SCI J 0 A_ChangeFlag("USESPECIAL", false)
+        1SCI J 0 A_ChangeFlag("NOTARGET", true)
 		1SCI J 5
 		1SCI K 5 A_XScream
 		1SCI L 5 A_NoBlocking
@@ -523,16 +506,10 @@ ACTOR Scientist2 : Scientist1 //HELLO GORDON!
 		Loop
 	NotSee:
         2SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    2SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    2SCI A 4 A_Chase
-	    2SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    2SCI B 4 A_Chase
-	    2SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    2SCI C 4 A_Chase
-	    2SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    2SCI D 4 A_Chase
+	    2SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         2SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    2SCI A 8 A_PlaySoundEx("bmsci/thanks", 2)
 		2SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -544,6 +521,7 @@ ACTOR Scientist2 : Scientist1 //HELLO GORDON!
 		Goto See
 	Death:
         2SCI E 0 A_ChangeFlag("USESPECIAL", false)
+        2SCI E 0 A_ChangeFlag("NOTARGET", true)
 		2SCI E 5
 		2SCI F 5 A_Scream
 		2SCI G 5 A_NoBlocking
@@ -552,6 +530,7 @@ ACTOR Scientist2 : Scientist1 //HELLO GORDON!
 		Stop
 	XDeath:
         2SCI J 0 A_ChangeFlag("USESPECIAL", false)
+        2SCI J 0 A_ChangeFlag("NOTARGET", true)
 		2SCI J 5
 		1SCI K 5 A_XScream
 		1SCI L 5 A_NoBlocking
@@ -582,16 +561,10 @@ ACTOR Scientist3 : Scientist1
 		Loop
 	NotSee:
         3SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    3SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    3SCI A 4 A_Chase
-	    3SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    3SCI B 4 A_Chase
-	    3SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    3SCI C 4 A_Chase
-	    3SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    3SCI D 4 A_Chase
+	    3SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         3SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    3SCI A 8 A_PlaySoundEx("bmsci/thanks", 2)
 		3SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -603,6 +576,7 @@ ACTOR Scientist3 : Scientist1
 		Goto See
 	Death:
         3SCI E 0 A_ChangeFlag("USESPECIAL", false)
+        3SCI E 0 A_ChangeFlag("NOTARGET", true)
 		3SCI E 5
 		3SCI F 5 A_Scream
 		3SCI G 5 A_NoBlocking
@@ -611,6 +585,7 @@ ACTOR Scientist3 : Scientist1
 		Stop
 	XDeath:
         3SCI J 0 A_ChangeFlag("USESPECIAL", false)
+        3SCI J 0 A_ChangeFlag("NOTARGET", true)
 		3SCI J 5
 		1SCI K 5 A_XScream
 		1SCI L 5 A_NoBlocking
@@ -641,16 +616,10 @@ ACTOR Scientist4 : Scientist1
 		Loop
 	NotSee:
         4SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    4SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    4SCI A 4 A_Chase
-	    4SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    4SCI B 4 A_Chase
-	    4SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    4SCI C 4 A_Chase
-	    4SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    4SCI D 4 A_Chase
+	    4SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         4SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    4SCI A 8 A_PlaySoundEx("bmsci/thanks", 2)
 		4SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -662,6 +631,7 @@ ACTOR Scientist4 : Scientist1
 		Goto See
 	Death:
         4SCI E 0 A_ChangeFlag("USESPECIAL", false)
+        4SCI E 0 A_ChangeFlag("NOTARGET", true)
 		4SCI E 5
 		4SCI F 5 A_Scream
 		4SCI G 5 A_NoBlocking
@@ -670,6 +640,7 @@ ACTOR Scientist4 : Scientist1
 		Stop
 	XDeath:
         4SCI J 0 A_ChangeFlag("USESPECIAL", false)
+        4SCI J 0 A_ChangeFlag("NOTARGET", true)
 		4SCI J 5
 		1SCI K 5 A_XScream
 		1SCI L 5 A_NoBlocking
@@ -687,7 +658,7 @@ ACTOR Scientist5 : SwitchableDecoration
 	Scale 0.9
 	Speed 8
 	PainChance 200
-	Activation THINGSPEC_Activate
+	Activation THINGSPEC_Activate | THINGSPEC_ThingTargets
 	Monster
 	+FLOORCLIP
 	+FRIENDLY
@@ -719,16 +690,10 @@ ACTOR Scientist5 : SwitchableDecoration
 		Loop
 	NotSee:
         5SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    5SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    5SCI A 4 A_Chase
-	    5SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    5SCI B 4 A_Chase
-	    5SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    5SCI C 4 A_Chase
-	    5SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    5SCI D 4 A_Chase
+	    5SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         5SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    5SCI A 8 A_PlaySoundEx("fsci/thanks", 2)
 		5SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -740,6 +705,7 @@ ACTOR Scientist5 : SwitchableDecoration
 		Goto See
 	Death:
         5SCI F 0 A_ChangeFlag("USESPECIAL", false)
+        5SCI F 0 A_ChangeFlag("NOTARGET", true)
 		5SCI F 5
 		5SCI G 5 A_Scream
 		5SCI H 5 A_NoBlocking
@@ -750,6 +716,7 @@ ACTOR Scientist5 : SwitchableDecoration
 		Stop
 	XDeath:
         5SCI M 0 A_ChangeFlag("USESPECIAL", false)
+        5SCI M 0 A_ChangeFlag("NOTARGET", true)
 		5SCI N 5
 		5SCI O 5 A_XScream
 		5SCI P 5 A_NoBlocking
@@ -780,16 +747,10 @@ ACTOR Scientist6 : Scientist5
 		Loop
 	NotSee:
         6SCI A 0 A_ChangeFlag("INVULNERABLE", true)
-	    6SCI A 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    6SCI A 4 A_Chase
-	    6SCI B 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    6SCI B 4 A_Chase
-	    6SCI C 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    6SCI C 4 A_Chase
-	    6SCI D 0 A_AlertMonsters(300, AMF_TARGETEMITTER)
-	    6SCI D 4 A_Chase
+	    6SCI ABCD 4 A_Chase
 		Goto See
 	Active:
+        TNT1 A 0 A_FaceTarget
         6SCI A 0 A_ChangeFlag("INVULNERABLE", true)
 	    6SCI A 8 A_PlaySoundEx("fsci/thanks", 2)
 		6SCI A 0 A_SpawnItemEx("SciPrizeSpawner", 0, 0, 0)
@@ -801,6 +762,7 @@ ACTOR Scientist6 : Scientist5
 		Goto See
 	Death:
         6SCI F 0 A_ChangeFlag("USESPECIAL", false)
+        6SCI F 0 A_ChangeFlag("NOTARGET", true)
 		6SCI F 5
 		6SCI G 5 A_Scream
 		6SCI H 5 A_NoBlocking
@@ -811,6 +773,7 @@ ACTOR Scientist6 : Scientist5
 		Stop
 	XDeath:
         5SCI M 0 A_ChangeFlag("USESPECIAL", false)
+        6SCI M 0 A_ChangeFlag("NOTARGET", true)
 		5SCI N 5
 		5SCI O 5 A_XScream
 		5SCI P 5 A_NoBlocking
