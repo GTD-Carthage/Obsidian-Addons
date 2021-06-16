@@ -247,6 +247,7 @@ CRANEO_DOOM3_PACK.THEMES =
       d3_tech_red_light_cement = 20,
       d3_tech_bronze_warn = 20,
       d3_tech_comp_machine_light = 20,
+      d3_tech_comp_tile = 20,
     },
 
     outdoor_wall_groups =
@@ -291,6 +292,7 @@ CRANEO_DOOM3_PACK.THEMES =
       d3_tech_red_light_cement = 12,
       d3_tech_bronze_warn = 12,
       d3_tech_comp_machine_light = 12,
+      d3_tech_comp_tile = 12,
     },
 
     scenic_fences =

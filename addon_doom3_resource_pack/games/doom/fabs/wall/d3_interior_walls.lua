@@ -82,3 +82,49 @@ PREFABS.Wall_d3_tech_comp_machine_light =
     D3METCP2 = 5,
   }
 }
+
+PREFABS.Wall_d3_tech_comp_tile =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP07",
+
+  group = "d3_tech_comp_tile",
+
+  height = 136
+
+  tex_D3BRCP1 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1,
+  },
+
+  tex_D3BRCP2 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1,
+  },
+}
