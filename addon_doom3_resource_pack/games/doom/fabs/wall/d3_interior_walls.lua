@@ -90,7 +90,7 @@ PREFABS.Wall_d3_tech_comp_tile =
 
   group = "d3_tech_comp_tile",
 
-  height = 136
+  height = 136,
 
   tex_D3BRCP1 =
   {
