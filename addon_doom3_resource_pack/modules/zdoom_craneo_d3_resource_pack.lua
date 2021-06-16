@@ -235,8 +235,8 @@ CRANEO_DOOM3_PACK.THEMES =
    
     scenic_fences =
     {
-      D3MDSPC1 = 10,
-      D3MDSPC2 = 10,
+      D3MDSPC1 = 5,
+      D3MDSPC2 = 5,
     },
 
     wall_groups =
@@ -295,8 +295,8 @@ CRANEO_DOOM3_PACK.THEMES =
 
     scenic_fences =
     {
-      D3MDSPC1 = 10,
-      D3MDSPC2 = 10,
+      D3MDSPC1 = 5,
+      D3MDSPC2 = 5,
     }
   },
 
