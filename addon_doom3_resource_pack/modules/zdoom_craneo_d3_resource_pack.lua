@@ -241,13 +241,13 @@ CRANEO_DOOM3_PACK.THEMES =
 
     wall_groups =
     {
-      d3_tech_bronze_light = 20,
-      d3_tech_green_tile_v_lite = 20,
-      d3_tech_silver_v_lite = 20,
-      d3_tech_red_light_cement = 20,
-      d3_tech_bronze_warn = 20,
-      d3_tech_comp_machine_light = 20,
-      d3_tech_comp_tile = 20,
+      d3_tech_bronze_light = 35,
+      d3_tech_green_tile_v_lite = 35,
+      d3_tech_silver_v_lite = 35,
+      d3_tech_red_light_cement = 35,
+      d3_tech_bronze_warn = 35,
+      d3_tech_comp_machine_light = 35,
+      d3_tech_comp_tile = 35,
     },
 
     outdoor_wall_groups =
