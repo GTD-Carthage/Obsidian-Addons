@@ -14,7 +14,7 @@ PREFABS.Wall_tech_d3_1 = --#
   bound_z1 = 0,
   bound_z2 = 128,
 
-  z_fit = "bottom",
+  z_fit = "top",
 
   tex_D3WMETL2 =
   {
@@ -22,6 +22,8 @@ PREFABS.Wall_tech_d3_1 = --#
     D3WMETL2 = 5,
   }
 }
+
+--
 
 PREFABS.Wall_tech_d3_2 =
 {
@@ -34,7 +36,11 @@ PREFABS.Wall_tech_d3_2 =
     D3DOORW2 = 20,
     D3DOORW3 = 5,
   }
+
+  z_fit = "bottom",
 }
+
+--
 
 PREFABS.Wall_tech_d3_3 =
 {
@@ -43,6 +49,8 @@ PREFABS.Wall_tech_d3_3 =
 
   group = "d3_tech_o_3",
 }
+
+--
 
 PREFABS.Wall_tech_d3_3_a =
 {
@@ -80,4 +88,34 @@ PREFABS.Wall_tech_d3_3_b =
     D3WMETL4 = 5,
     D3WMETL6 = 40,
   }
+}
+
+--
+
+PREFABS.Wall_tech_d3_warn_red_light =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP05",
+
+  group = "d3_tech_warn_red_light",
+}
+
+--
+
+PREFABS.Wall_tech_d3_brown_girder =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP06",
+
+  group = "d3_tech_brown_girder",
+}
+
+--
+
+PREFABS.Wall_tech_building_v_light_tall =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP07",
+
+  group = "d3_tech_building_v_light_tall",
 }
