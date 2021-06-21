@@ -35,7 +35,7 @@ PREFABS.Wall_tech_d3_2 =
   {
     D3DOORW2 = 20,
     D3DOORW3 = 5,
-  }
+  },
 
   z_fit = "bottom",
 }
