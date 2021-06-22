@@ -259,6 +259,7 @@ CRANEO_DOOM3_PACK.THEMES =
       d3_tech_warn_red_light = 1,
       d3_tech_brown_girder = 1,
       d3_tech_building_v_light_tall = 1,
+      d3_tech_vent_red_lights = 1,
     },
   },
 

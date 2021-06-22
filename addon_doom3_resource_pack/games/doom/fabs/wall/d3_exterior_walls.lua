@@ -119,3 +119,13 @@ PREFABS.Wall_tech_building_v_light_tall =
 
   group = "d3_tech_building_v_light_tall",
 }
+
+--
+
+PREFABS.Wall_tech_d3_vent_red_lights =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP08",
+
+  group = "d3_tech_vent_red_lights",
+}
