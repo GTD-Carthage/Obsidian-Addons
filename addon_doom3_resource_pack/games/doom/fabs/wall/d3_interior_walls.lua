@@ -15,6 +15,8 @@ PREFABS.Wall_d3_tech_bronze_light = --#
   bound_z2 = 136,
 
   z_fit = "top",
+
+  sector_1 = {[0]=10, [1]=1, [2]=1, [17]=1}
 }
 
 PREFABS.Wall_d3_tech_green_tile_v_lite =
