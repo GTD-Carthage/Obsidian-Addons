@@ -362,7 +362,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_all =
   {
     env = "building",
-    prob = 100,
+    prob = 20,
 
     walls =
     {
@@ -521,7 +521,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_brown_hulls =
   {
     env = "building",
-    prob = 50,
+    prob = 30,
 
     walls =
     {
@@ -615,7 +615,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_green_hulls=
   {
     env = "building",
-    prob = 50,
+    prob = 30,
 
     walls =
     {
@@ -732,6 +732,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
     }
   },
 
+-- URBAN ROOM THEMES
   urban_CDoom3 =
   {
     env = "building",
@@ -765,7 +766,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3MTTIL3 = 15,
 
       D3PLAT01 = 20,
-  
+
       D3SLAD01 = 15,
       D3SLAD02 = 15,
 
@@ -788,7 +789,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
       D3WTTLE1 = 20,
     },
-  
+
     floors =
     {
       FLAT1 = 7,
@@ -890,7 +891,6 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
     }
   },
 
--- URBAN ROOM THEMES
   urban_CDoom3_brown_hulls =
   {
     env = "building",
@@ -1107,7 +1107,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   urban_CDoom3_brick =
   {
-    prob = 75,
+    prob = 40,
     env = "building",
 
     walls =
@@ -1198,7 +1198,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   urban_CDoom3_wood =
   {
-    prob = 50,
+    prob = 25,
     env = "building",
 
     walls =
@@ -1269,7 +1269,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 -- HELL ROOM THEMES
   hell_CDoom3_marble =
   {
-    prob = 75,
+    prob = 40,
     env = "building",
 
     walls =
@@ -1335,12 +1335,12 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3RKTIL4 = 10,
       D3RKTIL5 = 30,
       D3RKTIL6 = 30,
-    },
+    }
   },
 
   hell_CDoom3_flesh =
   {
-    prob = 40,
+    prob = 25,
     env = "building",
 
     walls =
@@ -1419,7 +1419,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   hell_CDoom3_brick =
   {
-    prob = 50,
+    prob = 20,
     env = "building",
 
     walls =
@@ -1500,7 +1500,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FLATB2 = 40,
       D3FLATB3 = 40,
       D3FLATB4 = 40,
-    },
+    }
   },
 }
 
