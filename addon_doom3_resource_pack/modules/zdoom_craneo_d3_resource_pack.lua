@@ -308,6 +308,11 @@ CRANEO_DOOM3_PACK.THEMES =
 
   hell =
   {
+    wall_groups =
+    {
+      d3_hell_skintek = 50,
+    },
+
     facades =
     {
       D3BRCK_1 = 30,
