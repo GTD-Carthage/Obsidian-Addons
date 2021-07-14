@@ -2,7 +2,7 @@
 An assortment of personal addons for Obsidian Level Generator.
 
 ### Doom 3 Resource Pack
-An addon containing various new textures, prefabs, and themes based on Craneo's Doom 3 texture conversion.
+An addon containing various new textures, prefabs, and themes based on Craneo's Doom 3 texture conversion for Doom. https://forum.zdoom.org/viewtopic.php?f=46&t=72353
 
 ### Remove Secret Stuffs
 An addon that changes the occurence of target items in secret closets and rooms.
