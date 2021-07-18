@@ -367,7 +367,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_all =
   {
     env = "building",
-    prob = 20,
+    prob = 25,
 
     walls =
     {
@@ -526,7 +526,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_brown_hulls =
   {
     env = "building",
-    prob = 30,
+    prob = 50,
 
     walls =
     {
@@ -620,7 +620,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_green_hulls=
   {
     env = "building",
-    prob = 30,
+    prob = 50,
 
     walls =
     {
@@ -678,7 +678,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   tech_CDoom3_grey_hulls =
   {
     env = "building",
-    prob = 40,
+    prob = 60,
 
     walls =
     {
@@ -741,7 +741,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   urban_CDoom3 =
   {
     env = "building",
-    prob = 25,
+    prob = 35,
 
     walls =
     {
@@ -899,7 +899,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   urban_CDoom3_brown_hulls =
   {
     env = "building",
-    prob = 10,
+    prob = 20,
 
     walls =
     {
@@ -993,7 +993,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   urban_CDoom3_green_hulls=
   {
     env = "building",
-    prob = 10,
+    prob = 20,
 
     walls =
     {
@@ -1051,7 +1051,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   urban_CDoom3_grey_hulls =
   {
     env = "building",
-    prob = 8,
+    prob = 16,
 
     walls =
     {
@@ -1203,7 +1203,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   urban_CDoom3_wood =
   {
-    prob = 25,
+    prob = 40,
     env = "building",
 
     walls =
@@ -1274,7 +1274,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 -- HELL ROOM THEMES
   hell_CDoom3_marble =
   {
-    prob = 40,
+    prob = 75,
     env = "building",
 
     walls =
@@ -1345,7 +1345,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   hell_CDoom3_flesh =
   {
-    prob = 25,
+    prob = 45,
     env = "building",
 
     walls =
@@ -1424,7 +1424,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
 
   hell_CDoom3_brick =
   {
-    prob = 20,
+    prob = 35,
     env = "building",
 
     walls =
