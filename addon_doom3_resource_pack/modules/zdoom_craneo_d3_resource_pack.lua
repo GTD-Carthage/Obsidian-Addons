@@ -148,7 +148,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FMETL6 = {t="D3MTSD1", f="D3FMETL6"}, -- green
   D3FMETL7 = {t="D3WBASE1", f="D3FMETL7"}, -- grey
   D3FMETL8 = {t="D3SLAD01", f="D3FMETL8"}, -- brown
-  D3FMETL9 = {t="D3FMETL9", f="D3MTHUL1"}, -- rusty vertical
+  D3FMETL9 = {t="D3MTHUL1", f="D3FMETL9"}, -- rusty vertical
 
   D3FTILE1 = {t="D3WTTLE1", f="D3FTILE1"}, -- grey tiles
   D3FTILE2 = {t="D3MTTIL1", f="D3FTILE2"}, -- brown big tiles
