@@ -174,12 +174,12 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3MBTLF1 = {t="D3MBLWL2", f="D3MBTLF1"}, -- marble-green (small tile)
   D3MBTLF2 = {t="D3MBLWL1", f="D3MBTLF2"}, -- marble-green (big tile)
 
-  D3RKTL1 = {t="D3BRCK_1", f="D3RKTL1"}, -- brown
-  D3RKTL2 = {t="D3MTTIL3", f="D3RKTL2"}, -- dark
-  D3RKTL3 = {t="D3BRCK_2", f="D3RKTL3"}, -- brown
-  D3RKTL4 = {t="D3BRCK_3", f="D3RKTL4"}, -- brown
-  D3RKTL5 = {t="D3WBASE3", f="D3RKTL5"}, -- green
-  D3RKTL6 = {t="D3WTTLE1", f="D3RKTL6"}, -- grey
+  D3RKTIL1 = {t="D3BRCK_1", f="D3RKTIL1"}, -- brown
+  D3RKTIL2 = {t="D3MTTIL3", f="D3RKTIL2"}, -- dark
+  D3RKTIL3 = {t="D3BRCK_2", f="D3RKTIL3"}, -- brown
+  D3RKTIL4 = {t="D3BRCK_3", f="D3RKTIL4"}, -- brown
+  D3RKTIL5 = {t="D3WBASE3", f="D3RKTIL5"}, -- green
+  D3RKTIL6 = {t="D3WTTLE1", f="D3RKTIL6"}, -- grey
 
   -- flesh
   D3FLSH_1 = {t="D3SKINW1", f="D3FLSH_1"}, -- FIX-ME!
