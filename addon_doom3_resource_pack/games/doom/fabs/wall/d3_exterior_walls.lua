@@ -33,8 +33,9 @@ PREFABS.Wall_tech_d3_2 =
 
   tex_D3DOORW1 =
   {
-    D3DOORW2 = 20,
-    D3DOORW3 = 5,
+    D3DOORW1 = 8,
+    D3DOORW2 = 1,
+    D3DOORW3 = 1,
   },
 
   z_fit = "bottom",
