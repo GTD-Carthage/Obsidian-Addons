@@ -831,7 +831,7 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3BMTL9 = 5,
       D3BMTL10 = 5,
     }
-  }
+  },
 
 -- URBAN ROOM THEMES
   urban_CDoom3 =
