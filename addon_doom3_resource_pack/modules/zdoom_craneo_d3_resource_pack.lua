@@ -73,6 +73,19 @@ CRANEO_DOOM3_PACK.MATERIALS =
 
   D3BRTALL = {t="D3BRTALL", f="D3FMETL2"},
 
+  -- blue metal walls
+  D3BMTL0 = {t="D3BMTL0", f="D3FMETD1"},
+  D3BMTL1 = {t="D3BMTL1", f="D3FMETL2"},
+  D3BMTL2 = {t="D3BMTL2", f="D3FMETL3"},
+  D3BMTL3 = {t="D3BMTL3", f="D3FMETL4"},
+  D3BMTL4 = {t="D3BMTL4", f="D3FMETL5"},
+  D3BMTL5 = {t="D3BMTL5", f="D3FMETL7"},
+  D3BMTL6 = {t="D3BMTL6", f="D3FMETD1"},
+  D3BMTL7 = {t="D3BMTL7", f="D3FMETL2"},
+  D3BMTL8 = {t="D3BMTL8", f="D3FMETL3"},
+  D3BMTL9 = {t="D3BMTL9", f="D3FMETL4"},
+  D3BMTL10 = {t="D3BMTL10", f="D3FMETL5"},
+
   -- step
   D3_WSTEP = {t="D3_WSTEP", f="D3FLATB1"},
 
@@ -736,6 +749,89 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FLATB1 = 15,
     }
   },
+
+  tech_CDoom3_blue_hulls =
+  {
+    env = "building",
+    prob = 40,
+
+    walls =
+    {
+      D3BMTL0 = 10,
+      D3BMTL1 = 10,
+      D3BMTL2 = 10,
+      D3BMTL3 = 10,
+      D3BMTL4 = 10,
+      D3BMTL5 = 10,
+      D3BMTL6 = 10,
+      D3BMTL7 = 10,
+      D3BMTL8 = 10,
+      D3BMTL9 = 10,
+      D3BMTL10 = 10,
+    },
+
+    floors =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+
+      D3BMTL0 = 5,
+      D3BMTL1 = 5,
+      D3BMTL2 = 5,
+      D3BMTL3 = 5,
+      D3BMTL4 = 5,
+      D3BMTL5 = 5,
+      D3BMTL6 = 5,
+      D3BMTL7 = 5,
+      D3BMTL8 = 5,
+      D3BMTL9 = 5,
+      D3BMTL10 = 5,
+    },
+
+    ceilings =
+    {
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+
+      D3BMTL0 = 5,
+      D3BMTL1 = 5,
+      D3BMTL2 = 5,
+      D3BMTL3 = 5,
+      D3BMTL4 = 5,
+      D3BMTL5 = 5,
+      D3BMTL6 = 5,
+      D3BMTL7 = 5,
+      D3BMTL8 = 5,
+      D3BMTL9 = 5,
+      D3BMTL10 = 5,
+    }
+  }
 
 -- URBAN ROOM THEMES
   urban_CDoom3 =
