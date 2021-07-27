@@ -203,6 +203,16 @@ CRANEO_DOOM3_PACK.MATERIALS =
 -- rails
   D3MDSPC1 = {t="D3MDSPC1", rail_h=64},
   D3MDSPC2 = {t="D3MDSPC2", rail_h=128},
+  D3MDSPC3 = {t="D3MDSPC3", rail_h=128},
+  D3MDSPC4 = {t="D3MDSPC4", rail_h=64},
+  D3MDSPC5 = {t="D3MDSPC5", rail_h=64},
+  D3MDSPC6 = {t="D3MDSPC6", rail_h=128},
+  D3MDSPC7 = {t="D3MDSPC7", rail_h=128},
+  D3MDSPC8 = {t="D3MDSPC8", rail_h=128},
+  D3MDSPC9 = {t="D3MDSPC9", rail_h=64},
+  D3MDSPCA = {t="D3MDSPCA", rail_h=64},
+  D3MDSPCB = {t="D3MDSPCB", rail_h=64},
+  D3MDSPCC = {t="D3MDSPCC", rail_h=64},
 }
 
 CRANEO_DOOM3_PACK.THEMES =
@@ -250,6 +260,16 @@ CRANEO_DOOM3_PACK.THEMES =
     {
       D3MDSPC1 = 5,
       D3MDSPC2 = 5,
+      D3MDSPC3 = 10,
+      D3MDSPC4 = 10,
+      D3MDSPC5 = 10,
+      D3MDSPC6 = 10,
+      D3MDSPC7 = 10,
+      D3MDSPC8 = 10,
+      D3MDSPC9 = 10,
+      D3MDSPCA = 10,
+      D3MDSPCB = 10,
+      D3MDSPCC = 10,
     },
 
     wall_groups =
@@ -316,6 +336,16 @@ CRANEO_DOOM3_PACK.THEMES =
     {
       D3MDSPC1 = 5,
       D3MDSPC2 = 5,
+      D3MDSPC3 = 10,
+      D3MDSPC4 = 10,
+      D3MDSPC5 = 10,
+      D3MDSPC6 = 10,
+      D3MDSPC7 = 10,
+      D3MDSPC8 = 10,
+      D3MDSPC9 = 10,
+      D3MDSPCA = 10,
+      D3MDSPCB = 10,
+      D3MDSPCC = 10,
     }
   },
 
