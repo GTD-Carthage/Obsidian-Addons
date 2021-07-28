@@ -37,6 +37,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3WMETL5 = {t="D3WMETL5", f="D3FMETL5"},
   D3WMETL6 = {t="D3WMETL6", f="D3FLATB1"},
 
+  -- white walls with caution lines
   D3CEMNT1 = {t="D3CEMNT1", f="D3FMETL6"},
   D3CEMNT2 = {t="D3CEMNT2", f="D3FMETL6"},
   D3CEMNT3 = {t="D3CEMNT3", f="D3FLATB4"},
@@ -62,6 +63,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3SLAD01 = {t="D3SLAD01", f="D3FRHEX2"},
   D3SLAD02 = {t="D3SLAD02", f="D3FRHEX3"},
 
+  -- STARBASE-style textures
   D3STARB1 = {t="D3STARB1", f="D3FLATB3"},
   D3STARG1 = {t="D3STARG1", f="D3FLATB4"},
   D3STARK1 = {t="D3STARK1", f="D3FLATB1"},
@@ -72,6 +74,32 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3WTTLE1 = {t="D3WTTLE1", f="D3FLATB1"},
 
   D3BRTALL = {t="D3BRTALL", f="D3FMETL2"},
+
+  -- grey hulls
+  D3GYHL1 = {t="D3GYHL1", f="D3FMETL2"},
+  D3GYHL2 = {t="D3GYHL1", f="D3FMETL4"},
+  D3GYHL3 = {t="D3GYHL1", f="D3FMETL5"},
+  D3GYHL4 = {t="D3GYHL1", f="D3FMETL7"},
+  D3GYHL5 = {t="D3GYHL1", f="D3FMETL2"},
+  D3GYHL6 = {t="D3GYHL1", f="D3FMETL4"},
+  D3GYHL7 = {t="D3GYHL1", f="D3FMETL5"},
+  D3GYHL8 = {t="D3GYHL1", f="D3FMETL7"},
+  D3GYHL9 = {t="D3GYHL1", f="D3FMETL2"},
+
+  -- grey row panels
+  D3MTGPL1 = {t="D3MTGPL1", f="D3FMETL2"},
+  D3MTGPL2 = {t="D3MTGPL2", f="D3FMETL4"},
+  D3MTGPL3 = {t="D3MTGPL3", f="D3FMETL5"},
+  D3MTGPL4 = {t="D3MTGPL4", f="D3FMETL7"},
+  D3MTGPL5 = {t="D3MTGPL5", f="D3FMETL2"},
+  D3MTGPL6 = {t="D3MTGPL6", f="D3FMETL4"},
+  D3MTGPL7 = {t="D3MTGPL7", f="D3FMETL5"},
+  D3MTGPL8 = {t="D3MTGPL8", f="D3FMETL6"}, -- has green trims
+
+  -- grey plain bolted panels
+  D3MTILS1 = {t="D3MTILS1", f="D3FMETD1"}, 
+  D3MTILS2 = {t="D3MTILS2", f="D3FMETD1"},
+  D3MTILS3 = {t="D3MTILS3", f="D3FMETD1"},
 
   -- blue metal walls
   D3BMTL0 = {t="D3BMTL0", f="D3FMETD1"},
@@ -162,6 +190,12 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3FMETL7 = {t="D3WBASE1", f="D3FMETL7"}, -- grey
   D3FMETL8 = {t="D3SLAD01", f="D3FMETL8"}, -- brown
   D3FMETL9 = {t="D3MTHUL1", f="D3FMETL9"}, -- rusty vertical
+  D3FMETLA = {t="D3GYHL3", f="D3FMETLA"}, -- grates with diagonal slice
+  D3FMETLB = {t="D3MTGPL1", f="D3FMETLB"}, -- complex fancy perforated
+  D3FMETLC = {t="D3MTGPL2", f="D3FMETLC"}, -- complex fancy perforated
+  D3FMETLD = {t="D3MTGPL4", f="D3FMETLD"}, -- grille
+  D3FMETLE = {t="D3MTGPL5", f="D3FMETLE"}, -- looks like the surface of a pan
+  D3FMETLF = {t="D3MTGPL6", f="D3FMETLF"}, -- grille with uneven shapes
 
   D3FTILE1 = {t="D3WTTLE1", f="D3FTILE1"}, -- grey tiles
   D3FTILE2 = {t="D3MTTIL1", f="D3FTILE2"}, -- brown big tiles
@@ -504,6 +538,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 15,
       D3FMETL8 = 15,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
       D3FRHEX3 = 20,
@@ -544,6 +585,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FLATB4 = 25,
 
       D3FMETD1 = 15,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FMETL1 = 15,
       D3FMETL2 = 15,
@@ -618,6 +666,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FTILE1 = 2,
       D3TFLOR1 = 2,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       FLAT1 = 2,
       FLAT18 = 2,
       FLAT3 = 2,
@@ -649,6 +704,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 2,
       D3FTILE1 = 2,
       D3TFLOR1 = 2,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FLATB1 = 5,
       D3FLATB2 = 5,
@@ -690,6 +752,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FTILE1 = 5,
       D3TFLOR1 = 5,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       FLAT1 = 2,
       FLAT18 = 2,
       FLAT3 = 2,
@@ -708,6 +777,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 5,
       D3FTILE1 = 5,
       D3TFLOR1 = 5,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -740,6 +816,29 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3WMETL4 = 25,
       D3WMETL5 = 25,
       D3WTTLE1 = 15,
+
+      D3GYHL1 = 40,
+      D3GYHL2 = 40,
+      D3GYHL3 = 40,
+      D3GYHL4 = 40,
+      D3GYHL5 = 40,
+      D3GYHL6 = 40,
+      D3GYHL7 = 40,
+      D3GYHL8 = 40,
+      D3GYHL9 = 40,
+
+      D3MTGPL1 = 40,
+      D3MTGPL2 = 40,
+      D3MTGPL3 = 40,
+      D3MTGPL4 = 40,
+      D3MTGPL5 = 40,
+      D3MTGPL6 = 40,
+      D3MTGPL7 = 40,
+      D3MTGPL8 = 40,
+
+      D3MTILS1 = 50,
+      D3MTILS2 = 50,
+      D3MTILS3 = 50,
     },
 
     floors =
@@ -750,6 +849,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 8,
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -768,6 +874,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL4 = 8,
       D3FMETL7 = 8,
       D3FMETL9 = 8,    
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
@@ -812,6 +925,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       FLAT1 = 2,
       FLAT18 = 2,
       FLAT3 = 2,
@@ -842,6 +962,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 8,
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -961,6 +1088,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 15,
       D3FMETL8 = 15,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
       D3FRHEX3 = 20,
@@ -1010,6 +1144,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL6 = 15,
       D3FMETL7 = 15,
       D3FMETL8 = 15,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
@@ -1074,6 +1215,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FTILE1 = 2,
       D3TFLOR1 = 2,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       FLAT1 = 2,
       FLAT18 = 2,
       FLAT3 = 2,
@@ -1105,6 +1253,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 2,
       D3FTILE1 = 2,
       D3TFLOR1 = 2,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FLATB1 = 5,
       D3FLATB2 = 5,
@@ -1146,6 +1301,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FTILE1 = 5,
       D3TFLOR1 = 5,
 
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
       FLAT1 = 2,
       FLAT18 = 2,
       FLAT3 = 2,
@@ -1164,6 +1326,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 5,
       D3FTILE1 = 5,
       D3TFLOR1 = 5,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1196,6 +1365,29 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3WMETL4 = 25,
       D3WMETL5 = 25,
       D3WTTLE1 = 15,
+
+      D3GYHL1 = 40,
+      D3GYHL2 = 40,
+      D3GYHL3 = 40,
+      D3GYHL4 = 40,
+      D3GYHL5 = 40,
+      D3GYHL6 = 40,
+      D3GYHL7 = 40,
+      D3GYHL8 = 40,
+      D3GYHL9 = 40,
+
+      D3MTGPL1 = 40,
+      D3MTGPL2 = 40,
+      D3MTGPL3 = 40,
+      D3MTGPL4 = 40,
+      D3MTGPL5 = 40,
+      D3MTGPL6 = 40,
+      D3MTGPL7 = 40,
+      D3MTGPL8 = 40,
+
+      D3MTILS1 = 50,
+      D3MTILS2 = 50,
+      D3MTILS3 = 50,
     },
 
     floors =
@@ -1206,6 +1398,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL7 = 8,
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1224,6 +1423,13 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
       D3FMETL4 = 8,
       D3FMETL7 = 8,
       D3FMETL9 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
 
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
