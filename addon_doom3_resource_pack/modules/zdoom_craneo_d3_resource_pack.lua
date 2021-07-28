@@ -213,6 +213,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3MDSPCA = {t="D3MDSPCA", rail_h=64},
   D3MDSPCB = {t="D3MDSPCB", rail_h=64},
   D3MDSPCC = {t="D3MDSPCC", rail_h=64},
+  D3MDSPCD = {t="D3MDSPCD", rail_h=128},
 }
 
 CRANEO_DOOM3_PACK.THEMES =
@@ -270,6 +271,7 @@ CRANEO_DOOM3_PACK.THEMES =
       D3MDSPCA = 10,
       D3MDSPCB = 10,
       D3MDSPCC = 10,
+      D3MDSPCD = 10,
     },
 
     wall_groups =
@@ -346,6 +348,7 @@ CRANEO_DOOM3_PACK.THEMES =
       D3MDSPCA = 10,
       D3MDSPCB = 10,
       D3MDSPCC = 10,
+      D3MDSPCD = 10,
     }
   },
 
