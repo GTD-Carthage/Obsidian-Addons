@@ -3,7 +3,6 @@
 ------------------------------------------------------------------------
 --
 --  Copyright (C) 2021 MsrSgtShooterPerson
---  Copyright (C) 2021 Craneo
 --
 --  This program is free software; you can redistribute it and/or
 --  modify it under the terms of the GNU General Public License
@@ -16,10 +15,22 @@
 --  GNU General Public License for more details.
 --
 -------------------------------------------------------------------
+-- Extra Credits
+-------------------------------------------------------------------
+--
+-- hidfan's Doom 3 Texture Rips
+-- https://www.doomworld.com/forum/topic/92309-doom-3-textures-for-doom/
+--
+-- Craneo's Doom 3 Textures for Doom 2
+-- https://forum.zdoom.org/viewtopic.php?f=46&t=72353
+--
+-- id Software, for the creation of the original textures
+--
+-------------------------------------------------------------------
 
-CRANEO_DOOM3_PACK = {}
+DOOM3_RESOURCE_PACK = {}
 
-CRANEO_DOOM3_PACK.MATERIALS =
+DOOM3_RESOURCE_PACK.MATERIALS =
 {
 -- walls
   -- base textures
@@ -250,7 +261,7 @@ CRANEO_DOOM3_PACK.MATERIALS =
   D3MDSPCD = {t="D3MDSPCD", rail_h=128},
 }
 
-CRANEO_DOOM3_PACK.THEMES =
+DOOM3_RESOURCE_PACK.THEMES =
 {
   tech =
   {
@@ -441,7 +452,7 @@ CRANEO_DOOM3_PACK.THEMES =
   }
 }
 
-CRANEO_DOOM3_PACK.ROOM_THEMES =
+DOOM3_RESOURCE_PACK.ROOM_THEMES =
 {
 -- TECH ROOM THEMES
   tech_CDoom3_all =
@@ -1844,25 +1855,25 @@ CRANEO_DOOM3_PACK.ROOM_THEMES =
   },
 }
 
-function CRANEO_DOOM3_PACK.merge_tables()
+function DOOM3_RESOURCE_PACK.merge_tables()
   gui.printf("--== Doom 3 Resource Pack Activated ==--\n\n")
 
-  table.deep_merge(GAME.MATERIALS, CRANEO_DOOM3_PACK.MATERIALS, 2)
-  table.deep_merge(GAME.THEMES, CRANEO_DOOM3_PACK.THEMES, 3)
-  table.deep_merge(GAME.ROOM_THEMES, CRANEO_DOOM3_PACK.ROOM_THEMES, 2)
+  table.deep_merge(GAME.MATERIALS, DOOM3_RESOURCE_PACK.MATERIALS, 2)
+  table.deep_merge(GAME.THEMES, DOOM3_RESOURCE_PACK.THEMES, 3)
+  table.deep_merge(GAME.ROOM_THEMES, DOOM3_RESOURCE_PACK.ROOM_THEMES, 2)
 end
 
-function CRANEO_DOOM3_PACK.put_the_texture_wad_in()
+function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
   local wad_file = "games/doom/data/D3_Textures.wad"
 
   gui.wad_merge_sections(wad_file)
 end
 ----------------------------------------------------------------
 
-OB_MODULES["craneo_doom3_pack"] =
+OB_MODULES["DOOM3_RESOURCE_PACK"] =
 {
 
-  name = "craneo_doom3_pack",
+  name = "DOOM3_RESOURCE_PACK",
 
   label = _("ZDoom: Doom 3 Resource Pack"),
 
@@ -1875,7 +1886,7 @@ OB_MODULES["craneo_doom3_pack"] =
 
   hooks =
   {
-    setup = CRANEO_DOOM3_PACK.merge_tables,
-    all_done = CRANEO_DOOM3_PACK.put_the_texture_wad_in
+    setup = DOOM3_RESOURCE_PACK.merge_tables,
+    all_done = DOOM3_RESOURCE_PACK.put_the_texture_wad_in
   },
 }
