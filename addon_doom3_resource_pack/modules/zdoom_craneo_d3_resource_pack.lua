@@ -309,6 +309,22 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3WMETL1 = 50,
       D3WMETL4 = 50,
       D3WMETL6 = 50,
+
+      D3GHYL1 = 30,
+      D3GHYL4 = 30,
+      D3GHYL7 = 30,
+      D3GHYL8 = 30,
+      D3GHYL10 = 30,
+      D3GHYL11 = 30,
+
+      D3BMTL0 = 15,
+      D3BMTL1 = 15,
+      D3BMTL2 = 15,
+      D3BMTL4 = 15,
+      D3BMTL5 = 15,
+      D3BMTL6 = 15,
+      D3BMTL9 = 15,
+      D3BMTL10 = 15,
     },
    
     scenic_fences =
@@ -375,6 +391,22 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3WBASE1 = 35,
       D3WBASE2 = 35,
       D3WBASE3 = 35,
+
+      D3GHYL1 = 22,
+      D3GHYL4 = 22,
+      D3GHYL7 = 22,
+      D3GHYL8 = 22,
+      D3GHYL10 = 22,
+      D3GHYL11 = 22,
+
+      D3BMTL0 = 5,
+      D3BMTL1 = 5,
+      D3BMTL2 = 5,
+      D3BMTL4 = 5,
+      D3BMTL5 = 5,
+      D3BMTL6 = 5,
+      D3BMTL9 = 5,
+      D3BMTL10 = 5,
     },
 
     wall_groups =
