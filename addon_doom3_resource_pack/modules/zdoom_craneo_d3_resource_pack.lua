@@ -112,6 +112,12 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MTILS2 = {t="D3MTILS2", f="D3FMETD1"},
   D3MTILS3 = {t="D3MTILS3", f="D3FMETD1"},
 
+  -- 
+  D3PCPNL1 = {t="D3PCPNL1", f="D3FMETLG"},
+  D3PCPNL2 = {t="D3PCPNL2", f="D3FMETLD"},
+  D3PCPNL3 = {t="D3PCPNL3", f="D3FMETLF"},
+  D3PCPNL4 = {t="D3PCPNL4", f="D3FMETLG"},
+
   -- blue metal walls
   D3BMTL0 = {t="D3BMTL0", f="D3FMETD1"},
   D3BMTL1 = {t="D3BMTL1", f="D3FMETL2"},
@@ -201,12 +207,15 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FMETL7 = {t="D3WBASE1", f="D3FMETL7"}, -- grey
   D3FMETL8 = {t="D3SLAD01", f="D3FMETL8"}, -- brown
   D3FMETL9 = {t="D3MTHUL1", f="D3FMETL9"}, -- rusty vertical
+
+  --
   D3FMETLA = {t="D3GYHL3", f="D3FMETLA"}, -- grates with diagonal slice
   D3FMETLB = {t="D3MTGPL1", f="D3FMETLB"}, -- complex fancy perforated
   D3FMETLC = {t="D3MTGPL2", f="D3FMETLC"}, -- complex fancy perforated
   D3FMETLD = {t="D3MTGPL4", f="D3FMETLD"}, -- grille
   D3FMETLE = {t="D3MTGPL5", f="D3FMETLE"}, -- looks like the surface of a pan
   D3FMETLF = {t="D3MTGPL6", f="D3FMETLF"}, -- grille with uneven shapes
+  D3FMETLG = {t="D3PCPNL4", f="D3FMETLG"},
 
   D3FTILE1 = {t="D3WTTLE1", f="D3FTILE1"}, -- grey tiles
   D3FTILE2 = {t="D3MTTIL1", f="D3FTILE2"}, -- brown big tiles
@@ -455,10 +464,10 @@ DOOM3_RESOURCE_PACK.THEMES =
 DOOM3_RESOURCE_PACK.ROOM_THEMES =
 {
 -- TECH ROOM THEMES
-  tech_CDoom3_all =
+  tech_Doom3_all =
   {
     env = "building",
-    prob = 25,
+    prob = 40,
 
     walls =
     {
@@ -555,6 +564,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
@@ -603,6 +613,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FMETL1 = 15,
       D3FMETL2 = 15,
@@ -628,10 +639,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  tech_CDoom3_brown_hulls =
+  tech_Doom3_brown_hulls =
   {
     env = "building",
-    prob = 50,
+    prob = 70,
 
     walls =
     {
@@ -683,6 +694,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -722,6 +734,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FLATB1 = 5,
       D3FLATB2 = 5,
@@ -736,10 +749,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  tech_CDoom3_green_hulls=
+  tech_Doom3_green_hulls=
   {
     env = "building",
-    prob = 50,
+    prob = 70,
 
     walls =
     {
@@ -769,6 +782,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -795,6 +809,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -808,10 +823,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  tech_CDoom3_grey_hulls =
+  tech_Doom3_grey_hulls =
   {
     env = "building",
-    prob = 60,
+    prob = 90,
 
     walls =
     {
@@ -867,6 +882,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -892,6 +908,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FTILE1 = 8,
       D3TFLOR1 = 8,
@@ -907,10 +924,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  tech_CDoom3_blue_hulls =
+  tech_Doom3_blue_hulls =
   {
     env = "building",
-    prob = 40,
+    prob = 60,
 
     walls =
     {
@@ -942,6 +959,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -980,6 +998,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1001,6 +1020,80 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL8 = 5,
       D3BMTL9 = 5,
       D3BMTL10 = 5,
+    }
+  },
+
+  tech_Doom3_pockholes =
+  {
+    env = "building",
+    prob = 30,
+    walls =
+    {
+      D3MTILS1 = 3,
+      D3MTILS2 = 3,
+      D3MTILS3 = 3,
+      D3PCPNL1 = 20,
+      D3PCPNL2 = 20,
+      D3PCPNL3 = 20,
+      D3PCPNL4 = 20,
+    },
+
+    floors =
+    {
+      D3FMETLG = 100,
+
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+    },
+
+    ceilings =
+    {
+      D3FMETLG = 100,
+
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FMETL9 = 8,    
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 15,
     }
   },
 
@@ -1105,6 +1198,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
@@ -1162,6 +1256,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FRHEX1 = 20,
       D3FRHEX2 = 20,
@@ -1232,6 +1327,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1271,6 +1367,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       D3FLATB1 = 5,
       D3FLATB2 = 5,
@@ -1318,6 +1415,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1344,6 +1442,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1416,6 +1515,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLD = 10,
       D3FMETLE = 10,
       D3FMETLF = 10,
+      D3FMETLG = 10,
 
       FLAT1 = 2,
       FLAT18 = 2,
@@ -1434,6 +1534,82 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETL4 = 8,
       D3FMETL7 = 8,
       D3FMETL9 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+      D3FMETLG = 10,
+
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 15,
+    }
+  },
+
+  urban_Doom3_pockholes =
+  {
+    env = "building",
+    prob = 10,
+
+    walls =
+    {
+      D3MTILS1 = 3,
+      D3MTILS2 = 3,
+      D3MTILS3 = 3,
+      D3PCPNL1 = 20,
+      D3PCPNL2 = 20,
+      D3PCPNL3 = 20,
+      D3PCPNL4 = 20,
+    },
+
+    floors =
+    {
+      D3FMETLG = 100,
+
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FTILE1 = 8,
+      D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      D3FLATB1 = 10,
+    },
+
+    ceilings =
+    {
+      D3FMETLG = 100,
+
+      D3FMETD1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL4 = 8,
+      D3FMETL7 = 8,
+      D3FMETL9 = 8,    
 
       D3FMETLA = 10,
       D3FMETLB = 10,
