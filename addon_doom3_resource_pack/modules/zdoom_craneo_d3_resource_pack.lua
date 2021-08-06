@@ -992,13 +992,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLF = 10,
       D3FMETLG = 10,
 
-      FLAT1 = 2,
-      FLAT18 = 2,
-      FLAT3 = 2,
-      FLOOR0_3 = 2,
-      FLOOR0_5 = 2,
-      FLOOR4_8 = 2,
-
       D3FLATB1 = 10,
 
       D3BMTL0 = 5,
@@ -1012,6 +1005,19 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL8 = 5,
       D3BMTL9 = 5,
       D3BMTL10 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      FLOOR1_1 = 15,
+      CEIL4_1 = 15,
+      CEIL4_2 = 15,
+      CEIL4_3 = 15,
+      FLAT14 = 15,
     },
 
     ceilings =
@@ -1031,15 +1037,8 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLF = 10,
       D3FMETLG = 10,
 
-      FLAT1 = 2,
-      FLAT18 = 2,
-      FLAT3 = 2,
-      FLOOR0_3 = 2,
-      FLOOR0_5 = 2,
-      FLOOR4_8 = 2,
-
       D3FLATB1 = 10,
-
+  
       D3BMTL0 = 5,
       D3BMTL1 = 5,
       D3BMTL2 = 5,
@@ -1051,6 +1050,18 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL8 = 5,
       D3BMTL9 = 5,
       D3BMTL10 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      CEIL4_1 = 20,
+      CEIL4_2 = 20,
+      CEIL4_3 = 20,
+      FLAT14 = 20,
     }
   },
 
