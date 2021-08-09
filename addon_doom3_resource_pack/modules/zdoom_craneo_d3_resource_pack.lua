@@ -115,7 +115,7 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   -- 
   D3PCPNL1 = {t="D3PCPNL1", f="D3FMETLG"},
   D3PCPNL2 = {t="D3PCPNL2", f="D3FMETLD"},
-  D3PCPNL3 = {t="D3PCPNL3", f="D3FMETLF"},
+  D3PCPNL3 = {t="D3PCPNL3", f="D3FMETLF"}, -- USE-ME
   D3PCPNL4 = {t="D3PCPNL4", f="D3FMETLG"},
 
   -- blue metal walls
@@ -1076,7 +1076,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTILS3 = 3,
       D3PCPNL1 = 20,
       D3PCPNL2 = 20,
-      D3PCPNL3 = 20,
       D3PCPNL4 = 20,
     },
 
@@ -1611,7 +1610,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTILS3 = 3,
       D3PCPNL1 = 20,
       D3PCPNL2 = 20,
-      D3PCPNL3 = 20,
       D3PCPNL4 = 20,
     },
 
