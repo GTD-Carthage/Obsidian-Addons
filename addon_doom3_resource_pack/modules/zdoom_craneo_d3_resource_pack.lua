@@ -190,6 +190,13 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3HLMTL1 = {t="D3HLMTL1", f="D3FMETL8"},
   D3HLMTL2 = {t="D3HLMTL2", f="D3RKTIL1"},
 
+  -- hell tablets
+  D3HTBLT1 = {t="D3HTBLT1", f="D3TFLOR3"},
+  D3HTBLT2 = {t="D3HTBLT2", f="D3TFLOR3"},
+  D3HTBLT3 = {t="D3HTBLT3", f="D3TFLOR3"},
+  D3HTBLT4 = {t="D3HTBLT4", f="D3TFLOR3"},
+  D3HTBLT5 = {t="D3HTBLT5", f="D3TFLOR3"},
+
 -- flats
   D3FLATB1 = {t="D3CEMNT3", f="D3FLATB1"}, -- dark
   D3FLATB2 = {t="D3WBASE2", f="D3FLATB2"}, -- rusty
@@ -442,6 +449,7 @@ DOOM3_RESOURCE_PACK.THEMES =
     wall_groups =
     {
       d3_hell_skintek = 50,
+      d3_hell_tablets = 50,
     },
 
     facades =
