@@ -142,6 +142,12 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3VLITE5 = {t="D3VLITE5", f="D3FLATB1"},
   D3VLITE6 = {t="D3VLITE6", f="D3FLATB1"},
 
+  -- step lights
+  D3_SPL0A = {t="D3_SPL0A", f="D3FLATB1"},
+  D3_SPL0B = {t="D3_SPL0B", f="D3FLATB1"},
+  D3_SPL1A = {t="D3_SPL1A", f="D3FLATB2"},
+  D3_SPL1B = {t="D3_SPL1B", f="D3FLATB2"},
+
   -- tech doors
   D3DOORW1 = {t="D3DOORW1", f="D3FLATB1"},
   D3DOORW2 = {t="D3DOORW2", f="D3FLATB1"},
@@ -278,10 +284,39 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MDSPCD = {t="D3MDSPCD", rail_h=128},
 }
 
+DOOM3_RESOURCE_PACK.SINKS =
+{
+  floor_d3_warnlight_1 =
+  {
+    mat = "_WALL",
+    dz  = 16,
+    light = 16,
+
+    trim_mat = "D3_SPL0A",
+    trim_dz  = 0,
+  },
+
+  floor_d3_warnlight_2 =
+  {
+    mat = "_WALL",
+    dz  = 16,
+    light = 16,
+
+    trim_mat = "D3_SPL1A",
+    trim_dz  = 0,
+  },
+}
+
 DOOM3_RESOURCE_PACK.THEMES =
 {
   tech =
   {
+    floor_sinks =
+    {
+      floor_d3_warnlight_1 = 25,
+      floor_d3_warnlight_2 = 25,
+    },
+
     facades =
     {
       D3BRTALL = 20,
@@ -378,6 +413,12 @@ DOOM3_RESOURCE_PACK.THEMES =
 
   urban =
   {
+    floor_sinks =
+    {
+      floor_d3_warnlight_1 = 25,
+      floor_d3_warnlight_2 = 25,
+    },
+
     facades =
     {
       D3BRCK_1 = 30,
@@ -2079,12 +2120,30 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   },
 }
 
+DOOM3_RESOURCE_PACK.ANIMDEFS =
+[[
+  texture D3_SPL0A
+  pic D3_SPL0A tics 5
+  pic D3_SPL0B tics 20
+
+  texture D3_SPL1A
+  pic D3_SPL1A tics 5
+  pic D3_SPL1B tics 20
+]]
+
 function DOOM3_RESOURCE_PACK.merge_tables()
   gui.printf("--== Doom 3 Resource Pack Activated ==--\n\n")
 
+  table.deep_merge(GAME.SINKS, DOOM3_RESOURCE_PACK.SINKS, 2)
   table.deep_merge(GAME.MATERIALS, DOOM3_RESOURCE_PACK.MATERIALS, 2)
   table.deep_merge(GAME.THEMES, DOOM3_RESOURCE_PACK.THEMES, 3)
   table.deep_merge(GAME.ROOM_THEMES, DOOM3_RESOURCE_PACK.ROOM_THEMES, 2)
+
+  if SCRIPTS.animdefs then
+    SCRIPTS.animdefs = SCRIPTS.animdefs .. DOOM3_RESOURCE_PACK.ANIMDEFS
+  else
+    SCRIPTS.animdefs = DOOM3_RESOURCE_PACK.ANIMDEFS
+  end
 end
 
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
