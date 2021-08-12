@@ -312,7 +312,7 @@ DOOM3_RESOURCE_PACK.SINKS =
   floor_d3_warnlight_1 =
   {
     mat = "_WALL",
-    dz  = 16,
+    dz  = -16,
     light = 16,
 
     trim_mat = "D3_SPL0A",
@@ -322,7 +322,7 @@ DOOM3_RESOURCE_PACK.SINKS =
   floor_d3_warnlight_2 =
   {
     mat = "_WALL",
-    dz  = 16,
+    dz  = -16,
     light = 16,
 
     trim_mat = "D3_SPL1A",
