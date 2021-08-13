@@ -433,6 +433,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_bronze_warn = 35,
       d3_tech_comp_machine_light = 35,
       d3_tech_comp_tile = 35,
+      d3_tech_grate_rail_light_trim = 35,
     },
 
     outdoor_wall_groups =

@@ -134,3 +134,15 @@ PREFABS.Wall_tech_d3_vent_red_lights =
 
   group = "d3_tech_vent_red_lights",
 }
+
+--
+
+PREFABS.Wall_tech_d3_grate_rail_light_trim =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP09",
+
+  group = "d3_tech_grate_rail_light_trim",
+
+  z_fit = { 88,96 , 112,120 }
+}
