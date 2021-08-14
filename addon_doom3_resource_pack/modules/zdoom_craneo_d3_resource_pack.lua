@@ -2352,12 +2352,12 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 DOOM3_RESOURCE_PACK.ANIMDEFS =
 [[
   texture D3_SPL0A
-  pic D3_SPL0A tics 5
-  pic D3_SPL0B tics 20
+  pic D3_SPL0A tics 22
+  pic D3_SPL0B tics 3
 
   texture D3_SPL1A
-  pic D3_SPL1A tics 5
-  pic D3_SPL1B tics 20
+  pic D3_SPL1A tics 22
+  pic D3_SPL1B tics 3
 ]]
 
 function DOOM3_RESOURCE_PACK.merge_tables()
