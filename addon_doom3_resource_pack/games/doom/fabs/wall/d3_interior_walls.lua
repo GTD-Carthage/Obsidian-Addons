@@ -16,7 +16,7 @@ PREFABS.Wall_d3_tech_bronze_light = --#
 
   z_fit = "top",
 
-  sector_1 = {[0]=10, [1]=1, [2]=1, [17]=1}
+  sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
 }
 
 PREFABS.Wall_d3_tech_green_tile_v_lite =
@@ -129,4 +129,52 @@ PREFABS.Wall_d3_tech_comp_tile =
     D3DKCP8 = 1,
     D3DKCP9 = 1,
   },
+}
+
+PREFABS.Wall_d3_tech_comp_tile_cascade =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP08",
+
+  group = "d3_tech_comp_tile_cascade",
+
+  height = 128,
+
+  tex_D3BRCP5 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1,
+  },
+
+  tex_D3DKCP1 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1,
+  },
+
+  bound_z2 = 128
 }

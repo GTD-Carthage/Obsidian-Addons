@@ -434,6 +434,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_comp_machine_light = 35,
       d3_tech_comp_tile = 35,
       d3_tech_grate_rail_light_trim = 35,
+      d3_tech_comp_tile_cascade = 35,
     },
 
     outdoor_wall_groups =
@@ -519,6 +520,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_bronze_warn = 12,
       d3_tech_comp_machine_light = 12,
       d3_tech_comp_tile = 12,
+      d3_tech_comp_tile_cascade = 12,
     },
 
     scenic_fences =
