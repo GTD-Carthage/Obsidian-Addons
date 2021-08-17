@@ -305,6 +305,7 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MDSPCB = {t="D3MDSPCB", rail_h=64},
   D3MDSPCC = {t="D3MDSPCC", rail_h=64},
   D3MDSPCD = {t="D3MDSPCD", rail_h=128},
+  D3MDSPCE = {t="D3MDSPCE", rail_h=128},
 }
 
 DOOM3_RESOURCE_PACK.SINKS =
@@ -422,6 +423,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3MDSPCB = 10,
       D3MDSPCC = 10,
       D3MDSPCD = 10,
+      D3MDSPCE = 10
     },
 
     wall_groups =
@@ -536,6 +538,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3MDSPCB = 10,
       D3MDSPCC = 10,
       D3MDSPCD = 10,
+      D3MDSPCE = 10,
     }
   },
 
