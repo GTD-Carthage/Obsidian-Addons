@@ -149,13 +149,30 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   -- step
   D3_WSTEP = {t="D3_WSTEP", f="D3FLATB1"},
 
-  -- light
+  -- vertocal light
   D3VLITE1 = {t="D3VLITE1", f="D3FLATB1"},
   D3VLITE2 = {t="D3VLITE2", f="D3FLATB1"},
   D3VLITE3 = {t="D3VLITE3", f="D3FLATB1"},
   D3VLITE4 = {t="D3VLITE4", f="D3FLATB1"},
   D3VLITE5 = {t="D3VLITE5", f="D3FLATB1"},
   D3VLITE6 = {t="D3VLITE6", f="D3FLATB1"},
+
+  -- horizontal light
+  D3HLITE1 = {t="D3HLITE1", f="D3FLATB1"},
+  D3HLITE2 = {t="D3HLITE2", f="D3FLATB4"},
+  D3HLITE3 = {t="D3HLITE3", f="D3FLATB4"},
+  D3HLITE4 = {t="D3HLITE4", f="D3FLATB1"},
+  D3HLITE5 = {t="D3HLITE5", f="D3FLATB1"},
+  D3HLITE6 = {t="D3HLITE6", f="D3FLATB3"},
+  D3HLITE7 = {t="D3HLITE7", f="D3FLATB3"},
+  D3HLITE8 = {t="D3HLITE8", f="D3FLATB3"},
+  D3HLITE9 = {t="D3HLITE9", f="D3FLATB1"},
+  D3HLITEA = {t="D3HLITEA", f="D3FLATB1"},
+  D3HLITEB = {t="D3HLITEB", f="D3FLATB4"},
+  D3HLITEC = {t="D3HLITEC", f="D3FLATB4"},
+  D3HLITED = {t="D3HLITED", f="D3FLATB4"},
+  D3HLITEE = {t="D3HLITEE", f="D3FLATB4"},
+  D3HLITEF = {t="D3HLITEF", f="D3FLATB3"},
 
   -- step lights
   D3_SPL0A = {t="D3_SPL0A", f="D3FLATB1"},
@@ -433,7 +450,6 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_bronze_warn = 35,
       d3_tech_comp_machine_light = 35,
       d3_tech_comp_tile = 35,
-      d3_tech_grate_rail_light_trim = 35,
       d3_tech_comp_tile_cascade = 35,
     },
 
@@ -447,6 +463,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_brown_girder = 1,
       d3_tech_building_v_light_tall = 1,
       d3_tech_vent_red_lights = 1,
+      d3_tech_grate_rail_light_trim = 1,
+      d3_tech_vertical_lite_row = 1,
     },
   },
 

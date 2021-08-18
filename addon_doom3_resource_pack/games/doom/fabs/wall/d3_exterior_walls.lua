@@ -146,3 +146,18 @@ PREFABS.Wall_tech_d3_grate_rail_light_trim =
 
   z_fit = { 88,96 , 112,120 }
 }
+
+--
+
+PREFABS.Wall_tech_d3_vertical_lite_row =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP10",
+
+  height = 104,
+
+  group = "d3_tech_vertical_lite_row",
+
+  z_fit = "top",
+  bound_z2 = 104
+}
