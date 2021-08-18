@@ -1,6 +1,6 @@
 PREFABS.Wall_tech_d3_1 = --#
 {
-  file = "wall/d3_exterior_walls.wad",
+  file = "wall/d3_exterior_tech_walls.wad",
   map = "MAP01",
 
   prob = 50,

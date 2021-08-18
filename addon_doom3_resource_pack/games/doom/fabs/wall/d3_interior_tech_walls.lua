@@ -1,6 +1,6 @@
 PREFABS.Wall_d3_tech_bronze_light = --#
 {
-  file = "wall/d3_interior_walls.wad",
+  file = "wall/d3_interior_tech_walls.wad",
   map = "MAP01",
 
   prob = 50,
