@@ -277,7 +277,7 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FMETL9 = {t="D3MTHUL1", f="D3FMETL9"}, -- rusty vertical
 
   --
-  D3FMETLA = {t="D3GYHL3", f="D3FMETLA"}, -- grates with diagonal slice
+  D3FMETLA = {t="D3GYHL10", f="D3FMETLA"}, -- grates with diagonal slice
   D3FMETLB = {t="D3MTGPL1", f="D3FMETLB"}, -- complex fancy perforated
   D3FMETLC = {t="D3MTGPL2", f="D3FMETLC"}, -- complex fancy perforated
   D3FMETLD = {t="D3MTGPL4", f="D3FMETLD"}, -- grille
@@ -1124,7 +1124,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
       D3GYHL1 = 40,
       D3GYHL2 = 40,
-      D3GYHL3 = 40,
+      D3GYHL3 = 0, --40, convert to wall set instead, doesn't look good world-space tiled
       D3GYHL4 = 40,
       D3GYHL5 = 40,
       D3GYHL6 = 40,
@@ -1931,7 +1931,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
       D3GYHL1 = 40,
       D3GYHL2 = 40,
-      D3GYHL3 = 40,
       D3GYHL4 = 40,
       D3GYHL5 = 40,
       D3GYHL6 = 40,
