@@ -33,6 +33,21 @@ PREFABS.Pic_d3_building_facade_2x =
     D3HLITEE = 1,
   },
 
+  tex_D3MTGPL1 =
+  {
+    D3MTBPL9 = 1,
+    D3MTBPLA = 1,
+    D3MTGPL1 = 1,
+    D3MTGPL7 = 1,
+    D3MTGPL8 = 1,
+    D3MTHUL7 = 1,
+    D3WMTL9 = 1,
+    D3WMTL11 = 1,
+    D3MTTIL2 = 1,
+    D3BMTL1 = 1,
+    D3BMTL4 = 1,
+  },
+
   flat_CEIL3_4 =
   {
     CEIL3_4 = 1,
