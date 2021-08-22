@@ -88,14 +88,14 @@ DOOM3_RESOURCE_PACK.MATERIALS =
 
   -- grey hulls
   D3GYHL1 = {t="D3GYHL1", f="D3FMETL2"},
-  D3GYHL2 = {t="D3GYHL1", f="D3FMETL4"},
-  D3GYHL3 = {t="D3GYHL1", f="D3FMETL5"},
-  D3GYHL4 = {t="D3GYHL1", f="D3FMETL7"},
-  D3GYHL5 = {t="D3GYHL1", f="D3FMETL2"},
-  D3GYHL6 = {t="D3GYHL1", f="D3FMETL4"},
-  D3GYHL7 = {t="D3GYHL1", f="D3FMETL5"},
-  D3GYHL8 = {t="D3GYHL1", f="D3FMETL7"},
-  D3GYHL9 = {t="D3GYHL1", f="D3FMETL2"},
+  D3GYHL2 = {t="D3GYHL2", f="D3FMETL4"},
+  D3GYHL3 = {t="D3GYHL3", f="D3FMETL5"},
+  D3GYHL4 = {t="D3GYHL4", f="D3FMETL7"},
+  D3GYHL5 = {t="D3GYHL5", f="D3FMETL2"},
+  D3GYHL6 = {t="D3GYHL6", f="D3FMETL4"},
+  D3GYHL7 = {t="D3GYHL7", f="D3FMETL5"},
+  D3GYHL8 = {t="D3GYHL8", f="D3FMETL7"},
+  D3GYHL9 = {t="D3GYHL9", f="D3FMETL2"},
 
   -- grey row panels
   D3MTGPL1 = {t="D3MTGPL1", f="D3FMETL2"},
@@ -521,6 +521,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_vent_red_lights = 1,
       d3_tech_grate_rail_light_trim = 1,
       d3_tech_vertical_lite_row = 1,
+      d3_tech_grey_girder = 1,
     },
   },
 

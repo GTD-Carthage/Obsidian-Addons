@@ -161,3 +161,15 @@ PREFABS.Wall_tech_d3_vertical_lite_row =
   z_fit = "top",
   bound_z2 = 104
 }
+
+--
+
+PREFABS.Wall_tech_d3_grey_girder =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP11",
+
+  group = "d3_tech_grey_girder",
+
+  z_fit = {0,1 , 127,128}
+}
