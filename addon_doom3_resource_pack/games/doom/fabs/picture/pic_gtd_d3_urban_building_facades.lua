@@ -33,6 +33,14 @@ PREFABS.Pic_d3_building_facade_2x =
     D3HLITEE = 1,
   },
 
+  flat_CEIL3_4 =
+  {
+    CEIL3_4 = 1,
+    FLAT2 = 1,
+    FLOOR1_7 = 1,
+    CEIL4_3 = 1,
+  },
+
   y_fit = "top",
 }
 
