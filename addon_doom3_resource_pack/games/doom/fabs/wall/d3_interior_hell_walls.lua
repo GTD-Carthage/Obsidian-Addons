@@ -61,6 +61,8 @@ PREFABS.Wall_d3_hell_tablets =
     D3HTBLT3 = 1,
     D3HTBLT4 = 1,
     D3HTBLT5 = 1,
+    D3HTBLT6 = 1,
+    D3HTBLT7 = 1
   },
 
   bound_z1 = 0,
