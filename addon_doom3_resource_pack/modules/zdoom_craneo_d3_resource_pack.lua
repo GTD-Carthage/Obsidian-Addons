@@ -96,6 +96,8 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3GYHL7 = {t="D3GYHL7", f="D3FMETL5"},
   D3GYHL8 = {t="D3GYHL8", f="D3FMETL7"},
   D3GYHL9 = {t="D3GYHL9", f="D3FMETL2"},
+  D3GYHLA = {t="D3GYHLA", f="D3FMETL4"},
+  D3GYHLB = {t="D3GYHLB", f="D3FMETL2"},
 
   -- grey row panels
   D3MTGPL1 = {t="D3MTGPL1", f="D3FMETL2"},
@@ -423,8 +425,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3GYHL4 = 30,
       D3GYHL7 = 30,
       D3GYHL8 = 30,
-      D3GYHL10 = 30,
-      D3GYHL11 = 30,
+      D3GYHLA = 30,
+      D3GYHLB = 30,
 
       D3BMTL0 = 15,
       D3BMTL1 = 15,
@@ -559,8 +561,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3GYHL4 = 22,
       D3GYHL7 = 22,
       D3GYHL8 = 22,
-      D3GYHL10 = 22,
-      D3GYHL11 = 22,
+      D3GYHLA = 22,
+      D3GYHLB = 22,
 
       D3BMTL0 = 5,
       D3BMTL1 = 5,
