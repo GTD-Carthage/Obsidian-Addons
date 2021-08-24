@@ -3,7 +3,7 @@ PREFABS.Pic_d3_building_facade_2x =
   file   = "picture/pic_gtd_d3_urban_building_facades.wad",
   map    = "MAP01",
 
-  prob  = 200,
+  prob  = 300,
   prob_skew = 1.5,
 
   theme = "urban",
@@ -64,7 +64,7 @@ PREFABS.Pic_d3_building_facade_3x =
   template = "Pic_d3_building_facade_2x",
   map = "MAP02",
 
-  prob = 275,
+  prob = 400,
 
   seed_w = 3,
 
@@ -114,8 +114,6 @@ PREFABS.Pic_d3_building_facade_3x =
     D3WMTL12 = 1,
     D3WMTL13 = 1,
   },
-
-  x_fit = "frame",
 }
 
 PREFABS.Pic_d3_building_facade_4x =
@@ -123,7 +121,7 @@ PREFABS.Pic_d3_building_facade_4x =
   template = "Pic_d3_building_facade_2x",
   map = "MAP03",
 
-  prob = 400,
+  prob = 550,
 
   seed_w = 4,
 
