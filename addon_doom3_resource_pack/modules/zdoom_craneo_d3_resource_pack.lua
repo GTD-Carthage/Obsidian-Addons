@@ -289,9 +289,9 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FMETLF = {t="D3MTGPL6", f="D3FMETLF"}, -- grille with uneven shapes
   D3FMETLG = {t="D3PCPNL4", f="D3FMETLG"},
 
-  D3FMETLH = {t="D3FMETLH", f="D3MTBPL9"},
-  D3FMETLI = {t="D3FMETLI", f="D3MTBPLB"},
-  D3FMETLJ = {t="D3FMETLJ", f="D3MTBPLC"},
+  D3FMETLH = {t="D3MTBPL9", f="D3FMETLH"},
+  D3FMETLI = {t="D3MTBPLB", f="D3FMETLI"},
+  D3FMETLJ = {t="D3MTBPLC", f="D3FMETLJ"},
 
   D3FTILE1 = {t="D3WTTLE1", f="D3FTILE1"}, -- grey tiles
   D3FTILE2 = {t="D3MTTIL1", f="D3FTILE2"}, -- brown big tiles
