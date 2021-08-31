@@ -226,6 +226,16 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MBLWL2 = {t="D3MBLWL2", f="D3MBTLF1"},
   D3MBLWL3 = {t="D3MBLWL3", f="D3MBTLF1"},
 
+  -- hell brick
+  D3HBRCK1 = {t="D3HBRCK1", f="D3RKTIL1"},
+  D3HBRCK2 = {t="D3HBRCK2", f="D3FTILE1"},
+  D3HBRCK3 = {t="D3HBRCK3", f="D3FMETLJ"},
+  D3HBRCK4 = {t="D3HBRCK4", f="D3TFLOR2"},
+  D3HBRCK5 = {t="D3HBRCK5", f="D3FTILE1"},
+  D3HBRCK6 = {t="D3HBRCK6", f="D3FMETLJ"},
+  D3HBRCK7 = {t="D3HBRCK7", f="D3TFLOR3"},
+  D3HBRCK8 = {t="D3HBRCK8", f="D3TFLOR3"},
+
   -- wood
   D3BRWDW1 = {t="D3BRWDW1", f="D3FBRWD1"}, -- technically modwall
   D3BRWDW2 = {t="D3BRWDW2", f="D3FBRWD2"},
@@ -1482,7 +1492,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   },
 
 -- URBAN ROOM THEMES
-  urban_CDoom3 =
+  urban_Doom3 =
   {
     env = "building",
     prob = 35,
@@ -1702,7 +1712,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  urban_CDoom3_brown_hulls =
+  urban_Doom3_brown_hulls =
   {
     env = "building",
     prob = 20,
@@ -1840,7 +1850,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     },
   },
 
-  urban_CDoom3_green_hulls=
+  urban_Doom3_green_hulls=
   {
     env = "building",
     prob = 20,
@@ -1915,7 +1925,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  urban_CDoom3_grey_hulls =
+  urban_Doom3_grey_hulls =
   {
     env = "building",
     prob = 16,
@@ -2180,7 +2190,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  urban_CDoom3_brick =
+  urban_Doom3_brick =
   {
     prob = 40,
     env = "building",
@@ -2271,7 +2281,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     },
   },
 
-  urban_CDoom3_wood =
+  urban_Doom3_wood =
   {
     prob = 40,
     env = "building",
@@ -2342,7 +2352,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   },
 
 -- HELL ROOM THEMES
-  hell_CDoom3_marble =
+  hell_Doom3_marble =
   {
     prob = 75,
     env = "building",
@@ -2413,7 +2423,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  hell_CDoom3_flesh =
+  hell_Doom3_flesh =
   {
     prob = 45,
     env = "building",
@@ -2492,7 +2502,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
-  hell_CDoom3_brick =
+  hell_Doom3_brick =
   {
     prob = 35,
     env = "building",
@@ -2577,6 +2587,74 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB4 = 40,
     }
   },
+
+  hell_Doom3_martian_brick =
+  {
+    prob = 40,
+    env = "building",
+
+    walls =
+    {
+      D3HBRCK1 = 5,
+      D3HBRCK2 = 5,
+      D3HBRCK3 = 5,
+      D3HBRCK4 = 5,
+      D3HBRCK5 = 5,
+      D3HBRCK6 = 5,
+      D3HBRCK7 = 5,
+      D3HBRCK8 = 5,
+    },
+
+    floors =
+    {
+      D3FLATB2 = 10,
+      D3FLATB3 = 10,
+
+      D3FMETLJ = 10,
+      D3FRHEX2 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3RKTIL1 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+
+      FLOOR0_1 = 4,
+      FLOOR3_3 = 4,
+      FLOOR4_6 = 4,
+      FLOOR5_3 = 4,
+      FLOOR5_4 = 4,
+      FLOOR7_1 = 5,
+      RROCK10 = 4,
+      SLIME16 = 3,
+    },
+
+    ceilings =
+    {
+      D3FLATB2 = 10,
+      D3FLATB3 = 10,
+
+      D3FMETLJ = 10,
+      D3FRHEX2 = 10,
+
+      D3FTILE2 = 10,
+      D3FTILE3 = 10,
+
+      D3RKTIL1 = 10,
+      D3RKTIL3 = 10,
+      D3RKTIL4 = 10,
+
+      FLOOR0_1 = 4,
+      FLOOR3_3 = 4,
+      FLOOR4_6 = 4,
+      FLOOR5_3 = 4,
+      FLOOR5_4 = 4,
+      FLOOR7_1 = 5,
+      RROCK10 = 4,
+      SLIME16 = 3,
+    }
+  }
 }
 
 DOOM3_RESOURCE_PACK.ANIMDEFS =
