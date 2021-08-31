@@ -473,7 +473,6 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3WMTL2 = 15,
       D3WMTL3 = 15,
       D3WMTL4 = 15,
-      D3WMTL5 = 15,
       D3WMTL6 = 15,
       D3WMTL7 = 15,
       D3WMTL8 = 15,
@@ -579,7 +578,6 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3WMTL2 = 5,
       D3WMTL3 = 5,
       D3WMTL4 = 5,
-      D3WMTL5 = 5,
       D3WMTL6 = 5,
       D3WMTL7 = 5,
       D3WMTL8 = 5,
@@ -767,7 +765,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WMTL2 = 15,
       D3WMTL3 = 15,
       D3WMTL4 = 15,
-      D3WMTL5 = 15,
       D3WMTL6 = 15,
       D3WMTL7 = 15,
       D3WMTL8 = 15,
@@ -1044,6 +1041,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTHUL7 = 20,
       D3MTHUL8 = 20,
       D3MTSD1 = 20,
+      D3MTGPL8 = 15,
 
       D3STARG1 = 20,
       D3STARK1 = 5,
@@ -1325,10 +1323,14 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
     walls =
     {
+      D3WMTL3 = 3,
+      D3WMTL11 = 3,
+      D3WMTL12 = 3,
+      D3WMTL13 = 3,
+
       D3MTILS1 = 3,
       D3MTILS2 = 3,
       D3MTILS3 = 3,
-      D3PCPNL1 = 20,
       D3PCPNL2 = 20,
       D3PCPNL4 = 20,
     },
@@ -1403,7 +1405,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WMTL2 = 25,
       D3WMTL3 = 25,
       D3WMTL4 = 25,
-      D3WMTL5 = 25,
       D3WMTL6 = 25,
       D3WMTL7 = 25,
       D3WMTL8 = 25,
@@ -1571,7 +1572,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WMTL2 = 15,
       D3WMTL3 = 15,
       D3WMTL4 = 15,
-      D3WMTL5 = 15,
       D3WMTL6 = 15,
       D3WMTL7 = 15,
       D3WMTL8 = 15,
@@ -1851,6 +1851,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTHUL7 = 20,
       D3MTHUL8 = 20,
       D3MTSD1 = 20,
+      D3MTGPL8 = 15,
 
       D3STARG1 = 20,
       D3STARK1 = 5,
@@ -2021,10 +2022,14 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
     walls =
     {
+      D3WMTL3 = 3,
+      D3WMTL11 = 3,
+      D3WMTL12 = 3,
+      D3WMTL13 = 3,
+
       D3MTILS1 = 3,
       D3MTILS2 = 3,
       D3MTILS3 = 3,
-      D3PCPNL1 = 20,
       D3PCPNL2 = 20,
       D3PCPNL4 = 20,
     },
@@ -2099,7 +2104,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WMTL2 = 25,
       D3WMTL3 = 25,
       D3WMTL4 = 25,
-      D3WMTL5 = 25,
       D3WMTL6 = 25,
       D3WMTL7 = 25,
       D3WMTL8 = 25,
