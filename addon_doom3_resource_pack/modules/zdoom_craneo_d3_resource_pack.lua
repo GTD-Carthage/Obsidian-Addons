@@ -678,6 +678,15 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3MTTIL3 = 15,
       D3WMETL5 = 15,
       D3WTTLE1 = 15,
+
+      D3HBRCK1 = 20,
+      D3HBRCK2 = 20,
+      D3HBRCK3 = 20,
+      D3HBRCK4 = 20,
+      D3HBRCK5 = 20,
+      D3HBRCK6 = 20,
+      D3HBRCK7 = 20,
+      D3HBRCK8 = 20,
     }
   }
 }
