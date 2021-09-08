@@ -1500,6 +1500,88 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
+  tech_Doom3_black_hull_brown_floor =
+  {
+    prob = 45,
+
+    env = "building",
+
+    walls =
+    {
+      D3GYHL1 = 5,
+      D3GYHL4 = 5,
+      D3GYHL7 = 5,
+      D3GYHL8 = 5,
+      D3GYHL9 = 5,
+      D3GYHLB = 5,
+
+      D3MTGPL1 = 5,
+      D3MTGPL2 = 5,
+      D3MTGPL3 = 5,
+
+      D3MTILS1 = 5,
+      D3MTILS2 = 5,
+      D3MTILS3 = 5,
+
+      D3STARK1 = 5,
+
+      D3WMETL1 = 5,
+      D3WMETL4 = 5,
+
+      METAL2 = 2,
+      METAL4 = 2,
+      METAL5 = 2,
+    },
+
+    floors =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
+    },
+
+    ceilings =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
+    }
+  },
+
 -- URBAN ROOM THEMES
   urban_Doom3 =
   {
@@ -2199,6 +2281,87 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     }
   },
 
+  urban_Doom3_black_hull_brown_floor =
+  {
+    prob = 35,
+    env = "building",
+
+    walls =
+    {
+      D3GYHL1 = 5,
+      D3GYHL4 = 5,
+      D3GYHL7 = 5,
+      D3GYHL8 = 5,
+      D3GYHL9 = 5,
+      D3GYHLB = 5,
+
+      D3MTGPL1 = 5,
+      D3MTGPL2 = 5,
+      D3MTGPL3 = 5,
+
+      D3MTILS1 = 5,
+      D3MTILS2 = 5,
+      D3MTILS3 = 5,
+
+      D3STARK1 = 5,
+
+      D3WMETL1 = 5,
+      D3WMETL4 = 5,
+
+      METAL2 = 2,
+      METAL4 = 2,
+      METAL5 = 2,
+    },
+
+    floors =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
+    },
+
+    ceilings =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
+    }
+  },
+
   urban_Doom3_brick =
   {
     prob = 40,
@@ -2662,6 +2825,89 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       FLOOR7_1 = 5,
       RROCK10 = 4,
       SLIME16 = 3,
+    }
+  },
+
+  hell_Doom3_black_hull_brown_floor =
+  {
+    prob = 30,
+    env = "building",
+
+    theme_override = "deimos",
+
+    walls =
+    {
+      D3GYHL1 = 5,
+      D3GYHL4 = 5,
+      D3GYHL7 = 5,
+      D3GYHL8 = 5,
+      D3GYHL9 = 5,
+      D3GYHLB = 5,
+    
+      D3MTGPL1 = 5,
+      D3MTGPL2 = 5,
+      D3MTGPL3 = 5,
+
+      D3MTILS1 = 5,
+      D3MTILS2 = 5,
+      D3MTILS3 = 5,
+
+      D3STARK1 = 5,
+
+      D3WMETL1 = 5,
+      D3WMETL4 = 5,
+
+      METAL2 = 2,
+      METAL4 = 2,
+      METAL5 = 2,
+    },
+
+    floors =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
+    },
+
+    ceilings =
+    {
+      CEIL5_1 = 5,
+      FLAT4 = 5,
+      FLOOR4_8 = 5,
+      SLIME14 = 4,
+
+      D3FLATB2 = 5,
+      D3FLATB3 = 5,
+
+      D3FMETL1 = 10,
+      D3FMETL2 = 10,
+      D3FMETL3 = 10,
+      D3FMETL5 = 10,
+      D3FMETL7 = 10,
+      D3FMETL8 = 10,
+      D3FMETLA = 10,
+      D3FMETLD = 10,
+      D3FMETLF = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10
     }
   }
 }
