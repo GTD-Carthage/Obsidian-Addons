@@ -2923,6 +2923,23 @@ DOOM3_RESOURCE_PACK.ANIMDEFS =
   pic D3_SPL1B tics 3
 ]]
 
+DOOM3_RESOURCE_PACK.BRIGHTMAPS =
+[[brightmap texture D3HLITE1 { map D3BMHLT1 }
+brightmap texture D3HLITE2 { map D3BMHLT2 }
+brightmap texture D3HLITE3 { map D3BMHLT3 }
+brightmap texture D3HLITE4 { map D3BMHLT4 }
+brightmap texture D3HLITE5 { map D3BMHLT5 }
+brightmap texture D3HLITE6 { map D3BMHLT6 }
+brightmap texture D3HLITE7 { map D3BMHLT7 }
+brightmap texture D3HLITE8 { map D3BMHLT8 }
+brightmap texture D3HLITE9 { map D3BMHLT9 }
+brightmap texture D3HLITEA { map D3BMHLTA }
+brightmap texture D3HLITEB { map D3BMHLTB }
+brightmap texture D3HLITEC { map D3BMHLTC }
+brightmap texture D3HLITED { map D3BMHLTD }
+brightmap texture D3HLITEE { map D3BMHLTE }
+]]
+
 function DOOM3_RESOURCE_PACK.merge_tables()
   gui.printf("--== Doom 3 Resource Pack Activated ==--\n\n")
 
@@ -2939,9 +2956,14 @@ function DOOM3_RESOURCE_PACK.merge_tables()
 end
 
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
-  local wad_file = "games/doom/data/D3_Textures.wad"
+  gui.wad_merge_sections("games/doom/data/D3_Textures.wad")
+  gui.wad_merge_sections("games/doom/data/D3_Textures_Bightmaps.wad")
 
-  gui.wad_merge_sections(wad_file)
+  if not PARAM.brightmaps then
+    PARAM.brightmaps = DOOM3_RESOURCE_PACK.BRIGHTMAPS
+  else
+    PARAM.brightmaps = PARAM.brightmaps .. DOOM3_RESOURCE_PACK.BRIGHTMAPS
+  end
 end
 ----------------------------------------------------------------
 
