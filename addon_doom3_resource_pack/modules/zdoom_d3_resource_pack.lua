@@ -2957,7 +2957,7 @@ end
 
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
   gui.wad_merge_sections("games/doom/data/D3_Textures.wad")
-  gui.wad_merge_sections("games/doom/data/D3_Textures_Bightmaps.wad")
+  gui.wad_merge_sections("games/doom/data/D3_Brightmaps.wad")
 
   if not PARAM.brightmaps then
     PARAM.brightmaps = DOOM3_RESOURCE_PACK.BRIGHTMAPS
