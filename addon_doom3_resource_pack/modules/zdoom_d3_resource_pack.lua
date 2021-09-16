@@ -2944,6 +2944,14 @@ brightmap texture D3VLITE3 { map D3BMVLT3 }
 brightmap texture D3VLITE4 { map D3BMVLT4 }
 brightmap texture D3VLITE5 { map D3BMVLT5 }
 brightmap texture D3VLITE6 { map D3BMVLT6 }
+
+brightmap texture D3DKCP1 { map D3BMDCP1 }
+brightmap texture D3DKCP2 { map D3BMDCP2 }
+brightmap texture D3DKCP3 { map D3BMDCP3 }
+brightmap texture D3DKCP4 { map D3BMDCP5 }
+brightmap texture D3DKCP5 { map D3BMDCP5 }
+brightmap texture D3DKCP6 { map D3BMRCP6 }
+brightmap texture D3BRCP5 { map D3BMRCP5 }
 ]]
 
 function DOOM3_RESOURCE_PACK.merge_tables()
