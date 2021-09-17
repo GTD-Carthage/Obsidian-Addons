@@ -125,9 +125,8 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MTBPLD = {t="D3MTBPLD", f="D3FMETL3"},
   D3MTBPLE = {t="D3MTBPLE", f="D3FMETLH"},
   D3MTBPLF = {t="D3MTBPLF", f="D3FMETLI"},
-  D3MTBPLG = {t="D3MTBPLG", f="D3FMETLJ"},
-  D3MTBPLH = {t="D3MTBPLH", f="D3FMETL8"},
-  D3MTBPLI = {t="D3MTBPLI", f="D3FMETL9"},
+  D3MTBPLH = {t="D3MTBPLH", f="D3FMETLJ"},
+  D3MTBPLI = {t="D3MTBPLI", f="D3FMETL8"},
   D3MTBPLJ = {t="D3MTBPLJ", f="D3FTILE2"},
   D3MTBPLK = {t="D3MTBPLK", f="D3FTILE3"},
 
@@ -473,7 +472,6 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3MTBPLD = 15,
       D3MTBPLE = 15,
       D3MTBPLF = 15,
-      D3MTBPLG = 15,
       D3MTBPLH = 15,
       D3MTBPLI = 15,
       D3MTBPLJ = 15,
@@ -774,7 +772,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTBPLD = 15,
       D3MTBPLE = 15,
       D3MTBPLF = 15,
-      D3MTBPLG = 15,
       D3MTBPLH = 15,
       D3MTBPLI = 15,
       D3MTBPLJ = 15,
@@ -952,7 +949,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTBPLD = 15,
       D3MTBPLE = 15,
       D3MTBPLF = 15,
-      D3MTBPLG = 15,
       D3MTBPLH = 15,
       D3MTBPLI = 15,
       D3MTBPLJ = 15,
@@ -1663,7 +1659,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTBPLD = 15,
       D3MTBPLE = 15,
       D3MTBPLF = 15,
-      D3MTBPLG = 15,
       D3MTBPLH = 15,
       D3MTBPLI = 15,
       D3MTBPLJ = 15,
@@ -1844,7 +1839,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTBPLD = 6,
       D3MTBPLE = 6,
       D3MTBPLF = 6,
-      D3MTBPLG = 6,
       D3MTBPLH = 6,
       D3MTBPLI = 6,
       D3MTBPLJ = 6,
@@ -2952,7 +2946,6 @@ brightmap texture D3DKCP4 { map D3BMDCP5 }
 brightmap texture D3DKCP5 { map D3BMDCP5 }
 brightmap texture D3DKCP6 { map D3BMRCP6 }
 brightmap texture D3BRCP5 { map D3BMRCP5 }
-
 brightmap texture D3BMTL8 { map D3BMBTL8 }
 
 brightmap texture D3CEMNT3 { map D3BMCMT3 }
@@ -2960,6 +2953,8 @@ brightmap texture D3_SPL0A { map D3BMSTEP }
 brightmap texture D3_SPL0B { map D3BMSTEP }
 brightmap texture D3_SPL1A { map D3BMSTEP }
 brightmap texture D3_SPL1B { map D3BMSTEP }
+
+brightmap texture D3WMETL2 { map D3BMWMT2 }
 ]]
 
 function DOOM3_RESOURCE_PACK.merge_tables()
