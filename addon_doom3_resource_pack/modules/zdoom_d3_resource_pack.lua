@@ -365,24 +365,24 @@ DOOM3_RESOURCE_PACK.MATERIALS =
 
 DOOM3_RESOURCE_PACK.SINKS =
 {
-  floor_d3_warnlight_1 =
+  ceiling_d3_warnlight_1 =
   {
     mat = "_WALL",
-    dz  = -16,
+    dz  = 16,
     light = 16,
 
     trim_mat = "D3_SPL0A",
-    trim_dz  = 0,
+    trim_dz = 0,
   },
 
-  floor_d3_warnlight_2 =
+  ceiling_d3_warnlight_2 =
   {
     mat = "_WALL",
-    dz  = -16,
+    dz  = 16,
     light = 16,
 
     trim_mat = "D3_SPL1A",
-    trim_dz  = 0,
+    trim_dz   0,
   },
 }
 
@@ -390,10 +390,10 @@ DOOM3_RESOURCE_PACK.THEMES =
 {
   tech =
   {
-    floor_sinks =
+    ceiling_sinks =
     {
-      floor_d3_warnlight_1 = 25,
-      floor_d3_warnlight_2 = 25,
+      ceiling_d3_warnlight_1 = 25,
+      ceiling_d3_warnlight_2 = 25,
     },
 
     facades =
@@ -538,10 +538,10 @@ DOOM3_RESOURCE_PACK.THEMES =
 
   urban =
   {
-    floor_sinks =
+    ceiling_sinks =
     {
-      floor_d3_warnlight_1 = 25,
-      floor_d3_warnlight_2 = 25,
+      ceiling_d3_warnlight_1 = 25,
+      ceiling_d3_warnlight_2 = 25,
     },
 
     facades =
