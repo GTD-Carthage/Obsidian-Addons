@@ -372,7 +372,7 @@ DOOM3_RESOURCE_PACK.SINKS =
     light = 16,
 
     trim_mat = "D3_SPL0A",
-    trim_dz = 0,
+    trim_dz = 0
   },
 
   ceiling_d3_warnlight_2 =
@@ -382,8 +382,8 @@ DOOM3_RESOURCE_PACK.SINKS =
     light = 16,
 
     trim_mat = "D3_SPL1A",
-    trim_dz   0,
-  },
+    trim_dz = 0
+  }
 }
 
 DOOM3_RESOURCE_PACK.THEMES =
