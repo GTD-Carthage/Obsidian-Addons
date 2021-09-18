@@ -912,7 +912,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   tech_Doom3_brown_hulls =
   {
     env = "building",
-    prob = 70,
+    prob = 100,
 
     walls =
     {
@@ -1048,7 +1048,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   tech_Doom3_green_hulls=
   {
     env = "building",
-    prob = 70,
+    prob = 100,
 
     walls =
     {
@@ -1123,7 +1123,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   tech_Doom3_grey_hulls =
   {
     env = "building",
-    prob = 90,
+    prob = 125,
 
     walls =
     {
@@ -1224,7 +1224,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   tech_Doom3_blue_hulls =
   {
     env = "building",
-    prob = 60,
+    prob = 80,
 
     walls =
     {
@@ -1412,7 +1412,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   tech_Doom3_white_panels =
   {
     env = "building",
-    prob = 45,
+    prob = 75,
 
     walls =
     {
@@ -1498,7 +1498,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   tech_Doom3_black_hull_brown_floor =
   {
-    prob = 45,
+    prob = 50,
 
     env = "building",
 
@@ -1582,7 +1582,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   urban_Doom3 =
   {
     env = "building",
-    prob = 35,
+    prob = 40,
 
     walls =
     {
@@ -1801,7 +1801,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   urban_Doom3_brown_hulls =
   {
     env = "building",
-    prob = 20,
+    prob = 75,
 
     walls =
     {
@@ -1938,7 +1938,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   urban_Doom3_green_hulls=
   {
     env = "building",
-    prob = 20,
+    prob = 50,
 
     walls =
     {
@@ -2013,7 +2013,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
   urban_Doom3_grey_hulls =
   {
     env = "building",
-    prob = 16,
+    prob = 50,
 
     walls =
     {
@@ -2277,7 +2277,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   urban_Doom3_black_hull_brown_floor =
   {
-    prob = 35,
+    prob = 75,
     env = "building",
 
     walls =
@@ -2358,7 +2358,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   urban_Doom3_brick =
   {
-    prob = 40,
+    prob = 100,
     env = "building",
 
     walls =
@@ -2449,7 +2449,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   urban_Doom3_wood =
   {
-    prob = 40,
+    prob = 75,
     env = "building",
 
     walls =
@@ -2520,7 +2520,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 -- HELL ROOM THEMES
   hell_Doom3_marble =
   {
-    prob = 75,
+    prob = 80,
     env = "building",
 
     walls =
@@ -2591,7 +2591,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   hell_Doom3_flesh =
   {
-    prob = 45,
+    prob = 60,
     env = "building",
 
     walls =
@@ -2670,7 +2670,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   hell_Doom3_brick =
   {
-    prob = 35,
+    prob = 50,
     env = "building",
 
     walls =
@@ -2756,7 +2756,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   hell_Doom3_martian_brick =
   {
-    prob = 40,
+    prob = 60,
     env = "building",
 
     walls =
@@ -2824,7 +2824,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   hell_Doom3_black_hull_brown_floor =
   {
-    prob = 30,
+    prob = 65,
     env = "building",
 
     theme_override = "deimos",
