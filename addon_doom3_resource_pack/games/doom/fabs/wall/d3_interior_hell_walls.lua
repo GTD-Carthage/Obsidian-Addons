@@ -28,13 +28,17 @@ PREFABS.Wall_d3_hell_skintek_1 = --#
 PREFABS.Wall_d3_hell_skintek_2 =
 {
   template = "Wall_d3_hell_skintek_1",
-  map = "MAP02"
+
+  forced_offsets =
+  {
+    [16] = {x=128,y=1}
+  }
 }
 
 PREFABS.Wall_d3_hell_skintek_diag =
 {
   template = "Wall_d3_hell_skintek_1",
-  map = "MAP03",
+  map = "MAP02",
 
   where = "diagonal"
 }
