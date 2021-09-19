@@ -2944,7 +2944,7 @@ brightmap texture D3DKCP2 { map D3BMDCP2 }
 brightmap texture D3DKCP3 { map D3BMDCP3 }
 brightmap texture D3DKCP4 { map D3BMDCP4 }
 brightmap texture D3DKCP5 { map D3BMDCP4 }
-brightmap texture D3DKCP6 { map D3BMRCP6 }
+brightmap texture D3DKCP6 { map D3BMDCP6 }
 brightmap texture D3BRCP5 { map D3BMRCP5 }
 brightmap texture D3BMTL8 { map D3BMBTL8 }
 
@@ -2954,6 +2954,7 @@ brightmap texture D3_SPL0B { map D3BMSTEP }
 brightmap texture D3_SPL1A { map D3BMSTEP }
 brightmap texture D3_SPL1B { map D3BMSTEP }
 
+brightmap texture D3DOORW1 { map D3BMDRW1 }
 brightmap texture D3WMETL2 { map D3BMWMT2 }
 ]]
 
