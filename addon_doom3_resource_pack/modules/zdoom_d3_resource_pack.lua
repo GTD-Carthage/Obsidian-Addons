@@ -365,6 +365,28 @@ DOOM3_RESOURCE_PACK.MATERIALS =
 
 DOOM3_RESOURCE_PACK.SINKS =
 {
+-- sky ceilings
+  sky_d3_metal_panel =
+  {
+    mat = "_SKY",
+    dz = 64,
+    light = 32,
+
+    trim_mat = "D3MTGPL1",
+    trim_dz = 0
+  },
+
+  sky_d3_metal_green =
+  {
+    mat = "_SKY",
+    dz = 64,
+    light = 32,
+
+    trim_mat = "D3MTSD1",
+    trim_dz = 0
+  },
+
+-- industrial ceilings
   ceiling_d3_warnlight_1 =
   {
     mat = "_WALL",
@@ -383,6 +405,82 @@ DOOM3_RESOURCE_PACK.SINKS =
 
     trim_mat = "D3_SPL1A",
     trim_dz = 0
+  },
+
+  -- no, it's not spelt wrong
+  ceiling_d3_cemvent =
+  {
+    mat = "D3FMETL7",
+    dz = 64,
+
+    trim_mat = "D3CEMNT1",
+    trim_dz = 0
+  },
+
+  ceiling_d3_cement =
+  {
+    mat = "D3FMETLD",
+    dz = 64,
+
+    trim_mat = "D3CEMNT2",
+    trim_dz = 0
+  },
+
+  ceiling_d3_wires =
+  {
+    mat = "D3FRHEX2",
+    dz = 128,
+
+    trim_mat = "D3WIRES1",
+    trim_dz = 0
+  },
+
+  ceiling_d3_metal_tiles =
+  {
+    mat = "D3FTILE1",
+    dz = 56,
+
+    trim_mat = "D3MTILS3",
+    trim_dz = 8
+  },
+
+  ceiling_d3_rolled_copper =
+  {
+    mat = "_FLOOR",
+    dz = 120,
+
+    trim_mat = "D3MTBPL1",
+    trim_dz = 8
+  },
+
+  light_d3_yellow_light =
+  {
+    mat = "_FLOOR",
+    dz = 32,
+    light = 16,
+
+    trim_mat = "D3HLITE8",
+    trim_dz = 0
+  },
+
+  light_d3_pill_light =
+  {
+    mat = "_FLOOR",
+    dz = 32,
+    light = 16,
+
+    trim_mat = "D3HLITE7",
+    trim_dz = 0
+  },
+
+  light_d3_red_light =
+  {
+    mat = "_FLOOR",
+    dz = 32,
+    light = 16,
+
+    trim_mat = "D3HLITE6",
+    trim_dz = 0
   }
 }
 
@@ -392,8 +490,20 @@ DOOM3_RESOURCE_PACK.THEMES =
   {
     ceiling_sinks =
     {
-      ceiling_d3_warnlight_1 = 25,
-      ceiling_d3_warnlight_2 = 25,
+      sky_d3_metal_panel = 5,
+      sky_d3_metal_green = 5,
+      
+      ceiling_d3_warnlight_1 = 75,
+      ceiling_d3_warnlight_2 = 75,
+      ceiling_d3_cemvent = 75,
+      ceiling_d3_cement = 75,
+      ceiling_d3_wires = 50,
+      ceiling_d3_metal_tiles = 75,
+      ceiling_d3_rolled_copper = 50,
+
+      light_d3_yellow_light = 50,
+      light_d3_pill_light = 50,
+      light_d3_red_light = 50,
     },
 
     facades =
@@ -540,8 +650,23 @@ DOOM3_RESOURCE_PACK.THEMES =
   {
     ceiling_sinks =
     {
-      ceiling_d3_warnlight_1 = 25,
-      ceiling_d3_warnlight_2 = 25,
+      ceiling_d3_warnlight_1 = 75,
+      ceiling_d3_warnlight_2 = 75,
+
+      sky_d3_metal_panel = 5,
+      sky_d3_metal_green = 5,
+      
+      ceiling_d3_warnlight_1 = 75,
+      ceiling_d3_warnlight_2 = 75,
+      ceiling_d3_cemvent = 75,
+      ceiling_d3_cement = 75,
+      ceiling_d3_wires = 50,
+      ceiling_d3_metal_tiles = 75,
+      ceiling_d3_rolled_copper = 50,
+
+      light_d3_yellow_light = 50,
+      light_d3_pill_light = 50,
+      light_d3_red_light = 50,
     },
 
     facades =
