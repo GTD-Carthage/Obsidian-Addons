@@ -257,6 +257,19 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FLSHW5 = {t="D3FLSHW5", f="D3RKTIL6"},
   D3FLSHW6 = {t="D3FLSHW6", f="D3FLSH_4"},
 
+  D3SKINW5 = {t="D3SKINW5", f="D3SKINF1"},
+  D3SKINW6 = {t="D3SKINW6", f="D3SKINF2"},
+  D3SKINW7 = {t="D3SKINW7", f="D3SKINF3"},
+  D3SKINW8 = {t="D3SKINW8", f="D3SKINF5"},
+  D3SKINW9 = {t="D3SKINW9", f="D3SKINF5"},
+  D3SKINWA = {t="D3SKINWA", f="D3SKINF8"},
+  D3SKINWB = {t="D3SKINWB", f="D3SKINF4"},
+  D3SKINWC = {t="D3SKINWC", f="D3SKINF5"},
+  D3SKINWD = {t="D3SKINWD", f="D3SKINF3"},
+  D3SKINWE = {t="D3SKINWE", f="D3SKINF6"},
+  D3SKINWF = {t="D3SKINWF", f="D3SKINF7"},
+  D3SKINWG = {t="D3SKINWG", f="D3SKINF8"},
+
   -- hell metal
   D3HLMTL1 = {t="D3HLMTL1", f="D3FMETL8"},
   D3HLMTL2 = {t="D3HLMTL2", f="D3RKTIL1"},
@@ -346,6 +359,19 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FLSH_2 = {t="D3WBASE3", f="D3FLSH_2"}, -- FIX-ME!
   D3FLSH_3 = {t="D3SKINW3", f="D3FLSH_3"},
   D3FLSH_4 = {t="D3SKINW4", f="D3FLSH_4"},
+
+  D3SKELF1 = {t="D3SKINWE", f="D3SKINF1"},
+  D3SKELF2 = {t="D3SKINWF", f="D3SKINF1"}, 
+
+  D3SKINF1 = {t="D3SKINW5", f="D3SKINF1"},
+  D3SKINF2 = {t="D3SKINW6", f="D3SKINF2"},
+  D3SKINF3 = {t="D3SKINW7", f="D3SKINF3"},
+  D3SKINF4 = {t="D3SKINW8", f="D3SKINF4"},
+  D3SKINF5 = {t="D3SKINW9", f="D3SKINF5"},
+  D3SKINF6 = {t="D3SKINWE", f="D3SKINF6"},
+  D3SKINF7 = {t="D3SKINWA", f="D3SKINF7"},
+  D3SKINF8 = {t="D3SKINWG", f="D3SKINF8"},
+  D3SKINF9 = {t="D3SKINWB", f="D3SKINF8"},
 
 -- rails
   D3MDSPC1 = {t="D3MDSPC1", rail_h=64},
@@ -1268,6 +1294,8 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3GYHL7 = 40,
       D3GYHL8 = 40,
       D3GYHL9 = 40,
+      D3GYHLA = 40,
+      D3GYHLB = 40,
 
       D3MTGPL1 = 40,
       D3MTGPL2 = 40,
@@ -1694,6 +1722,108 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLH = 10,
       D3FMETLI = 10,
       D3FMETLJ = 10
+    }
+  },
+
+  tech_Doom3_flesh_forge =
+  {
+    prob = 35,
+    env = "building",
+
+    theme_override = "deimos",
+
+    walls =
+    {
+      D3BRTALL = 5,
+      D3MTTIL3 = 10,
+
+      D3STARK1 = 25,
+
+      D3WIRES1 = 10,
+      D3WMETL1 = 25,
+      D3WMETL2 = 25,
+      D3WMETL3 = 25,
+      D3WMETL4 = 25,
+      D3WMETL5 = 25,
+      D3WTTLE1 = 15,
+
+      D3GYHL1 = 40,
+      D3GYHL2 = 40,
+      D3GYHL3 = 0, --40, convert to wall set instead, doesn't look good world-space tiled
+      D3GYHL4 = 40,
+      D3GYHL5 = 40,
+      D3GYHL6 = 40,
+      D3GYHL7 = 40,
+      D3GYHL8 = 40,
+      D3GYHL9 = 40,
+      D3GYHLA = 40,
+      D3GYHLB = 40,
+
+      D3MTGPL1 = 40,
+      D3MTGPL2 = 40,
+      D3MTGPL3 = 40,
+      D3MTGPL4 = 40,
+      D3MTGPL5 = 40,
+      D3MTGPL6 = 40,
+      D3MTGPL7 = 40,
+      D3MTGPL8 = 40,
+
+      D3MTILS1 = 50,
+      D3MTILS2 = 50,
+      D3MTILS3 = 50,
+    },
+
+    floors =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3MBTLF1 = 5,
+      D3MBTLF2 = 5,
+
+      D3FMETL3 = 7,
+      D3FMETL8 = 7,
+      D3FRHEX3 = 7,
+
+      D3SKELF1 = 5,
+      D3SKELF2 = 5,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
+    },
+
+    ceilings =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3MBTLF1 = 5,
+      D3MBTLF2 = 5,
+
+      D3FMETL3 = 7,
+      D3FMETL8 = 7,
+      D3FRHEX3 = 7,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
     }
   },
 
@@ -2153,6 +2283,8 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3GYHL7 = 40,
       D3GYHL8 = 40,
       D3GYHL9 = 40,
+      D3GYHLA = 40,
+      D3GYHLB = 40,
 
       D3MTGPL1 = 40,
       D3MTGPL2 = 40,
@@ -2706,7 +2838,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   hell_Doom3_flesh =
   {
-    prob = 60,
+    prob = 80,
     env = "building",
 
     walls =
@@ -2725,6 +2857,18 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3SKINW2 = 10,
       D3SKINW3 = 10,
       D3SKINW4 = 10,
+
+      D3SKINW5 = 10,
+      D3SKINW6 = 10,
+      D3SKINW7 = 10,
+      D3SKINW8 = 10,
+      D3SKINW9 = 10,
+      D3SKINWA = 10,
+      D3SKINWB = 10,
+      D3SKINWC = 10,
+      D3SKINWD = 10,
+      D3SKINWE = 10,
+      D3SKINWF = 10,
 
       D3SLAD01 = 10,
       D3SLAD02 = 10,
@@ -2751,6 +2895,19 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3RKTIL4 = 10,
       D3RKTIL5 = 10,
       D3RKTIL6 = 7,
+
+      D3SKELF1 = 8,
+      D3SKELF2 = 8,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
     },
 
     ceilings =
@@ -2771,6 +2928,19 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3RKTIL5 = 10,
       D3RKTIL6 = 7,
 
+      -- skelingtons in the ceiling?!
+      --D3SKELF1 = 8,
+      --D3SKELF2 = 8,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
 
       D3TFLOR1 = 7,
       D3TFLOR2 = 7,
@@ -2780,6 +2950,130 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB2 = 10,
       D3FLATB3 = 10,
       D3FLATB4 = 10,
+    }
+  },
+
+  hell_Doom3_flesh_forge =
+  {
+    prob = 50,
+    env = "building",
+
+    walls =
+    {
+      D3BRTALL = 5,
+
+      D3STARK1 = 25,
+
+      D3WIRES1 = 10,
+      D3WMETL1 = 25,
+      D3WMETL2 = 25,
+      D3WMETL3 = 25,
+      D3WMETL4 = 25,
+      D3WMETL5 = 25,
+      D3WTTLE1 = 15,
+
+      D3GYHL1 = 40,
+      D3GYHL2 = 40,
+      D3GYHL3 = 0, --40, convert to wall set instead, doesn't look good world-space tiled
+      D3GYHL4 = 40,
+      D3GYHL7 = 40,
+      D3GYHL8 = 40,
+      D3GYHL9 = 40,
+      D3GYHLA = 40,
+      D3GYHLB = 40,
+  
+      D3MTGPL1 = 40,
+      D3MTGPL2 = 40,
+      D3MTGPL3 = 40,
+      D3MTGPL4 = 40,
+      D3MTGPL5 = 40,
+      D3MTGPL6 = 40,
+      D3MTGPL7 = 40,
+      D3MTGPL8 = 40,
+
+      D3MTILS1 = 50,
+      D3MTILS2 = 50,
+      D3MTILS3 = 50,
+
+      D3FLSHW1 = 15,
+      D3FLSHW2 = 15,
+      D3FLSHW3 = 15,
+      D3FLSHW4 = 15,
+      D3FLSHW5 = 15,
+      D3FLSHW6 = 15,
+
+      D3HLMTL1 = 20,
+      D3HLMTL2 = 20,
+
+      D3SKINW1 = 20,
+      D3SKINW2 = 20,
+      D3SKINW3 = 20,
+      D3SKINW4 = 20,
+
+      D3SKINW5 = 15,
+      D3SKINW6 = 15,
+      D3SKINW7 = 15,
+      D3SKINW8 = 15,
+      D3SKINW9 = 15,
+      D3SKINWA = 15,
+      D3SKINWB = 15,
+      D3SKINWC = 15,
+      D3SKINWD = 15,
+      D3SKINWE = 15,
+      D3SKINWF = 15,
+    },
+
+    floors =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3MBTLF1 = 5,
+      D3MBTLF2 = 5,
+
+      D3FMETL3 = 7,
+      D3FMETL8 = 7,
+      D3FRHEX3 = 7,
+
+      D3SKELF1 = 5,
+      D3SKELF2 = 5,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
+    },
+
+    ceilings =
+    {
+      D3FLSH_1 = 10,
+      D3FLSH_2 = 10,
+      D3FLSH_3 = 10,
+      D3FLSH_4 = 10,
+
+      D3MBTLF1 = 5,
+      D3MBTLF2 = 5,
+
+      D3FMETL3 = 7,
+      D3FMETL8 = 7,
+      D3FRHEX3 = 7,
+
+      D3SKINF1 = 10,
+      D3SKINF2 = 10,
+      D3SKINF3 = 10,
+      D3SKINF4 = 10,
+      D3SKINF5 = 10,
+      D3SKINF6 = 10,
+      D3SKINF7 = 10,
+      D3SKINF8 = 10,
+      D3SKINF9 = 10,
     }
   },
 
