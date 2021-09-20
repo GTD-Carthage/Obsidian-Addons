@@ -535,8 +535,6 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3CEMNT1 = 50,
       D3CEMNT2 = 50,
       D3CEMNT3 = 50,
-      D3CEMNT4 = 30,
-      D3CEMNT5 = 30,
 
       D3WMETL1 = 50,
       D3WMETL4 = 50,
@@ -829,8 +827,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3CEMNT1 = 15,
       D3CEMNT2 = 15,
       D3CEMNT3 = 15,
-      D3CEMNT4 = 15,
-      D3CEMNT5 = 15,
 
       D3METCP1 = 20,
       D3METCP2 = 20,
@@ -1044,8 +1040,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3CEMNT1 = 10,
       D3CEMNT2 = 10,
       D3CEMNT3 = 10,
-      D3CEMNT4 = 10,
-      D3CEMNT5 = 10,
     
       D3MTHUL1 = 15,
       D3MTHUL3 = 5,
@@ -1716,8 +1710,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3CEMNT1 = 15,
       D3CEMNT2 = 15,
       D3CEMNT3 = 15,
-      D3CEMNT4 = 15,
-      D3CEMNT5 = 15,
 
       D3METCP1 = 20,
       D3METCP2 = 20,
@@ -1933,8 +1925,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3CEMNT1 = 10,
       D3CEMNT2 = 10,
       D3CEMNT3 = 10,
-      D3CEMNT4 = 10,
-      D3CEMNT5 = 10,
     
       D3MTHUL1 = 15,
       D3MTHUL3 = 5,
