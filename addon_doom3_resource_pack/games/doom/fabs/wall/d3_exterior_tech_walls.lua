@@ -173,3 +173,25 @@ PREFABS.Wall_tech_d3_grey_girder =
 
   z_fit = {0,1 , 127,128}
 }
+
+--
+
+PREFABS.Wall_tech_d3_cement_1 =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP12",
+
+  group = "d3_tech_cement_1",
+}
+
+--
+
+PREFABS.Wall_tech_d3_cement_1 =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP12",
+
+  group = "d3_tech_cement_2",
+
+  tex_D3CEMNT4 = "D3CEMNT5"
+}

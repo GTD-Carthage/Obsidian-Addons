@@ -667,6 +667,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_grate_rail_light_trim = 1,
       d3_tech_vertical_lite_row = 1,
       d3_tech_grey_girder = 1,
+      d3_tech_cement_1 = 1,
+      d3_tech_cement_2 = 1,
     },
   },
 
