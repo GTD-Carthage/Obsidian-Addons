@@ -48,10 +48,11 @@ PREFABS.Wall_d3_hell_skintek_diag =
 PREFABS.Wall_d3_hell_tablets =
 {
   file = "wall/d3_interior_hell_walls.wad",
-  map = "MAP04",
+  map = "MAP03",
 
   rank = 2,
   engine = "zdoom",
+  prob = 50,
 
   where = "edge",
   height = 129,
@@ -78,10 +79,8 @@ PREFABS.Wall_d3_hell_tablets =
 PREFABS.Wall_d3_hell_tablets_no_slope =
 {
   template = "Wall_d3_hell_tablets",
-  map = "MAP04",
 
   rank = 1,
-  engine = "!zdoom",
 
   line_344 = 0
 }
@@ -89,16 +88,23 @@ PREFABS.Wall_d3_hell_tablets_no_slope =
 PREFABS.Wall_d3_hell_tablets_alt =
 {
   template = "Wall_d3_hell_tablets",
-  map = "MAP05",
+
+  forced_offsets =
+  {
+    [11] = {x=1, y=1}
+  }
 }
 
 PREFABS.Wall_d3_hell_tablets_alt_no_slope =
 {
   template = "Wall_d3_hell_tablets",
-  map = "MAP05",
 
   rank = 1,
-  engine = "!zdoom",
 
-  line_344 = 0
+  line_344 = 0,
+
+  forced_offsets =
+  {
+    [11] = {x=1, y=1}
+  }
 }
