@@ -472,8 +472,8 @@ DOOM3_RESOURCE_PACK.SINKS =
 
   ceiling_d3_rolled_copper =
   {
-    mat = "_FLOOR",
-    dz = 120,
+    mat = "_WALL",
+    dz = 56,
 
     trim_mat = "D3MTBPL1",
     trim_dz = 8
@@ -491,7 +491,7 @@ DOOM3_RESOURCE_PACK.SINKS =
 
   light_d3_pill_light =
   {
-    mat = "_FLOOR",
+    mat = "_WALL",
     dz = 32,
     light = 16,
 
@@ -506,6 +506,16 @@ DOOM3_RESOURCE_PACK.SINKS =
     light = 16,
 
     trim_mat = "D3HLITE6",
+    trim_dz = 0
+  },
+
+  light_d3_faint_light =
+  {
+    mat = "_WALL",
+    dz = 32,
+    light = 8,
+
+    trim_mat = "D3HLITE3",
     trim_dz = 0
   }
 }
@@ -530,6 +540,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       light_d3_yellow_light = 50,
       light_d3_pill_light = 50,
       light_d3_red_light = 50,
+      light_d3_faint_light = 50
     },
 
     facades =
@@ -693,6 +704,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       light_d3_yellow_light = 50,
       light_d3_pill_light = 50,
       light_d3_red_light = 50,
+      light_d3_faint_light = 50
     },
 
     facades =
@@ -3329,44 +3341,45 @@ DOOM3_RESOURCE_PACK.ANIMDEFS =
 ]]
 
 DOOM3_RESOURCE_PACK.BRIGHTMAPS =
-[[brightmap texture D3HLITE1 { map D3BMHLT1 }
-brightmap texture D3HLITE2 { map D3BMHLT2 }
-brightmap texture D3HLITE3 { map D3BMHLT3 }
-brightmap texture D3HLITE4 { map D3BMHLT4 }
-brightmap texture D3HLITE5 { map D3BMHLT5 }
-brightmap texture D3HLITE6 { map D3BMHLT6 }
-brightmap texture D3HLITE7 { map D3BMHLT7 }
-brightmap texture D3HLITE8 { map D3BMHLT8 }
-brightmap texture D3HLITE9 { map D3BMHLT9 }
-brightmap texture D3HLITEA { map D3BMHLTA }
-brightmap texture D3HLITEB { map D3BMHLTB }
-brightmap texture D3HLITEC { map D3BMHLTC }
-brightmap texture D3HLITED { map D3BMHLTD }
-brightmap texture D3HLITEE { map D3BMHLTE }
-brightmap texture D3VLITE1 { map D3BMVLT1 }
-brightmap texture D3VLITE2 { map D3BMVLT2 }
-brightmap texture D3VLITE3 { map D3BMVLT3 }
-brightmap texture D3VLITE4 { map D3BMVLT4 }
-brightmap texture D3VLITE5 { map D3BMVLT5 }
-brightmap texture D3VLITE6 { map D3BMVLT6 }
+[[
+  brightmap texture D3HLITE1 { map D3BMHLT1 }
+  brightmap texture D3HLITE2 { map D3BMHLT2 }
+  brightmap texture D3HLITE3 { map D3BMHLT3 }
+  brightmap texture D3HLITE4 { map D3BMHLT4 }
+  brightmap texture D3HLITE5 { map D3BMHLT5 }
+  brightmap texture D3HLITE6 { map D3BMHLT6 }
+  brightmap texture D3HLITE7 { map D3BMHLT7 }
+  brightmap texture D3HLITE8 { map D3BMHLT8 }
+  brightmap texture D3HLITE9 { map D3BMHLT9 }
+  brightmap texture D3HLITEA { map D3BMHLTA }
+  brightmap texture D3HLITEB { map D3BMHLTB }
+  brightmap texture D3HLITEC { map D3BMHLTC }
+  brightmap texture D3HLITED { map D3BMHLTD }
+  brightmap texture D3HLITEE { map D3BMHLTE }
+  brightmap texture D3VLITE1 { map D3BMVLT1 }
+  brightmap texture D3VLITE2 { map D3BMVLT2 }
+  brightmap texture D3VLITE3 { map D3BMVLT3 }
+  brightmap texture D3VLITE4 { map D3BMVLT4 }
+  brightmap texture D3VLITE5 { map D3BMVLT5 }
+  brightmap texture D3VLITE6 { map D3BMVLT6 }
 
-brightmap texture D3DKCP1 { map D3BMDCP1 }
-brightmap texture D3DKCP2 { map D3BMDCP2 }
-brightmap texture D3DKCP3 { map D3BMDCP3 }
-brightmap texture D3DKCP4 { map D3BMDCP4 }
-brightmap texture D3DKCP5 { map D3BMDCP4 }
-brightmap texture D3DKCP6 { map D3BMDCP6 }
-brightmap texture D3BRCP5 { map D3BMRCP5 }
-brightmap texture D3BMTL8 { map D3BMBTL8 }
+  brightmap texture D3DKCP1 { map D3BMDCP1 }
+  brightmap texture D3DKCP2 { map D3BMDCP2 }
+  brightmap texture D3DKCP3 { map D3BMDCP3 }
+  brightmap texture D3DKCP4 { map D3BMDCP4 }
+  brightmap texture D3DKCP5 { map D3BMDCP4 }
+  brightmap texture D3DKCP6 { map D3BMDCP6 }
+  brightmap texture D3BRCP5 { map D3BMRCP5 }
+  brightmap texture D3BMTL8 { map D3BMBTL8 }
 
-brightmap texture D3CEMNT3 { map D3BMCMT3 }
-brightmap texture D3_SPL0A { map D3BMSTEP }
-brightmap texture D3_SPL0B { map D3BMSTEP }
-brightmap texture D3_SPL1A { map D3BMSTEP }
-brightmap texture D3_SPL1B { map D3BMSTEP }
+  brightmap texture D3CEMNT3 { map D3BMCMT3 }
+  brightmap texture D3_SPL0A { map D3BMSTEP }
+  brightmap texture D3_SPL0B { map D3BMSTEP }
+  brightmap texture D3_SPL1A { map D3BMSTEP }
+  brightmap texture D3_SPL1B { map D3BMSTEP }
 
-brightmap texture D3DOORW1 { map D3BMDRW1 }
-brightmap texture D3WMETL2 { map D3BMWMT2 }
+  brightmap texture D3DOORW1 { map D3BMDRW1 }
+  brightmap texture D3WMETL2 { map D3BMWMT2 }
 ]]
 
 function DOOM3_RESOURCE_PACK.merge_tables()
