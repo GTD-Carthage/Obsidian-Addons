@@ -1,6 +1,6 @@
 PREFABS.Decor_gtd_d3_comp_box_single =
 {
-  file = "decor/armaetus_basiccomp1.wad",
+  file = "decor/d3_tech_decor.wad",
   map = "MAP01",
 
   prob = 5000,
@@ -35,20 +35,20 @@ PREFABS.Decor_gtd_d3_comp_box_single =
 
 PREFABS.Decor_gtd_d3_comp_box_double =
 {
-  template = "Decor_gtd_d3_single",
+  template = "Decor_gtd_d3_comp_box_single",
   map = "MAP02",
 
   size = 112
 }
 
-PREFABS.Decor_gtd_d3_comp_box_single =
+PREFABS.Decor_gtd_d3_comp_box_single_cascade =
 {
   template = "Decor_gtd_d3_comp_box_single",
 
   group = "d3_tech_comp_tile_cascade"
 }
 
-PREFABS.Decor_gtd_d3_comp_box_double =
+PREFABS.Decor_gtd_d3_comp_box_double_cascade =
 {
   template = "Decor_gtd_d3_comp_box_single",
   map = "MAP02",
