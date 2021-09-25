@@ -534,7 +534,7 @@ DOOM3_RESOURCE_PACK.SINKS =
 
     trim_mat = "D3HLITE3",
     trim_dz = 0
-  }
+  },
 
   light_d3_vlite =
   {
