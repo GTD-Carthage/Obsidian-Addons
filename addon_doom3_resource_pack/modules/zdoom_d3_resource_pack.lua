@@ -490,7 +490,7 @@ DOOM3_RESOURCE_PACK.SINKS =
   ceiling_d3_rolled_copper =
   {
     mat = "_WALL",
-    dz = 56,
+    dz = 72,
 
     trim_mat = "D3MTBPL1",
     trim_dz = 8
@@ -535,6 +535,16 @@ DOOM3_RESOURCE_PACK.SINKS =
     trim_mat = "D3HLITE3",
     trim_dz = 0
   }
+
+  light_d3_vlite =
+  {
+    mat = "_WALL",
+    dz = 60,
+    light = 8,
+
+    trim_mat = "D3VLITE5",
+    trim_dz = 4
+  }
 }
 
 DOOM3_RESOURCE_PACK.THEMES =
@@ -557,7 +567,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       light_d3_yellow_light = 50,
       light_d3_pill_light = 50,
       light_d3_red_light = 50,
-      light_d3_faint_light = 50
+      light_d3_faint_light = 50,
+      light_d3_vlite = 50
     },
 
     facades =
@@ -721,7 +732,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       light_d3_yellow_light = 50,
       light_d3_pill_light = 50,
       light_d3_red_light = 50,
-      light_d3_faint_light = 50
+      light_d3_faint_light = 50,
+      light_d3_vlite = 50
     },
 
     facades =
