@@ -1,4 +1,4 @@
-PREFABS.Wall_tech_d3_1 = --#
+PACK_PREFABS.Wall_tech_d3_1 = --#
 {
   file = "wall/d3_exterior_tech_walls.wad",
   map = "MAP01",
@@ -25,7 +25,7 @@ PREFABS.Wall_tech_d3_1 = --#
 
 --
 
-PREFABS.Wall_tech_d3_2 =
+PACK_PREFABS.Wall_tech_d3_2 =
 {
   template = "Wall_tech_d3_1",
 
@@ -43,7 +43,7 @@ PREFABS.Wall_tech_d3_2 =
 
 --
 
-PREFABS.Wall_tech_d3_3 =
+PACK_PREFABS.Wall_tech_d3_3 =
 {
   template = "Wall_tech_d3_1",
   map = "MAP02",
@@ -53,7 +53,7 @@ PREFABS.Wall_tech_d3_3 =
 
 --
 
-PREFABS.Wall_tech_d3_3_a =
+PACK_PREFABS.Wall_tech_d3_3_a =
 {
   template = "Wall_tech_d3_1",
   map = "MAP03",
@@ -73,7 +73,7 @@ PREFABS.Wall_tech_d3_3_a =
   bound_z2 = 136
 }
 
-PREFABS.Wall_tech_d3_3_b =
+PACK_PREFABS.Wall_tech_d3_3_b =
 {
   template = "Wall_tech_d3_1",
   map = "MAP04",
@@ -97,7 +97,7 @@ PREFABS.Wall_tech_d3_3_b =
 
 --
 
-PREFABS.Wall_tech_d3_warn_red_light =
+PACK_PREFABS.Wall_tech_d3_warn_red_light =
 {
   template = "Wall_tech_d3_1",
   map = "MAP05",
@@ -107,7 +107,7 @@ PREFABS.Wall_tech_d3_warn_red_light =
 
 --
 
-PREFABS.Wall_tech_d3_brown_girder =
+PACK_PREFABS.Wall_tech_d3_brown_girder =
 {
   template = "Wall_tech_d3_1",
   map = "MAP06",
@@ -117,7 +117,7 @@ PREFABS.Wall_tech_d3_brown_girder =
 
 --
 
-PREFABS.Wall_tech_building_v_light_tall =
+PACK_PREFABS.Wall_tech_building_v_light_tall =
 {
   template = "Wall_tech_d3_1",
   map = "MAP07",
@@ -127,7 +127,7 @@ PREFABS.Wall_tech_building_v_light_tall =
 
 --
 
-PREFABS.Wall_tech_d3_vent_red_lights =
+PACK_PREFABS.Wall_tech_d3_vent_red_lights =
 {
   template = "Wall_tech_d3_1",
   map = "MAP08",
@@ -137,7 +137,7 @@ PREFABS.Wall_tech_d3_vent_red_lights =
 
 --
 
-PREFABS.Wall_tech_d3_grate_rail_light_trim =
+PACK_PREFABS.Wall_tech_d3_grate_rail_light_trim =
 {
   template = "Wall_tech_d3_1",
   map = "MAP09",
@@ -149,7 +149,7 @@ PREFABS.Wall_tech_d3_grate_rail_light_trim =
 
 --
 
-PREFABS.Wall_tech_d3_vertical_lite_row =
+PACK_PREFABS.Wall_tech_d3_vertical_lite_row =
 {
   template = "Wall_tech_d3_1",
   map = "MAP10",
@@ -164,7 +164,7 @@ PREFABS.Wall_tech_d3_vertical_lite_row =
 
 --
 
-PREFABS.Wall_tech_d3_grey_girder =
+PACK_PREFABS.Wall_tech_d3_grey_girder =
 {
   template = "Wall_tech_d3_1",
   map = "MAP11",
@@ -176,7 +176,7 @@ PREFABS.Wall_tech_d3_grey_girder =
 
 --
 
-PREFABS.Wall_tech_d3_cement_1 =
+PACK_PREFABS.Wall_tech_d3_cement_1 =
 {
   template = "Wall_tech_d3_1",
   map = "MAP12",
@@ -186,7 +186,7 @@ PREFABS.Wall_tech_d3_cement_1 =
 
 --
 
-PREFABS.Wall_tech_d3_cement_1 =
+PACK_PREFABS.Wall_tech_d3_cement_1 =
 {
   template = "Wall_tech_d3_1",
   map = "MAP12",

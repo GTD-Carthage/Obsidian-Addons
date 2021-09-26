@@ -1,4 +1,4 @@
-PREFABS.Pic_box_d3_single =
+PACK_PREFABS.Pic_box_d3_single =
 {
   file   = "picture/pic_box_d3.wad",
   map    = "MAP01",
@@ -38,7 +38,7 @@ PREFABS.Pic_box_d3_single =
   }
 }
 
-PREFABS.Pic_box_d3_quad =
+PACK_PREFABS.Pic_box_d3_quad =
 {
   template = "Pic_box_d3_single",
   map = "MAP02",
@@ -70,7 +70,7 @@ PREFABS.Pic_box_d3_quad =
   }
 }
 
-PREFABS.Pic_box_d3_hex =
+PACK_PREFABS.Pic_box_d3_hex =
 {
   template = "Pic_box_d3_single",
   map = "MAP03",

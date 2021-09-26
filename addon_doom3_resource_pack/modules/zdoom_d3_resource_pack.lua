@@ -28,6 +28,8 @@
 --
 -------------------------------------------------------------------
 
+PACK_PREFABS = {}
+
 DOOM3_RESOURCE_PACK = {}
 
 DOOM3_RESOURCE_PACK.MATERIALS =
@@ -3454,6 +3456,12 @@ function DOOM3_RESOURCE_PACK.merge_tables()
   end
 end
 
+function DOOM3_RESOURCE_PACK.fab_load()
+  table.deep_merge(PREFABS, PACK_PREFABS, 4)
+  gui.printf(table.tostr(PACK_PREFABS))
+  PACK_PREFABS = {}
+end
+
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
   gui.wad_merge_sections("games/doom/data/D3_Textures.wad")
   gui.wad_merge_sections("games/doom/data/D3_Brightmaps.wad")
@@ -3483,6 +3491,7 @@ OB_MODULES["DOOM3_RESOURCE_PACK"] =
   hooks =
   {
     setup = DOOM3_RESOURCE_PACK.merge_tables,
+    fab_load = DOOM3_RESOURCE_PACK.fab_load,
     all_done = DOOM3_RESOURCE_PACK.put_the_texture_wad_in
   },
 }
