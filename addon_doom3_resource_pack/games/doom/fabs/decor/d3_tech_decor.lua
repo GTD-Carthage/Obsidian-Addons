@@ -41,6 +41,16 @@ PREFABS.Decor_gtd_d3_comp_box_double =
   size = 112
 }
 
+PREFABS.Decor_gtd_d3_comp_box_console =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP03",
+
+  size = 108
+}
+
+--
+
 PREFABS.Decor_gtd_d3_comp_box_single_cascade =
 {
   template = "Decor_gtd_d3_comp_box_single",
@@ -54,6 +64,14 @@ PREFABS.Decor_gtd_d3_comp_box_double_cascade =
   map = "MAP02",
 
   size = 112,
+
+  group = "d3_tech_comp_tile_cascade"
+}
+
+PREFABS.Decor_gtd_d3_comp_box_console_cascade =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP03",
 
   group = "d3_tech_comp_tile_cascade"
 }
