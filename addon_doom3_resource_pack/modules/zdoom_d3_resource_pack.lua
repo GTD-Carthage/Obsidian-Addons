@@ -3458,7 +3458,6 @@ end
 
 function DOOM3_RESOURCE_PACK.fab_load()
   table.deep_merge(PREFABS, PACK_PREFABS, 4)
-  gui.printf(table.tostr(PACK_PREFABS))
   PACK_PREFABS = {}
 end
 
@@ -3472,6 +3471,7 @@ function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
     PARAM.brightmaps = PARAM.brightmaps .. DOOM3_RESOURCE_PACK.BRIGHTMAPS
   end
 end
+
 ----------------------------------------------------------------
 
 OB_MODULES["DOOM3_RESOURCE_PACK"] =
