@@ -1,4 +1,4 @@
-PACK_PREFABS.Wall_d3_hell_skintek_1 = --#
+PREFABS.Wall_d3_hell_skintek_1 = --#
 {
   file = "wall/d3_interior_hell_walls.wad",
   map = "MAP01",
@@ -25,7 +25,7 @@ PACK_PREFABS.Wall_d3_hell_skintek_1 = --#
   z_fit = "top"
 }
 
-PACK_PREFABS.Wall_d3_hell_skintek_2 =
+PREFABS.Wall_d3_hell_skintek_2 =
 {
   template = "Wall_d3_hell_skintek_1",
 
@@ -35,7 +35,7 @@ PACK_PREFABS.Wall_d3_hell_skintek_2 =
   }
 }
 
-PACK_PREFABS.Wall_d3_hell_skintek_diag =
+PREFABS.Wall_d3_hell_skintek_diag =
 {
   template = "Wall_d3_hell_skintek_1",
   map = "MAP02",
@@ -45,7 +45,7 @@ PACK_PREFABS.Wall_d3_hell_skintek_diag =
 
 --
 
-PACK_PREFABS.Wall_d3_hell_tablets =
+PREFABS.Wall_d3_hell_tablets =
 {
   file = "wall/d3_interior_hell_walls.wad",
   map = "MAP03",
@@ -76,7 +76,7 @@ PACK_PREFABS.Wall_d3_hell_tablets =
   z_fit = "top"
 }
 
-PACK_PREFABS.Wall_d3_hell_tablets_no_slope =
+PREFABS.Wall_d3_hell_tablets_no_slope =
 {
   template = "Wall_d3_hell_tablets",
 
@@ -85,7 +85,7 @@ PACK_PREFABS.Wall_d3_hell_tablets_no_slope =
   line_344 = 0
 }
 
-PACK_PREFABS.Wall_d3_hell_tablets_alt =
+PREFABS.Wall_d3_hell_tablets_alt =
 {
   template = "Wall_d3_hell_tablets",
 
@@ -95,7 +95,7 @@ PACK_PREFABS.Wall_d3_hell_tablets_alt =
   }
 }
 
-PACK_PREFABS.Wall_d3_hell_tablets_alt_no_slope =
+PREFABS.Wall_d3_hell_tablets_alt_no_slope =
 {
   template = "Wall_d3_hell_tablets",
 

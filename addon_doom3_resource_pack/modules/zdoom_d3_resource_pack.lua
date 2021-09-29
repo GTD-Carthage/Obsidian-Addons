@@ -28,7 +28,7 @@
 --
 -------------------------------------------------------------------
 
-PACK_PREFABS = {}
+PREFABS = {}
 
 DOOM3_RESOURCE_PACK = {}
 
@@ -438,6 +438,16 @@ DOOM3_RESOURCE_PACK.SINKS =
     trim_dz = 0
   },
 
+  sky_d3_metal_scaffold =
+  {
+    mat = "_SKY",
+    dz = 192,
+    light = 32,
+
+    trim_mat = "D3GYHL3",
+    trim_dz = 64
+  },
+
 -- industrial ceilings
   ceiling_d3_warnlight_1 =
   {
@@ -490,10 +500,19 @@ DOOM3_RESOURCE_PACK.SINKS =
   ceiling_d3_metal_tiles =
   {
     mat = "D3FTILE1",
-    dz = 56,
+    dz = 72,
 
     trim_mat = "D3MTILS3",
     trim_dz = 8
+  },
+
+  ceiling_d3_hex_tile_grate =
+  {
+    mat = "_WALL",
+    dz = 48,
+
+    trim_mat = "D3PLAT01",
+    trim_dz = -16 
   },
 
   ceiling_d3_rolled_copper =
@@ -515,6 +534,7 @@ DOOM3_RESOURCE_PACK.SINKS =
     trim_dz = 0
   },
 
+-- light sinks
   light_d3_pill_light =
   {
     mat = "_WALL",
@@ -564,6 +584,7 @@ DOOM3_RESOURCE_PACK.THEMES =
     {
       sky_d3_metal_panel = 5,
       sky_d3_metal_green = 5,
+      sky_d3_metal_scaffold = 5,
       
       ceiling_d3_warnlight_1 = 75,
       ceiling_d3_warnlight_2 = 75,
@@ -571,6 +592,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       ceiling_d3_cement = 75,
       ceiling_d3_wires = 50,
       ceiling_d3_metal_tiles = 75,
+      ceiling_d3_hex_tile_grate = 75,
       ceiling_d3_rolled_copper = 50,
 
       light_d3_yellow_light = 50,
@@ -733,6 +755,7 @@ DOOM3_RESOURCE_PACK.THEMES =
 
       sky_d3_metal_panel = 5,
       sky_d3_metal_green = 5,
+      sky_d3_metal_scaffold = 5,
       
       ceiling_d3_warnlight_1 = 75,
       ceiling_d3_warnlight_2 = 75,
@@ -740,6 +763,7 @@ DOOM3_RESOURCE_PACK.THEMES =
       ceiling_d3_cement = 75,
       ceiling_d3_wires = 50,
       ceiling_d3_metal_tiles = 75,
+      ceiling_d3_hex_tile_grate = 75,
       ceiling_d3_rolled_copper = 50,
 
       light_d3_yellow_light = 50,
@@ -3459,10 +3483,9 @@ function DOOM3_RESOURCE_PACK.merge_tables()
   end
 end
 
-function DOOM3_RESOURCE_PACK.fab_load()
-  table.deep_merge(PREFABS, PACK_PREFABS, 4)
-  PACK_PREFABS = {}
-end
+--[[function DOOM3_RESOURCE_PACK.fab_load()
+  table.deep_merge(PREFABS, PREFABS, 4)
+end]]
 
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
   gui.wad_merge_sections("games/doom/data/D3_Textures.wad")
@@ -3494,7 +3517,7 @@ OB_MODULES["DOOM3_RESOURCE_PACK"] =
   hooks =
   {
     setup = DOOM3_RESOURCE_PACK.merge_tables,
-    fab_load = DOOM3_RESOURCE_PACK.fab_load,
+    --fab_load = DOOM3_RESOURCE_PACK.fab_load,
     all_done = DOOM3_RESOURCE_PACK.put_the_texture_wad_in
   },
 }

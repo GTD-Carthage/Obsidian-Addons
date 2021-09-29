@@ -1,4 +1,4 @@
-PACK_PREFABS.Wall_d3_tech_bronze_light = --#
+PREFABS.Wall_d3_tech_bronze_light = --#
 {
   file = "wall/d3_interior_tech_walls.wad",
   map = "MAP01",
@@ -19,7 +19,7 @@ PACK_PREFABS.Wall_d3_tech_bronze_light = --#
   sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
 }
 
-PACK_PREFABS.Wall_d3_tech_green_tile_v_lite =
+PREFABS.Wall_d3_tech_green_tile_v_lite =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP02",
@@ -31,7 +31,7 @@ PACK_PREFABS.Wall_d3_tech_green_tile_v_lite =
   bound_z2 = 128,
 }
 
-PACK_PREFABS.Wall_d3_silver_v_lite =
+PREFABS.Wall_d3_silver_v_lite =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP03",
@@ -43,7 +43,7 @@ PACK_PREFABS.Wall_d3_silver_v_lite =
   bound_z2 = 128,
 }
 
-PACK_PREFABS.Wall_d3_tech_red_light_cement =
+PREFABS.Wall_d3_tech_red_light_cement =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP04",
@@ -55,7 +55,7 @@ PACK_PREFABS.Wall_d3_tech_red_light_cement =
   bound_z2 = 136,
 }
 
-PACK_PREFABS.Wall_d3_tech_bronze_warn =
+PREFABS.Wall_d3_tech_bronze_warn =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP05",
@@ -67,7 +67,7 @@ PACK_PREFABS.Wall_d3_tech_bronze_warn =
   bound_z2 = 136,
 }
 
-PACK_PREFABS.Wall_d3_tech_comp_machine_light =
+PREFABS.Wall_d3_tech_comp_machine_light =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP06",
@@ -85,7 +85,7 @@ PACK_PREFABS.Wall_d3_tech_comp_machine_light =
   }
 }
 
-PACK_PREFABS.Wall_d3_tech_comp_tile =
+PREFABS.Wall_d3_tech_comp_tile =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP07",
@@ -131,7 +131,7 @@ PACK_PREFABS.Wall_d3_tech_comp_tile =
   },
 }
 
-PACK_PREFABS.Wall_d3_tech_comp_tile_cascade =
+PREFABS.Wall_d3_tech_comp_tile_cascade =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP08",
@@ -179,7 +179,7 @@ PACK_PREFABS.Wall_d3_tech_comp_tile_cascade =
   bound_z2 = 128
 }
 
-PACK_PREFABS.Wall_d3_tech_comp_tile_cascade_diag =
+PREFABS.Wall_d3_tech_comp_tile_cascade_diag =
 {
   template = "Wall_d3_tech_bronze_light",
   map = "MAP09",

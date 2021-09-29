@@ -1,4 +1,4 @@
-PACK_PREFABS.Pic_d3_building_facade_2x =
+PREFABS.Pic_d3_building_facade_2x =
 {
   file   = "picture/pic_gtd_d3_urban_building_facades.wad",
   map    = "MAP01",
@@ -59,7 +59,7 @@ PACK_PREFABS.Pic_d3_building_facade_2x =
   y_fit = "top",
 }
 
-PACK_PREFABS.Pic_d3_building_facade_3x =
+PREFABS.Pic_d3_building_facade_3x =
 {
   template = "Pic_d3_building_facade_2x",
   map = "MAP02",
@@ -116,7 +116,7 @@ PACK_PREFABS.Pic_d3_building_facade_3x =
   },
 }
 
-PACK_PREFABS.Pic_d3_building_facade_4x =
+PREFABS.Pic_d3_building_facade_4x =
 {
   template = "Pic_d3_building_facade_2x",
   map = "MAP03",

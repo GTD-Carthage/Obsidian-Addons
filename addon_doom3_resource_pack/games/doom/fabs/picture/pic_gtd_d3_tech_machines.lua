@@ -1,4 +1,4 @@
-PACK_PREFABS.Pic_d3_machine_1 =
+PREFABS.Pic_d3_machine_1 =
 {
   file   = "picture/pic_gtd_d3_tech_machines.wad",
   map    = "MAP01",
@@ -21,13 +21,13 @@ PACK_PREFABS.Pic_d3_machine_1 =
   y_fit = "top",
 }
 
-PACK_PREFABS.Pic_d3_machine_2 =
+PREFABS.Pic_d3_machine_2 =
 {
   template = "Pic_d3_machine_1",
   map = "MAP02"
 }
 
-PACK_PREFABS.Pic_d3_machine_3 =
+PREFABS.Pic_d3_machine_3 =
 {
   template = "Pic_d3_machine_1",
   map = "MAP03"
@@ -35,7 +35,7 @@ PACK_PREFABS.Pic_d3_machine_3 =
 
 --
 
-PACK_PREFABS.Pic_d3_machine_comp_double =
+PREFABS.Pic_d3_machine_comp_double =
 {
   template = "Pic_d3_machine_1",
   map = "MAP04",
@@ -43,7 +43,7 @@ PACK_PREFABS.Pic_d3_machine_comp_double =
   engine = "zdoom"
 }
 
-PACK_PREFABS.Pic_d3_machine_comp_triple =
+PREFABS.Pic_d3_machine_comp_triple =
 {
   template = "Pic_d3_machine_1",
   map = "MAP05",
