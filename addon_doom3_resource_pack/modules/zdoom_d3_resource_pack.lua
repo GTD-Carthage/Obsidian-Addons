@@ -175,6 +175,14 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3WMTL12 = {t="D3WMTL12", f="D3WTILE3"},
   D3WMTL13 = {t="D3WMTL13", f="D3WTILE4"},
 
+  -- green walls 
+  D3MTEPL1 = {t="D3MTEPL1", f="D3FMETL4"},
+  D3MTEPL2 = {t="D3MTEPL2", f="D3FMETLC"},
+  D3MTEPL3 = {t="D3MTEPL3", f="D3FTILE1"},
+  D3MTEPL4 = {t="D3MTEPL4", f="D3FMETL6"},
+  D3MTEPL5 = {t="D3MTEPL5", f="D3FMETL6"},
+  D3MTEPL6 = {t="D3MTEPL6", f="D3FMETL6"},
+
   -- computer tiles
   D3BRCP1 = {t="D3BRCP1", f="D3FLATB1"},
   D3BRCP2 = {t="D3BRCP2", f="D3FLATB1"},
@@ -316,7 +324,6 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FLATB4 = {t="D3WBASE3", f="D3FLATB4"}, -- greeny
 
   -- metallic plates
-  D3FMETD1 = {t="D3WBASE3", f="D3FMETD1"}, -- diamond grey plate
 
   D3FMETL1 = {t="D3MTHUL1", f="D3FMETL1"}, -- brown
   D3FMETL2 = {t="D3WBASE1", f="D3FMETL2"}, -- grey 
@@ -327,6 +334,13 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3FMETL7 = {t="D3WBASE1", f="D3FMETL7"}, -- grey
   D3FMETL8 = {t="D3SLAD01", f="D3FMETL8"}, -- brown
   D3FMETL9 = {t="D3MTHUL1", f="D3FMETL9"}, -- rusty vertical
+
+  -- dark metallic plates
+  D3FMETD1 = {t="D3WBASE3", f="D3FMETD1"}, -- diamond grey plate
+  D3FMETD2 = {t="D3GYHL1", f="D3FMETD2"},
+  D3FMETD3 = {t="D3GYHL8", f="D3FMETD3"},
+  D3FMETD4 = {t="D3GYHL9", f="D3FMETD4"},
+  D3FMETD5 = {t="D3GYHLB", f="D3FMETD5"},
 
   --
   D3FMETLA = {t="D3GYHLA", f="D3FMETLA"}, -- grates with diagonal slice
@@ -988,6 +1002,13 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTGPL7 = 20,
       D3MTGPL8 = 20,
 
+      D3MTEPL1 = 25,
+      D3MTEPL2 = 25,
+      D3MTEPL3 = 25,
+      D3MTEPL4 = 25,
+      D3MTEPL5 = 25,
+      D3MTEPL6 = 25,
+
       D3MTBPL1 = 15,
       D3MTBPL2 = 15,
       D3MTBPL3 = 15,
@@ -1049,6 +1070,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB4 = 25,
 
       D3FMETD1 = 15,
+      D3FMETD2 = 15,
+      D3FMETD3 = 15,
+      D3FMETD4 = 15,
+      D3FMETD5 = 15,
 
       D3FMETL1 = 15,
       D3FMETL2 = 15,
@@ -1107,6 +1132,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB4 = 25,
 
       D3FMETD1 = 15,
+      D3FMETD2 = 15,
+      D3FMETD3 = 15,
+      D3FMETD4 = 15,
+      D3FMETD5 = 15,
 
       D3FMETLA = 10,
       D3FMETLB = 10,
@@ -1201,6 +1230,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3TFLOR3 = 10,
 
       D3FMETD1 = 2,
+      D3FMETD2 = 2,
+      D3FMETD3 = 2,
+      D3FMETD4 = 2,
+      D3FMETD5 = 2,
+
       D3FMETL2 = 2,
       D3FMETL4 = 2,
       D3FMETL7 = 2,
@@ -1244,6 +1278,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3TFLOR3 = 10,
 
       D3FMETD1 = 2,
+      D3FMETD2 = 2,
+      D3FMETD3 = 2,
+      D3FMETD4 = 2,
+      D3FMETD5 = 2,
+
       D3FMETL2 = 2,
       D3FMETL4 = 2,
       D3FMETL7 = 2,
@@ -1287,6 +1326,13 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTSD1 = 20,
       D3MTGPL8 = 15,
 
+      D3MTEPL1 = 20,
+      D3MTEPL2 = 20,
+      D3MTEPL3 = 20,
+      D3MTEPL4 = 20,
+      D3MTEPL5 = 20,
+      D3MTEPL6 = 20,
+
       D3STARG1 = 20,
       D3STARK1 = 5,
     },
@@ -1296,6 +1342,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETL6 = 10,
 
       D3FMETD1 = 5,
+      D3FMETD2 = 5,
+      D3FMETD3 = 5,
+      D3FMETD4 = 5,
+      D3FMETD5 = 5,
+
       D3FMETL2 = 5,
       D3FMETL4 = 5,
       D3FMETL7 = 5,
@@ -1323,6 +1374,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETL6 = 10,
 
       D3FMETD1 = 5,
+      D3FMETD2 = 5,
+      D3FMETD3 = 5,
+      D3FMETD4 = 5,
+      D3FMETD5 = 5,
+
       D3FMETL2 = 5,
       D3FMETL4 = 5,
       D3FMETL7 = 5,
@@ -1402,6 +1458,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     floors =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1429,6 +1490,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1479,6 +1545,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     floors =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1524,6 +1595,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1590,6 +1666,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLG = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1618,6 +1699,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLG = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1675,6 +1761,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WTILE4 = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -1704,6 +1795,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2044,6 +2140,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB4 = 25,
 
       D3FMETD1 = 15,
+      D3FMETD2 = 15,
+      D3FMETD3 = 15,
+      D3FMETD4 = 15,
+      D3FMETD5 = 15,
 
       D3FMETL1 = 15,
       D3FMETL2 = 15,
@@ -2105,6 +2205,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FLATB4 = 25,
 
       D3FMETD1 = 15,
+      D3FMETD2 = 15,
+      D3FMETD3 = 15,
+      D3FMETD4 = 15,
+      D3FMETD5 = 15,
 
       D3FMETL1 = 15,
       D3FMETL2 = 15,
@@ -2199,6 +2303,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3TFLOR3 = 10,
 
       D3FMETD1 = 2,
+      D3FMETD2 = 2,
+      D3FMETD3 = 2,
+      D3FMETD4 = 2,
+      D3FMETD5 = 2,
+
       D3FMETL2 = 2,
       D3FMETL4 = 2,
       D3FMETL7 = 2,
@@ -2242,6 +2351,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3TFLOR3 = 10,
 
       D3FMETD1 = 2,
+      D3FMETD2 = 2,
+      D3FMETD3 = 2,
+      D3FMETD4 = 2,
+      D3FMETD5 = 2,
+
       D3FMETL2 = 2,
       D3FMETL4 = 2,
       D3FMETL7 = 2,
@@ -2285,6 +2399,13 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3MTSD1 = 20,
       D3MTGPL8 = 15,
 
+      D3MTEPL1 = 20,
+      D3MTEPL2 = 20,
+      D3MTEPL3 = 20,
+      D3MTEPL4 = 20,
+      D3MTEPL5 = 20,
+      D3MTEPL6 = 20,
+
       D3STARG1 = 20,
       D3STARK1 = 5,
     },
@@ -2294,6 +2415,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETL6 = 10,
 
       D3FMETD1 = 5,
+      D3FMETD2 = 5,
+      D3FMETD3 = 5,
+      D3FMETD4 = 5,
+      D3FMETD5 = 5,
+
       D3FMETL2 = 5,
       D3FMETL4 = 5,
       D3FMETL7 = 5,
@@ -2321,6 +2447,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETL6 = 10,
 
       D3FMETD1 = 5,
+      D3FMETD2 = 5,
+      D3FMETD3 = 5,
+      D3FMETD4 = 5,
+      D3FMETD5 = 5,
+
       D3FMETL2 = 5,
       D3FMETL4 = 5,
       D3FMETL7 = 5,
@@ -2399,6 +2530,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     floors =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2426,6 +2562,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2477,6 +2618,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLG = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2505,6 +2651,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3FMETLG = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2562,6 +2713,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3WTILE4 = 100,
 
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2591,6 +2747,11 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
       D3FMETL2 = 8,
       D3FMETL4 = 8,
       D3FMETL7 = 8,
@@ -2724,6 +2885,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     floors =
     {
       D3FMETD1 = 10,
+      D3FMETD2 = 10,
+      D3FMETD3 = 10,
+      D3FMETD4 = 10,
+      D3FMETD5 = 10,
 
       D3FMETL1 = 10,
       D3FMETL2 = 10,
@@ -2755,6 +2920,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 10,
+      D3FMETD2 = 10,
+      D3FMETD3 = 10,
+      D3FMETD4 = 10,
+      D3FMETD5 = 10,
 
       D3FMETL1 = 10,
       D3FMETL2 = 10,
@@ -3202,6 +3371,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     floors =
     {
       D3FMETD1 = 10,
+      D3FMETD2 = 10,
+      D3FMETD3 = 10,
+      D3FMETD4 = 10,
+      D3FMETD5 = 10,
 
       D3FMETL1 = 10,
       D3FMETL3 = 10,
@@ -3231,6 +3404,10 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
     ceilings =
     {
       D3FMETD1 = 10,
+      D3FMETD2 = 10,
+      D3FMETD3 = 10,
+      D3FMETD4 = 10,
+      D3FMETD5 = 10,
 
       D3FMETL1 = 10,
       D3FMETL2 = 10,
