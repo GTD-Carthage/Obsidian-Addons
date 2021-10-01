@@ -743,6 +743,11 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_comp_tile_cascade = 35,
       --
       d3_tech_blue_machine_row = 35,
+      --
+      d3_tech_mid_gap_lite = 10,
+      d3_tech_mid_gap_lite_alt = 10,
+      d3_tech_mid_gap_lite_red = 10,
+      d3_tech_mid_gap_lite_yellow = 10
     },
 
     outdoor_wall_groups =
@@ -859,6 +864,11 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_comp_tile_cascade = 12,
       --
       d3_tech_blue_machine_row = 12,
+      --
+      d3_tech_mid_gap_lite = 12,
+      d3_tech_mid_gap_lite_alt = 12,
+      d3_tech_mid_gap_lite_red = 12,
+      d3_tech_mid_gap_lite_yellow = 12
     },
 
     scenic_fences =

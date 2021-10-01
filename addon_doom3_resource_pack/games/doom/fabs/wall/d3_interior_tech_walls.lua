@@ -255,3 +255,125 @@ PREFABS.Wall_d3_tech_blue_machine_row_diag =
 
   bound_z2 = 112
 }
+
+--
+--
+--
+
+PREFABS.Wall_d3_tech_mid_gap_lite =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP12",
+
+  group = "d3_tech_mid_gap_lite",
+
+  height = 72,
+
+  bound_z2 = 72
+}
+
+PREFABS.Wall_d3_tech_mid_gap_lite_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP13",
+
+  where = "diagonal",
+  group = "d3_tech_mid_gap_lite",
+
+  height = 72,
+
+  bound_z2 = 72
+}
+
+--
+
+PREFABS.Wall_d3_tech_mid_gap_lite_alt =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP12",
+
+  group = "d3_tech_mid_gap_lite_alt",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITEC"
+}
+
+PREFABS.Wall_d3_tech_mid_gap_lite_alt_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP13",
+
+  where = "diagonal",
+  group = "d3_tech_mid_gap_lite_alt",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITEC"
+}
+
+--
+
+PREFABS.Wall_d3_tech_mid_gap_lite_red =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP12",
+
+  group = "d3_tech_mid_gap_lite_red",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITE6"
+}
+
+PREFABS.Wall_d3_tech_mid_gap_lite_red_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP13",
+
+  where = "diagonal",
+  group = "d3_tech_mid_gap_lite_red",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITE6"
+}
+
+--
+
+PREFABS.Wall_d3_tech_mid_gap_lite_yellow =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP12",
+
+  group = "d3_tech_mid_gap_lite_yellow",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITE8"
+}
+
+PREFABS.Wall_d3_tech_mid_gap_lite_yellow_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP13",
+
+  where = "diagonal",
+  group = "d3_tech_mid_gap_lite_yellow",
+
+  height = 72,
+
+  bound_z2 = 72,
+
+  tex_D3HLITE3 = "D3HLITE8"
+}
