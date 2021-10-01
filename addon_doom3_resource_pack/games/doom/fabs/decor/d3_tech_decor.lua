@@ -93,7 +93,7 @@ PREFABS.Decor_gtd_d3_blue_machine_row_point_1 =
 
 PREFABS.Decor_gtd_d3_blue_machine_row_point_2 =
 {
-  tempalte = "Decor_gtd_d3_comp_box_single",
+  template = "Decor_gtd_d3_comp_box_single",
   map = "MAP05",
 
   size = 144,
