@@ -75,3 +75,31 @@ PREFABS.Decor_gtd_d3_comp_box_console_cascade =
 
   group = "d3_tech_comp_tile_cascade"
 }
+
+--
+
+PREFABS.Decor_gtd_d3_blue_machine_row_point_1 =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP04",
+
+  size = 80,
+  height = 112,
+
+  group = "d3_tech_blue_machine_row",
+
+  bound_z2 = 112
+}
+
+PREFABS.Decor_gtd_d3_blue_machine_row_point_2 =
+{
+  tempalte = "Decor_gtd_d3_comp_box_single",
+  map = "MAP05",
+
+  size = 144,
+  height = 112,
+
+  group = "d3_tech_blue_machine_row",
+
+  bound_z2 = 112
+}

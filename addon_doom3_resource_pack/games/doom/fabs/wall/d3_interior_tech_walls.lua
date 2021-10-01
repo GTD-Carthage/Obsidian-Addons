@@ -109,7 +109,7 @@ PREFABS.Wall_d3_tech_comp_tile =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
+    D3DKCP9 = 1
   },
 
   tex_D3BRCP2 =
@@ -127,8 +127,8 @@ PREFABS.Wall_d3_tech_comp_tile =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
-  },
+    D3DKCP9 = 1
+  }
 }
 
 PREFABS.Wall_d3_tech_comp_tile_cascade =
@@ -155,7 +155,7 @@ PREFABS.Wall_d3_tech_comp_tile_cascade =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
+    D3DKCP9 = 1
   },
 
   tex_D3DKCP1 =
@@ -173,7 +173,7 @@ PREFABS.Wall_d3_tech_comp_tile_cascade =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
+    D3DKCP9 = 1
   },
 
   bound_z2 = 128
@@ -205,7 +205,7 @@ PREFABS.Wall_d3_tech_comp_tile_cascade_diag =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
+    D3DKCP9 = 1
   },
 
   tex_D3DKCP1 =
@@ -223,8 +223,35 @@ PREFABS.Wall_d3_tech_comp_tile_cascade_diag =
     D3DKCP6 = 1,
     D3DKCP7 = 1,
     D3DKCP8 = 1,
-    D3DKCP9 = 1,
+    D3DKCP9 = 1
   },
 
   bound_z2 = 128
+}
+
+--
+
+PREFABS.Wall_d3_tech_blue_machine_row =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP10",
+
+  group = "d3_tech_blue_machine_row",
+
+  height = 112,
+
+  bound_z2 = 112
+}
+
+PREFABS.Wall_d3_tech_blue_machine_row_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP11",
+
+  where = "diagonal",
+  group = "d3_tech_blue_machine_row",
+
+  height = 112,
+
+  bound_z2 = 112
 }
