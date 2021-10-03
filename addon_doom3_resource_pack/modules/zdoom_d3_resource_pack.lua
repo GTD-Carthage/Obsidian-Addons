@@ -3673,9 +3673,9 @@ function DOOM3_RESOURCE_PACK.merge_tables()
   end
 end
 
---[[function DOOM3_RESOURCE_PACK.fab_load()
-  table.deep_merge(PREFABS, PREFABS, 4)
-end]]
+function DOOM3_RESOURCE_PACK.addon_fabs()
+  visit_dir("games/doom/fabs", "*.d3fabdef")
+end
 
 function DOOM3_RESOURCE_PACK.put_the_texture_wad_in()
   gui.wad_merge_sections("games/doom/data/D3_Textures.wad")
@@ -3707,7 +3707,7 @@ OB_MODULES["DOOM3_RESOURCE_PACK"] =
   hooks =
   {
     setup = DOOM3_RESOURCE_PACK.merge_tables,
-    --fab_load = DOOM3_RESOURCE_PACK.fab_load,
+    addon_fabs = DOOM3_RESOURCE_PACK.addon_fabs,
     all_done = DOOM3_RESOURCE_PACK.put_the_texture_wad_in
   },
 }
