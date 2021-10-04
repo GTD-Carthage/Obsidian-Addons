@@ -78,9 +78,9 @@ PREFABS.Wall_d3_tech_comp_machine_light =
 
   bound_z2 = 96,
 
-  tex_D3METCP1 =
+  tex_D3METCP2 =
   {
-    D3METCP1 = 5,
+    D3METCP1 = 10,
     D3METCP2 = 5,
   }
 }
