@@ -3656,6 +3656,9 @@ DOOM3_RESOURCE_PACK.BRIGHTMAPS =
 
   brightmap texture D3DOORW1 { map D3BMDRW1 }
   brightmap texture D3WMETL2 { map D3BMWMT2 }
+
+  brightmap texture D3MONTR1 { map D3BMMNTR }
+  brightmap texture D3MONTR2 { map D3BMMNTR }
 ]]
 
 function DOOM3_RESOURCE_PACK.merge_tables()

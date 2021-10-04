@@ -46,6 +46,8 @@ PREFABS.Decor_gtd_d3_comp_box_console =
   template = "Decor_gtd_d3_comp_box_single",
   map = "MAP03",
 
+  height = 64,
+
   size = 108
 }
 
@@ -73,7 +75,10 @@ PREFABS.Decor_gtd_d3_comp_box_console_cascade =
   template = "Decor_gtd_d3_comp_box_single",
   map = "MAP03",
 
-  group = "d3_tech_comp_tile_cascade"
+  group = "d3_tech_comp_tile_cascade",
+
+  tex_D3MONTR1 = {D3MONTR1 = 5, D3MONTR2 = 5},
+  tex_D3MONTR2 = {D3MONTR1 = 5, D3MONTR2 = 5}
 }
 
 --
