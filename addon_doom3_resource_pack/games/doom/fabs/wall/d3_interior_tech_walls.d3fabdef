@@ -377,3 +377,30 @@ PREFABS.Wall_d3_tech_mid_gap_lite_yellow_diag =
 
   tex_D3HLITE3 = "D3HLITE8"
 }
+
+--
+
+PREFABS.Wall_d3_tech_pockmarked =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP13",
+
+  group = "d3_tech_pockmarked",
+
+  height = 80,
+
+  bound_z2 = 80
+}
+
+PREFABS.Wall_d3_tech_pockmarked_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP14",
+
+  where = "diagonal",
+  group = "d3_tech_pockmarked",
+
+  height = 80,
+
+  bound_z2 = 80
+}
