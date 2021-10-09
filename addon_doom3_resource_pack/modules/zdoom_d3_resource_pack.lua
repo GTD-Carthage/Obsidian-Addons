@@ -730,6 +730,11 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3MDSPCD = 10
     },
 
+    window_groups =
+    {
+      d3_window_scaffold = 35,
+    },
+
     wall_groups =
     {
       d3_tech_bronze_light = 35,
@@ -853,6 +858,11 @@ DOOM3_RESOURCE_PACK.THEMES =
       D3WMTL13 = 8,
     },
 
+    window_groups =
+    {
+      d3_window_scaffold = 35,
+    },
+
     wall_groups =
     {
       d3_tech_bronze_light = 12,
@@ -897,6 +907,11 @@ DOOM3_RESOURCE_PACK.THEMES =
     {
       d3_hell_skintek = 50,
       d3_hell_tablets = 50,
+    },
+
+    window_groups =
+    {
+      d3_window_scaffold = 20,
     },
 
     facades =
