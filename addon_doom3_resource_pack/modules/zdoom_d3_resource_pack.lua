@@ -733,6 +733,7 @@ DOOM3_RESOURCE_PACK.THEMES =
     window_groups =
     {
       d3_window_scaffold = 35,
+      d3_window_cagey = 35,
     },
 
     wall_groups =
@@ -861,6 +862,7 @@ DOOM3_RESOURCE_PACK.THEMES =
     window_groups =
     {
       d3_window_scaffold = 35,
+      d3_window_cagey = 35,
     },
 
     wall_groups =
@@ -912,6 +914,7 @@ DOOM3_RESOURCE_PACK.THEMES =
     window_groups =
     {
       d3_window_scaffold = 20,
+      d3_window_cagey = 5,
     },
 
     facades =
