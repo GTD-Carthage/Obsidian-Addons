@@ -1,0 +1,19 @@
+PREFABS.Pic_d3_tech_silverbottom_brown_lite_1 =
+{
+  file   = "picture/pic_box_d3.wad",
+  map    = "MAP01",
+
+  prob  = 100,
+
+  group = "d3_tech_silverbottom_brown_lite",
+  
+  where  = "seeds",
+  seed_w = 2,
+  seed_h = 1,
+
+  height = 136,
+  deep   =  16,
+
+  x_fit = "frame",
+  y_fit = "top",
+}

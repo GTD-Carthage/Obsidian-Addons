@@ -755,7 +755,9 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_mid_gap_lite_red = 10,
       d3_tech_mid_gap_lite_yellow = 10,
       --
-      d3_tech_pockmarked = 35
+      d3_tech_pockmarked = 35,
+      --
+      d3_tech_silverbottom_brown_lite = 35
     },
 
     outdoor_wall_groups =
@@ -884,7 +886,9 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_mid_gap_lite_red = 7,
       d3_tech_mid_gap_lite_yellow = 7,
       --
-      d3_tech_pockmarked = 12
+      d3_tech_pockmarked = 12,
+      --
+      d3_tech_silverbottom_brown_lite = 12
     },
 
     scenic_fences =
@@ -1574,7 +1578,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL5 = 10,
       D3BMTL6 = 10,
       D3BMTL7 = 10,
-      D3BMTL8 = 10,
       D3BMTL9 = 10,
       D3BMTL10 = 10,
     },
@@ -1610,7 +1613,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL5 = 5,
       D3BMTL6 = 5,
       D3BMTL7 = 5,
-      D3BMTL8 = 5,
       D3BMTL9 = 5,
       D3BMTL10 = 5,
 
@@ -1659,7 +1661,6 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
       D3BMTL5 = 5,
       D3BMTL6 = 5,
       D3BMTL7 = 5,
-      D3BMTL8 = 5,
       D3BMTL9 = 5,
       D3BMTL10 = 5,
 

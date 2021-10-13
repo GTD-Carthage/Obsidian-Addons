@@ -404,3 +404,30 @@ PREFABS.Wall_d3_tech_pockmarked_diag =
 
   bound_z2 = 80
 }
+
+--
+
+PREFABS.Wall_d3_tech_silverbottom_brown_lite =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP15",
+
+  group = "d3_tech_silverbottom_brown_lite",
+
+  height = 96,
+
+  bound_z2 = 96
+}
+
+PREFABS.Wall_d3_tech_silverbottom_brown_lite_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP15",
+
+  where = "diagonal",
+  group = "d3_tech_silverbottom_brown_lite",
+
+  height = 96,
+
+  bound_z2 = 96, 
+}
