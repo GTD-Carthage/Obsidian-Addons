@@ -383,7 +383,7 @@ PREFABS.Wall_d3_tech_mid_gap_lite_yellow_diag =
 PREFABS.Wall_d3_tech_pockmarked =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP13",
+  map = "MAP14",
 
   group = "d3_tech_pockmarked",
 
@@ -395,7 +395,7 @@ PREFABS.Wall_d3_tech_pockmarked =
 PREFABS.Wall_d3_tech_pockmarked_diag =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP14",
+  map = "MAP15",
 
   where = "diagonal",
   group = "d3_tech_pockmarked",
@@ -410,7 +410,7 @@ PREFABS.Wall_d3_tech_pockmarked_diag =
 PREFABS.Wall_d3_tech_silverbottom_brown_lite =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP15",
+  map = "MAP16",
 
   group = "d3_tech_silverbottom_brown_lite",
 
@@ -422,7 +422,7 @@ PREFABS.Wall_d3_tech_silverbottom_brown_lite =
 PREFABS.Wall_d3_tech_silverbottom_brown_lite_diag =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP15",
+  map = "MAP17",
 
   where = "diagonal",
   group = "d3_tech_silverbottom_brown_lite",
@@ -430,4 +430,31 @@ PREFABS.Wall_d3_tech_silverbottom_brown_lite_diag =
   height = 96,
 
   bound_z2 = 96, 
+}
+
+--
+
+PREFABS.Wall_d3_tech_flourescent_caution =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP18",
+
+  group = "d3_tech_flourescent_caution",
+
+  height = 128,
+
+  bound_z2 = 128, 
+}
+
+PREFABS.Wall_d3_tech_flourescent_caution_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP18",
+
+  where = "diagonal",
+  group = "d3_tech_flourescent_caution",
+
+  height = 128,
+
+  bound_z2 = 128, 
 }
