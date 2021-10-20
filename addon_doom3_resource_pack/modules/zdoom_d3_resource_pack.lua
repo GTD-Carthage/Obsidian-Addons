@@ -757,7 +757,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       --
       d3_tech_pockmarked = 35,
       --
-      d3_tech_silverbottom_brown_lite = 35
+      d3_tech_silverbottom_brown_lite = 35,
+      d3_tech_flourescent_caution = 35
     },
 
     outdoor_wall_groups =
@@ -888,7 +889,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       --
       d3_tech_pockmarked = 12,
       --
-      d3_tech_silverbottom_brown_lite = 12
+      d3_tech_silverbottom_brown_lite = 12,
+      d3_tech_flourescent_caution = 12
     },
 
     scenic_fences =
