@@ -738,15 +738,16 @@ DOOM3_RESOURCE_PACK.THEMES =
 
     wall_groups =
     {
-      d3_tech_bronze_light = 35,
-      d3_tech_green_tile_v_lite = 35,
-      d3_tech_silver_v_lite = 35,
-      d3_tech_red_light_cement = 35,
-      d3_tech_bronze_warn = 35,
+      d3_tech_bronze_light = 30,
+      d3_tech_green_tile_v_lite = 30,
+      d3_tech_silver_v_lite = 30,
+      d3_tech_red_light_cement = 30,
+      d3_tech_bronze_warn = 30,
       --
       d3_tech_comp_machine_light = 35,
       d3_tech_comp_tile = 35,
       d3_tech_comp_tile_cascade = 35,
+      d3_tech_green_monitor_rows = 35,
       --
       d3_tech_blue_machine_row = 35,
       --
@@ -876,9 +877,10 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_red_light_cement = 12,
       d3_tech_bronze_warn = 12,
       --
-      d3_tech_comp_machine_light = 12,
-      d3_tech_comp_tile = 12,
-      d3_tech_comp_tile_cascade = 12,
+      d3_tech_comp_machine_light = 10,
+      d3_tech_comp_tile = 10,
+      d3_tech_comp_tile_cascade = 10,
+      d3_tech_green_monitor_rows = 10,
       --
       d3_tech_blue_machine_row = 12,
       --

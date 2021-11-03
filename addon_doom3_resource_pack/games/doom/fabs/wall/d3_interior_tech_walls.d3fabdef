@@ -458,3 +458,36 @@ PREFABS.Wall_d3_tech_flourescent_caution_diag =
 
   bound_z2 = 128, 
 }
+
+--
+
+PREFABS.Wall_d3_tech_green_monitor_row =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP19",
+
+  group = "d3_tech_green_monitor_rows",
+
+  height = 96,
+
+  bound_z2 = 96, 
+
+  tex_D3MONTR1 = {D3MONTR1=1, D3MONTR2=1},
+  tex_D3DKCP4 = {D3DKCP4=1, D3DKCP5=1, D3DKCP9=2},
+  tex_D3DKCP5 = {D3DKCP4=1, D3DKCP5=1, D3DKCP9=2}
+}
+
+PREFABS.Wall_d3_tech_green_monitor_row_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP20",
+
+  group = "d3_tech_green_monitor_rows",
+  where = "diagonal",
+
+  height = 96,
+
+  bound_z2 = 96, 
+
+  tex_D3MONTR1 = {D3MONTR1=1, D3MONTR2=1}
+}
