@@ -449,7 +449,7 @@ PREFABS.Wall_d3_tech_flourescent_caution =
 PREFABS.Wall_d3_tech_flourescent_caution_diag =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP18",
+  map = "MAP19",
 
   where = "diagonal",
   group = "d3_tech_flourescent_caution",
@@ -464,7 +464,7 @@ PREFABS.Wall_d3_tech_flourescent_caution_diag =
 PREFABS.Wall_d3_tech_green_monitor_row =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP19",
+  map = "MAP20",
 
   group = "d3_tech_green_monitor_rows",
 
@@ -480,7 +480,7 @@ PREFABS.Wall_d3_tech_green_monitor_row =
 PREFABS.Wall_d3_tech_green_monitor_row_diag =
 {
   template = "Wall_d3_tech_bronze_light",
-  map = "MAP20",
+  map = "MAP21",
 
   group = "d3_tech_green_monitor_rows",
   where = "diagonal",
@@ -490,4 +490,31 @@ PREFABS.Wall_d3_tech_green_monitor_row_diag =
   bound_z2 = 96, 
 
   tex_D3MONTR1 = {D3MONTR1=1, D3MONTR2=1}
+}
+
+--
+
+PREFABS.Wall_d3_tech_door_thing_bronze_lite =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP22",
+
+  group = "d3_tech_door_thing_bronze_lite",
+
+  height = 120,
+
+  bound_z2 = 120
+}
+
+PREFABS.Wall_d3_tech_door_thing_bronze_lite_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP23",
+
+  group = "d3_tech_door_thing_bronze_lite",
+  where = "diagonal",
+
+  height = 120,
+
+  bound_z2 = 120
 }
