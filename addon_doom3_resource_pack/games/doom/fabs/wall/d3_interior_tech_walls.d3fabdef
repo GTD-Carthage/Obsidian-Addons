@@ -518,3 +518,30 @@ PREFABS.Wall_d3_tech_door_thing_bronze_lite_diag =
 
   bound_z2 = 120
 }
+
+--
+
+PREFABS.Wall_d3_tech_fried_chicken_lights =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP24",
+
+  group = "d3_fried_chicken_lights",
+
+  height = 112,
+
+  bound_z2 = 112
+}
+
+PREFABS.Wall_d3_tech_fried_chicken_lights_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP25",
+
+  group = "d3_fried_chicken_lights",
+  where = "diagonal",
+
+  height = 112,
+
+  bound_z2 = 112
+}
