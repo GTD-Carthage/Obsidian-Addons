@@ -762,7 +762,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_flourescent_caution = 35,
       --
       d3_tech_door_thing_bronze_lite = 30,
-      d3_fried_chicken_lights = 30
+      d3_fried_chicken_lights = 30,
+      d3_grid_light_green_bands = 30
     },
 
     outdoor_wall_groups =
@@ -898,7 +899,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_flourescent_caution = 12,
       --
       d3_tech_door_thing_bronze_lite = 15,
-      d3_fried_chicken_lights = 15
+      d3_fried_chicken_lights = 15,
+      d3_grid_light_green_bands = 15
     },
 
     scenic_fences =

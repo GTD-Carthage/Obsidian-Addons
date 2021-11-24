@@ -545,3 +545,30 @@ PREFABS.Wall_d3_tech_fried_chicken_lights_diag =
 
   bound_z2 = 112
 }
+
+--
+
+PREFABS.Wall_d3_grid_light_green_bands =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP26",
+
+  group = "d3_grid_light_green_bands",
+
+  height = 128,
+
+  bound_z2 = 128
+}
+
+PREFABS.Wall_d3_grid_light_green_bands_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP27",
+
+  group = "d3_grid_light_green_bands",
+  where = "diagonal",
+
+  height = 128,
+
+  bound_z2 = 128
+}
