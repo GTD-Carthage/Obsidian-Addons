@@ -572,3 +572,30 @@ PREFABS.Wall_d3_grid_light_green_bands_diag =
 
   bound_z2 = 128
 }
+
+--
+
+PREFABS.Wall_d3_tetromino_grate =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP28",
+
+  group = "d3_tetromino_grate",
+
+  height = 112,
+
+  bound_z2 = 112
+}
+
+PREFABS.Wall_d3_tetromino_grate_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP29",
+
+  group = "d3_tetromino_grate",
+  where = "diagonal",
+
+  height = 112,
+
+  bound_z2 = 112
+}
