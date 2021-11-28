@@ -186,7 +186,7 @@ PREFABS.Wall_tech_d3_cement_1 =
 
 --
 
-PREFABS.Wall_tech_d3_cement_1 =
+PREFABS.Wall_tech_d3_cement_2 =
 {
   template = "Wall_tech_d3_1",
   map = "MAP12",
@@ -194,4 +194,50 @@ PREFABS.Wall_tech_d3_cement_1 =
   group = "d3_tech_cement_2",
 
   tex_D3CEMNT4 = "D3CEMNT5"
+}
+
+--
+
+PREFABS.Wall_tech_d3_triple_green_frame_lite =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP13",
+
+  group = "d3_triple_green_frame_lite",
+
+  z_fit = "bottom"
+}
+
+--
+
+PREFABS.Wall_tech_d3_tall_window_lite =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP14",
+
+  group = "d3_tall_window_lite",
+
+  z_fit = { 116,118 }
+}
+
+--
+
+PREFABS.Wall_tech_d3_grey_banded_lite3 =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP15",
+
+  group = "d3_grey_banded_lite3",
+
+  z_fit = { 116,118 }
+}
+
+--
+
+PREFABS.Wall_tech_d3_round_lite_set =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP16",
+
+  group = "d3_round_lite_set"
 }

@@ -782,6 +782,10 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tech_grey_girder = 1,
       d3_tech_cement_1 = 1,
       d3_tech_cement_2 = 1,
+      d3_triple_green_frame_lite = 1,
+      d3_tall_window_lite = 1,
+      d3_grey_banded_lite3 = 1,
+      d3_round_lite_set = 1
     },
   },
 
