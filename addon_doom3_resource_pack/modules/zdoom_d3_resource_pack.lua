@@ -67,6 +67,12 @@ DOOM3_RESOURCE_PACK.MATERIALS =
   D3MTHUL8 = {t="D3MTHUL8", f="D3FLATB4"}, -- green plates
   D3MTSD1 = {t="D3MTSD1", f="D3FMETL6"}, -- green plates
 
+  -- lime green metal plates
+  D3GNMTL1 = {t="D3GNMTL1", f="D3FMETD4"},
+  D3GNMTL2 = {t="D3GNMTL2", f="D3FMETD5"},
+  D3GNMTL3 = {t="D3GNMTL3", f="D3FMETLE"},
+  D3GNMTL4 = {t="D3GNMTL4", f="D3FMETLF"},
+
   D3MTTIL1 = {t="D3MTTIL1", f="D3FMETL3"}, -- brown trimmy tech
   D3MTTIL2 = {t="D3MTTIL2", f="D3FMETL8"}, -- brown trimmy tech
   D3MTTIL3 = {t="D3MTTIL3", f="D3FMETL5"}, -- black tile metal
@@ -1674,6 +1680,147 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
       D3FLATB1 = 10,
   
+      D3BMTL0 = 5,
+      D3BMTL1 = 5,
+      D3BMTL2 = 5,
+      D3BMTL4 = 5,
+      D3BMTL5 = 5,
+      D3BMTL6 = 5,
+      D3BMTL7 = 5,
+      D3BMTL9 = 5,
+      D3BMTL10 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      CEIL4_1 = 20,
+      CEIL4_2 = 20,
+      CEIL4_3 = 20,
+      FLAT14 = 20,
+    }
+  },
+
+  tech_Doom3_lime_green_plates =
+  {
+    env = "building",
+    prob = 50,
+
+    walls =
+    {
+      D3GNMTL1 = 10,
+      D3GNMTL2 = 10,
+      D3GNMTL3 = 10,
+      D3GNMTL4 = 10
+    },
+
+    floors =
+    {
+      D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
+      D3FMETL1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL3 = 8,
+      D3FMETL4 = 8,
+      D3FMETL5 = 8,
+      D3FMETL7 = 8,
+      D3FMETL8 = 8,
+      D3FMETL9 = 8,
+
+      D3FTILE1 = 8,
+      D3FTILE2 = 8,
+      D3FTILE3 = 8,
+
+      D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+      D3FMETLG = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FLATB1 = 10,
+
+      D3BMTL0 = 5,
+      D3BMTL1 = 5,
+      D3BMTL2 = 5,
+      D3BMTL4 = 5,
+      D3BMTL5 = 5,
+      D3BMTL6 = 5,
+      D3BMTL7 = 5,
+      D3BMTL9 = 5,
+      D3BMTL10 = 5,
+
+      FLAT1 = 2,
+      FLAT18 = 2,
+      FLAT3 = 2,
+      FLOOR0_3 = 2,
+      FLOOR0_5 = 2,
+      FLOOR4_8 = 2,
+
+      FLOOR1_1 = 15,
+      CEIL4_1 = 15,
+      CEIL4_2 = 15,
+      CEIL4_3 = 15,
+      FLAT14 = 15,
+    },
+
+    ceilings =
+    {
+      D3FMETD1 = 8,
+      D3FMETD2 = 8,
+      D3FMETD3 = 8,
+      D3FMETD4 = 8,
+      D3FMETD5 = 8,
+
+      D3FMETL1 = 8,
+      D3FMETL2 = 8,
+      D3FMETL3 = 8,
+      D3FMETL4 = 8,
+      D3FMETL5 = 8,
+      D3FMETL7 = 8,
+      D3FMETL8 = 8,
+      D3FMETL9 = 8,
+
+      D3FTILE1 = 8,
+      D3FTILE2 = 8,
+      D3FTILE3 = 8,
+
+      D3TFLOR1 = 8,
+
+      D3FMETLA = 10,
+      D3FMETLB = 10,
+      D3FMETLC = 10,
+      D3FMETLD = 10,
+      D3FMETLE = 10,
+      D3FMETLF = 10,
+      D3FMETLG = 10,
+      D3FMETLH = 10,
+      D3FMETLI = 10,
+      D3FMETLJ = 10,
+
+      D3FRHEX1 = 10,
+      D3FRHEX2 = 10,
+      D3FRHEX3 = 10,
+
+      D3FLATB1 = 10,
+
       D3BMTL0 = 5,
       D3BMTL1 = 5,
       D3BMTL2 = 5,

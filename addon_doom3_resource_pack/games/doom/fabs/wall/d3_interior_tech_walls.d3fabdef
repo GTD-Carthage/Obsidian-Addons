@@ -620,10 +620,9 @@ PREFABS.Wall_d3_tech_grey_girder_lite_banded_diag =
   map = "MAP31",
 
   group = "d3_tech_grey_girder_lite_banded",
-  where = "diagonal"
+  where = "diagonal",
 
   height = 128,
 
   bound_z2 = 128
 }
-
