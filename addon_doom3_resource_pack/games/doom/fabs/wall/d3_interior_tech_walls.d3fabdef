@@ -599,3 +599,31 @@ PREFABS.Wall_d3_tetromino_grate_diag =
 
   bound_z2 = 112
 }
+
+--
+
+PREFABS.Wall_d3_tech_grey_girder_lite_banded =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP30",
+
+  group = "d3_tech_grey_girder_lite_banded",
+
+  height = 128,
+
+  bound_z2 = 128
+}
+
+PREFABS.Wall_d3_tech_grey_girder_lite_banded_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP31",
+
+  group = "d3_tech_grey_girder_lite_banded",
+  where = "diagonal"
+
+  height = 128,
+
+  bound_z2 = 128
+}
+
