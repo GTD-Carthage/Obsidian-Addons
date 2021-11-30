@@ -125,3 +125,31 @@ PREFABS.Decor_gtd_d3_blue_machine_row_point_2 =
 }
 
 --
+
+PREBABS.Decor_gtd_d3_fried_chicken_lite_pillar =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP07",
+
+  size = 88,
+  height = 128,
+
+  group = "d3_fried_chicken_lights",
+
+  bound_z2 = 128
+}
+
+--
+
+PREBABS.Decor_gtd_d3_grid_light_green_banded_pillar =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP08",
+
+  size = 80,
+  height = 96,
+
+  group = "d3_grid_light_green_bands",
+
+  bound_z2 = 96
+}
