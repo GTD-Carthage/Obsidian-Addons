@@ -126,7 +126,7 @@ PREFABS.Decor_gtd_d3_blue_machine_row_point_2 =
 
 --
 
-PREBABS.Decor_gtd_d3_fried_chicken_lite_pillar =
+PREFABS.Decor_gtd_d3_fried_chicken_lite_pillar =
 {
   template = "Decor_gtd_d3_comp_box_single",
   map = "MAP07",
@@ -141,7 +141,7 @@ PREBABS.Decor_gtd_d3_fried_chicken_lite_pillar =
 
 --
 
-PREBABS.Decor_gtd_d3_grid_light_green_banded_pillar =
+PREFABS.Decor_gtd_d3_grid_light_green_banded_pillar =
 {
   template = "Decor_gtd_d3_comp_box_single",
   map = "MAP08",
