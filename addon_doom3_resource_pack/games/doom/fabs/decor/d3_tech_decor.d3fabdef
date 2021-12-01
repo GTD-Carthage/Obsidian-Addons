@@ -153,3 +153,18 @@ PREFABS.Decor_gtd_d3_grid_light_green_banded_pillar =
 
   bound_z2 = 96
 }
+
+--
+
+PREFABS.Decor_gtd_tech_grey_girder_lite_point =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP09",
+
+  size = 68,
+  height = 104,
+
+  group = "d3_tech_grey_girder_lite_banded",
+
+  bound_z2 = 68,
+}
