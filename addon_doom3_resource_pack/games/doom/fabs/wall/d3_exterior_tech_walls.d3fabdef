@@ -241,3 +241,13 @@ PREFABS.Wall_tech_d3_round_lite_set =
 
   group = "d3_round_lite_set"
 }
+
+--
+
+PREFABS.Wall_tech_d3_brown_lite_grey_frame =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP17",
+
+  group = "d3_brown_lite_grey_frame"
+}
