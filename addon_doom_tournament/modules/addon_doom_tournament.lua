@@ -228,14 +228,27 @@ DOOM_TOURNAMENT.WEAPONS =
     ammo = "WarheadAmmo",
     give = { {ammo="WarheadAmmo", count=1} },
     per = 1
-  }
+  },
 
   -- This shouldn't be here? Of course it should!
   -- Play Seven Bullets, bruh.
-  --[[enhanced_shock_rifle =
+  enhanced_shock_rifle =
   {
+    pref = 40,
+    add_prob = 5,
+    hide_prob = 40,
+    level = 9,
 
-  }]]
+    actor_name = "EnhancedShockRifle",
+    attack = "hitscan",
+    damage = 1000,
+    rate = 0.9,
+    accuracy = 90,
+    ammo = "EnhancedShockAmmo",
+    give = { {ammo="EnhancedShockAmmo", count=50} },
+    bonus_ammo = 5,
+    per = 1
+  }
 }
 
 DOOM_TOURNAMENT.AMMO =
@@ -243,8 +256,8 @@ DOOM_TOURNAMENT.AMMO =
   enforcer_clip =
   {
     actor_name = "EClip",
-    add_prob = 20,
     kind = "ammo",
+    add_prob = 20,
     cluster = {2,5},
     give = { {ammo="MiniAmmo", count=5} }
   },
@@ -252,33 +265,52 @@ DOOM_TOURNAMENT.AMMO =
   minigun_ammo =
   {
     actor_name = "MiniAmmo",
+    kind = "ammo",
     rank = 2,
     add_prob = 40,
     closet_prob = 20,
     storage_prob = 20,
     storage_qty = 2,
-    kind = "ammo",
-    give = { {ammo="MiniAmmo", count=20} }
+    give = { {ammo="MiniAmmo", count=50} }
   },
 
   bio_ammo =
   {
     actor_name = "BioAmmo",
+    kind = "ammo",
     add_prob = 40,
     closet_prob = 20,
-    kind = "ammo",
     cluster = {1,2},
+    give = { {ammo="BioAmmo", count=25} }
+  },
+
+  bio_ammo_small =
+  {
+    actor_name = "BioAmmo2",
+    kind = "ammo",
+    add_prob = 20,
+    cluster = {2,3},
     give = { {ammo="BioAmmo", count=10} }
   },
 
   shock_core =
   {
     actor_name = "ShockAmmo",
+    kind = "ammo",
     add_prob = 40,
     closet_prob = 20,
+    cluster = {1,2},
+    give = { {ammo="ShockAmmo", count=10} }
+  },
+
+  shock_core_small =
+  {
+    actor_name = "ShockAmmo2",
     kind = "ammo",
+    add_prob = 20,
+    closet_prob = 20,
     cluster = {1,3},
-    give = { {ammo="ShockAmmo", count=5} }
+    give = { {ammo="ShockAmmo", count=3} }
   },
 
   pulse_battery =
@@ -313,14 +345,14 @@ DOOM_TOURNAMENT.AMMO =
     storage_prob = 20,
     storage_qty = 2,
     kind = "ammo",
-    give = { {ammo="FlakAmmo", count=5} }
+    give = { {ammo="FlakAmmo", count=10} }
   },
 
   flak_single =
   {
     actor_name = "FlakAmmo2",
     kind = "ammo",
-    add_prob = 40,
+    add_prob = 25,
     closet_prob = 20,
     cluster = {2,5},
     give = { {ammo="FlakAmmo", count=1} }
@@ -330,9 +362,9 @@ DOOM_TOURNAMENT.AMMO =
   {
     actor_name = "UTRocketAmmo2",
     kind = "ammo",
-    add_prob = 40,
+    add_prob = 25,
     closet_prob = 20,
-    cluster = {1,5},
+    cluster = {3,5},
     give = { {ammo="UTRocketAmmo", count=1} }
   },
 
@@ -345,8 +377,31 @@ DOOM_TOURNAMENT.AMMO =
     storage_prob = 20,
     storage_qty = 2,
     kind = "ammo",
-    cluster = {1,3},
-    give = { {ammo="UTRocketAmmo", count=3} }
+    give = { {ammo="UTRocketAmmo", count=12} }
+  },
+
+  rifle_shot =
+  {
+    actor_name = "RifleAmmo2",
+    add_prob = 20,
+    storage_prob = 20,
+    storage_qty = 5,
+    kind = "ammo",
+    cluster = {2,5},
+    give = { {ammo="RifleAmmo", count=1} }
+  },
+
+  rifle_box =
+  {
+    actor_name = "RifleAmmo",
+    add_prob = 40,
+    closet_prob = 20,
+    secret_prob = 5,
+    storage_prob = 20,
+    storage_qty = 2,
+    kind = "ammo",
+    cluster = {1,2},
+    give = { {ammo="RifleAmmo", count=10} }
   },
 
   redeemer_ammo =
@@ -359,6 +414,17 @@ DOOM_TOURNAMENT.AMMO =
     storage_qty = 1,
     kind = "ammo",
     give = { {ammo="WarheadAmmo", count=1} }
+  },
+
+  enhanced_shock_core =
+  {
+    actor_name = "EnhancedShockAmmo",
+    rank = 2,
+    add_prob = 5,
+    closet_prob = 5,
+    secret_prob = 5,
+    kind = "ammo",
+    give = { {ammo="EnhancedShockAmmo", count=5} }
   }
 }
 
