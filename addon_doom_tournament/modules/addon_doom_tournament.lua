@@ -41,7 +41,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   enforcer =
   {
-    pref = 1,
+    pref = 20,
     attack = "hitscan",
     rate = 1.4,
     damage = 17,
@@ -52,10 +52,10 @@ DOOM_TOURNAMENT.WEAPONS =
 
   double_enforcer =
   {
-    pref = 5,
+    pref = 40,
     add_prob = 50,
-    level = 1,
 
+    level = 1,
     actor_name = "Enforcer",
     upgrades = "enforcer",
     attack = "hitscan",
@@ -69,9 +69,9 @@ DOOM_TOURNAMENT.WEAPONS =
 
   bio_rifle =
   {
-    pref = 5,
+    pref = 20,
     add_prob = 50,
-    level = 1.8,
+    level = 1.2,
 
     actor_name = "BioRifle",
     attack = "missile",
@@ -87,7 +87,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   shock_rifle =
   {
-    pref = 5,
+    pref = 40,
     add_prob = 50,
     level = 1.3,
 
@@ -105,7 +105,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   pulse_rifle =
   {
-    pref = 5,
+    pref = 40,
     add_prob = 50,
     level = 2.5,
 
@@ -123,7 +123,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   ripper =
   {
-    pref = 5,
+    pref = 30,
     add_prob = 50,
     level = 2.5,
 
@@ -140,7 +140,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   minigun =
   {
-    pref = 6,
+    pref = 70,
     add_prob = 50,
     hide_prob = 10,
     level = 3,
@@ -160,7 +160,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   flak =
   {
-    pref = 5,
+    pref = 80,
     add_prob = 50,
     hide_prob = 10,
     level = 6,
@@ -179,7 +179,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   eightball =
   {
-    pref = 5,
+    pref = 70,
     add_prob = 50,
     level = 6,
 
@@ -188,15 +188,15 @@ DOOM_TOURNAMENT.WEAPONS =
     damage = 110,
     rate = 0.8,
     splash = {50, 25, 25},
-    ammo = "UT_RocketAmmo",
-    give = { {ammo="UT_RocketAmmo", count=6} },
+    ammo = "UTRocketAmmo",
+    give = { {ammo="UTRocketAmmo", count=6} },
     bonus_ammo = 3,
     per = 1
   },
 
-  sniperrifle =
+  sniper_rifle =
   {
-    pref = 5,
+    pref = 60,
     add_prob = 50,
     level = 5,
 
@@ -213,7 +213,7 @@ DOOM_TOURNAMENT.WEAPONS =
 
   redeemer =
   {
-    pref = 5,
+    pref = 10,
     add_prob = 50,
     hide_prob = 25,
     level = 8,
@@ -221,7 +221,8 @@ DOOM_TOURNAMENT.WEAPONS =
     actor_name = "WarheadLauncher",
     attack = "missile",
     damage = 1000,
-    splash = {1000, 1000, 1000, 1000, 1000},
+    splash = {1000, 1000, 1000, 1000,
+      500, 500, 500, 500},
     rate = 1,
     accuracy = 100,
     ammo = "WarheadAmmo",
@@ -352,7 +353,7 @@ DOOM_TOURNAMENT.AMMO =
   {
     actor_name = "WarheadAmmo",
     rank = 2,
-    add_prob = 20,
+    add_prob = 5,
     secret_prob = 5,
     storage_prob = 5,
     storage_qty = 1,
@@ -407,21 +408,26 @@ function DOOM_TOURNAMENT.setup()
   -- Doom health usage is assumed
   local p_tab = {}
   local old_p_tab = GAME.PICKUPS
-  table.name_up(old_p_tab)
+  --table.name_up(old_p_tab)
 
-  for _,pickup in pairs(old_p_tab) do
+  for name,pickup in pairs(old_p_tab) do
     if pickup.kind and pickup.kind ~= "ammo" then
-      p_tab[pickup.name] = pickup
+      p_tab[name] = pickup
     end
   end
 
   table.deep_merge(p_tab, ammo_tab, 3)
 
   GAME.PICKUPS = p_tab
-end
 
-function DOOM_TOURNAMENT.prepare_stats()
-
+  -- remove vanilla weapon pickup references from monsters
+  local M = GAME.MONSTERS
+  for _,mon in pairs(M) do
+    if mon.give then mon.give = nil end
+    if mon.weap_prefs then mon.weap_prefs = nil end
+    if mon.weap_needed then mon.weap_needed = nil end
+  end
+  GAME.MONSTERS = M
 end
 
 
@@ -437,6 +443,5 @@ OB_MODULES["DOOM_TOURNAMENT"] =
   hooks =
   {
     setup = DOOM_TOURNAMENT.setup,
-    begin_level = DOOM_TOURNAMENT.prepare_stats
   }
 }
