@@ -445,19 +445,21 @@ function DOOM_TOURNAMENT.setup()
   local weap_tab = DOOM_TOURNAMENT.WEAPONS
   local ammo_tab = DOOM_TOURNAMENT.AMMO
 
+  -- Doom Tournament actors have no DoomEdNums, so they
+  -- are generated here instead
   for _,weapon in pairs(weap_tab) do
     if weapon.actor_name then
       weapon.id = id_start
+      doomednum_string = doomednum_string .. "  " .. id_start .. " = " .. weapon.actor_name .. "\n"
       id_start = id_start + 1
-      doomednum_string = doomednum_string .. id_start .. " = " .. weapon.actor_name .. "\n"
     end
   end
 
   for _,ammo in pairs(ammo_tab) do
     if ammo.actor_name then
       ammo.id = id_start
+      doomednum_string = doomednum_string .. "  " .. id_start .. " = " .. ammo.actor_name .. "\n"
       id_start = id_start + 1
-      doomednum_string = doomednum_string .. id_start .. " = " .. ammo.actor_name .. "\n"
     end
   end
 
@@ -494,6 +496,19 @@ function DOOM_TOURNAMENT.setup()
     if mon.weap_needed then mon.weap_needed = nil end
   end
   GAME.MONSTERS = M
+
+  
+  -- fix quantities brought by Doom backpack
+  GAME.NICE_ITEMS["backpack"].give = {
+    {ammo = "MiniAmmo", count = 25},
+    {ammo = "BioAmmo", count = 15},
+    {ammo = "ShockAmmo", count = 5},
+    {ammo = "PulseAmmo", count = 10},
+    {ammo = "RipperAmmo", count = 5},
+    {ammo = "FlakAmmo", count = 5},
+    {ammo = "UTRocketAmmo", count = 6},
+    {ammo = "RifleAmmo", count = 5}
+  }
 end
 
 
