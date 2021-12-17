@@ -279,7 +279,7 @@ DOOM_TOURNAMENT.AMMO =
     actor_name = "BioAmmo",
     kind = "ammo",
     add_prob = 40,
-    closet_prob = 20,
+    closet_prob = 10,
     cluster = {1,2},
     give = { {ammo="BioAmmo", count=25} }
   },
@@ -353,7 +353,6 @@ DOOM_TOURNAMENT.AMMO =
     actor_name = "FlakAmmo2",
     kind = "ammo",
     add_prob = 25,
-    closet_prob = 20,
     cluster = {2,5},
     give = { {ammo="FlakAmmo", count=1} }
   },
@@ -363,7 +362,6 @@ DOOM_TOURNAMENT.AMMO =
     actor_name = "UTRocketAmmo2",
     kind = "ammo",
     add_prob = 25,
-    closet_prob = 20,
     cluster = {3,5},
     give = { {ammo="UTRocketAmmo", count=1} }
   },
@@ -445,6 +443,7 @@ function DOOM_TOURNAMENT.setup()
   local weap_tab = DOOM_TOURNAMENT.WEAPONS
   local ammo_tab = DOOM_TOURNAMENT.AMMO
 
+
   -- Doom Tournament actors have no DoomEdNums, so they
   -- are generated here instead
   for _,weapon in pairs(weap_tab) do
@@ -471,6 +470,7 @@ function DOOM_TOURNAMENT.setup()
 
   GAME.WEAPONS = weap_tab
 
+
   -- remove only the ammo pickups from 
   -- the default table since
   -- Doom health usage is assumed
@@ -488,6 +488,7 @@ function DOOM_TOURNAMENT.setup()
 
   GAME.PICKUPS = p_tab
 
+
   -- remove vanilla weapon pickup references from monsters
   local M = GAME.MONSTERS
   for _,mon in pairs(M) do
@@ -497,7 +498,7 @@ function DOOM_TOURNAMENT.setup()
   end
   GAME.MONSTERS = M
 
-  
+
   -- fix quantities brought by Doom backpack
   GAME.NICE_ITEMS["backpack"].give = {
     {ammo = "MiniAmmo", count = 25},
