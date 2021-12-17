@@ -48,8 +48,12 @@ function NO_SECRET_AMMO_MODULE.begin_level()
   end
 
   if PARAM.bool_remove_medkits == 1 then
-    GAME.PICKUPS["medikit"].closet_prob = 0
-    GAME.PICKUPS["medikit"].secret_prob = 0
+    for _,item in pairs(GAME.PICKUPS) do
+      if item.kind == "health" then
+        if item.closet_prob then item.closet_prob = 0 end
+        if item.secret_prob then item.secret_prob = 0 end
+      end
+    end
   end
 end
 
