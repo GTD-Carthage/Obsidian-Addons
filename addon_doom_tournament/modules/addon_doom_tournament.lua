@@ -96,7 +96,7 @@ DOOM_TOURNAMENT.WEAPONS =
     damage = 51,
     rate = 0.9,
     accuracy = 90,
-    splash = { 25, 25 },
+    splash = { 25 },
     ammo = "ShockAmmo",
     give = { {ammo="ShockAmmo", count=20} },
     bonus_ammo = 5,
@@ -107,14 +107,14 @@ DOOM_TOURNAMENT.WEAPONS =
   {
     pref = 40,
     add_prob = 50,
-    level = 2.5,
+    level = 2,
 
     id = 1340,
     actor_name = "PulseGun",
     attack = "missile",
     damage = 20,
     rate = 5,
-    accuracy = 75,
+    accuracy = 60, -- low accuracy due to slow projectile and low altfire range
     ammo = "PulseAmmo",
     give = { {ammo="PulseAmmo", count=60 } },
     bonus_ammo = 15,
@@ -143,7 +143,7 @@ DOOM_TOURNAMENT.WEAPONS =
     pref = 70,
     add_prob = 50,
     hide_prob = 10,
-    level = 3,
+    level = 4,
 
     upgrades = "double_enforcer",
 
@@ -163,7 +163,7 @@ DOOM_TOURNAMENT.WEAPONS =
     pref = 80,
     add_prob = 50,
     hide_prob = 10,
-    level = 6,
+    level = 7,
 
     actor_name = "FlakCannon",
     attack = "missile",
@@ -181,7 +181,7 @@ DOOM_TOURNAMENT.WEAPONS =
   {
     pref = 70,
     add_prob = 50,
-    level = 6,
+    level = 7,
 
     actor_name = "UTRocketLauncher",
     attack = "missile",
@@ -214,9 +214,9 @@ DOOM_TOURNAMENT.WEAPONS =
   redeemer =
   {
     pref = 10,
-    add_prob = 50,
-    hide_prob = 25,
-    level = 8,
+    add_prob = 10,
+    hide_prob = 30,
+    level = 9,
 
     actor_name = "WarheadLauncher",
     attack = "missile",
@@ -228,26 +228,30 @@ DOOM_TOURNAMENT.WEAPONS =
     ammo = "WarheadAmmo",
     give = { {ammo="WarheadAmmo", count=1} },
     per = 1
-  },
+  }
+}
 
+DOOM_TOURNAMENT.NICE_ITEMS =
+{
   -- This shouldn't be here? Of course it should!
   -- Play Seven Bullets, bruh.
   enhanced_shock_rifle =
   {
-    pref = 40,
-    add_prob = 5,
-    hide_prob = 40,
+    actor_name = "EnhancedShockRifle",
+    kind = "powerup",
+    pref = 10,
+    add_prob = 2,
+    secret_prob = 20,
     level = 9,
 
-    actor_name = "EnhancedShockRifle",
-    attack = "hitscan",
+    --[[attack = "hitscan",
     damage = 1000,
     rate = 0.9,
     accuracy = 90,
     ammo = "EnhancedShockAmmo",
     give = { {ammo="EnhancedShockAmmo", count=50} },
     bonus_ammo = 5,
-    per = 1
+    per = 1]]
   }
 }
 
@@ -271,6 +275,7 @@ DOOM_TOURNAMENT.AMMO =
     closet_prob = 20,
     storage_prob = 20,
     storage_qty = 2,
+    cluster = { 1,2 },
     give = { {ammo="MiniAmmo", count=50} }
   },
 
@@ -398,7 +403,7 @@ DOOM_TOURNAMENT.AMMO =
     storage_prob = 20,
     storage_qty = 2,
     kind = "ammo",
-    cluster = {1,2},
+    cluster = {1,3},
     give = { {ammo="RifleAmmo", count=10} }
   },
 
@@ -406,24 +411,25 @@ DOOM_TOURNAMENT.AMMO =
   {
     actor_name = "WarheadAmmo",
     rank = 2,
-    add_prob = 5,
+    add_prob = 2,
     secret_prob = 5,
-    storage_prob = 5,
+    storage_prob = 2,
     storage_qty = 1,
     kind = "ammo",
     give = { {ammo="WarheadAmmo", count=1} }
   },
 
-  enhanced_shock_core =
+  --[[enhanced_shock_core =
   {
     actor_name = "EnhancedShockAmmo",
     rank = 2,
-    add_prob = 5,
+    add_prob = 2,
     closet_prob = 5,
-    secret_prob = 5,
+    secret_prob = 1,
     kind = "ammo",
+    cluster = {2,5},
     give = { {ammo="EnhancedShockAmmo", count=5} }
-  }
+  }]]
 }
 
 DOOM_TOURNAMENT.PLAYER_MODEL =
@@ -442,6 +448,7 @@ function DOOM_TOURNAMENT.setup()
   local doomednum_string = ""
   local weap_tab = DOOM_TOURNAMENT.WEAPONS
   local ammo_tab = DOOM_TOURNAMENT.AMMO
+  local nice_tab = DOOM_TOURNAMENT.NICE_ITEMS
 
 
   -- Doom Tournament actors have no DoomEdNums, so they
@@ -458,6 +465,14 @@ function DOOM_TOURNAMENT.setup()
     if ammo.actor_name then
       ammo.id = id_start
       doomednum_string = doomednum_string .. "  " .. id_start .. " = " .. ammo.actor_name .. "\n"
+      id_start = id_start + 1
+    end
+  end
+
+  for _,NI in pairs(nice_tab) do
+    if NI.actor_name then
+      NI.id = id_start
+      doomednum_string = doomednum_string .. "  " .. id_start .. " = " .. NI.actor_name .. "\n"
       id_start = id_start + 1
     end
   end
@@ -510,6 +525,8 @@ function DOOM_TOURNAMENT.setup()
     {ammo = "UTRocketAmmo", count = 6},
     {ammo = "RifleAmmo", count = 5}
   }
+
+  table.deep_merge(GAME.NICE_ITEMS, nice_tab, 3)
 end
 
 
