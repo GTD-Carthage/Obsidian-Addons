@@ -2006,7 +2006,7 @@ DOOM3_RESOURCE_PACK.ROOM_THEMES =
 
   tech_Doom3_flesh_forge =
   {
-    prob = 35,
+    prob = 15,
     env = "building",
 
     theme_override = "deimos",
