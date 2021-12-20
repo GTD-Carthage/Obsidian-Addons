@@ -222,8 +222,8 @@ DOOM_TOURNAMENT.WEAPONS =
     attack = "missile",
     damage = 1000,
     splash = {1000, 1000, 1000, 1000,
-      500, 500, 500, 500},
-    rate = 1,
+      1000, 1000, 1000, 1000},
+    rate = 0.25,
     accuracy = 100,
     ammo = "WarheadAmmo",
     give = { {ammo="WarheadAmmo", count=1} },
@@ -515,16 +515,18 @@ function DOOM_TOURNAMENT.setup()
 
 
   -- fix quantities brought by Doom backpack
-  GAME.NICE_ITEMS["backpack"].give = {
-    {ammo = "MiniAmmo", count = 25},
-    {ammo = "BioAmmo", count = 15},
-    {ammo = "ShockAmmo", count = 5},
-    {ammo = "PulseAmmo", count = 10},
-    {ammo = "RipperAmmo", count = 5},
-    {ammo = "FlakAmmo", count = 5},
-    {ammo = "UTRocketAmmo", count = 6},
-    {ammo = "RifleAmmo", count = 5}
-  }
+  if GAME.NICE_ITEMS["backpack"] then
+    GAME.NICE_ITEMS["backpack"].give = {
+      {ammo = "MiniAmmo", count = 25},
+      {ammo = "BioAmmo", count = 15},
+      {ammo = "ShockAmmo", count = 5},
+      {ammo = "PulseAmmo", count = 10},
+      {ammo = "RipperAmmo", count = 5},
+      {ammo = "FlakAmmo", count = 5},
+      {ammo = "UTRocketAmmo", count = 6},
+      {ammo = "RifleAmmo", count = 5}
+    }
+  end
 
   table.deep_merge(GAME.NICE_ITEMS, nice_tab, 3)
 end
