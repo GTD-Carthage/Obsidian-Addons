@@ -237,11 +237,13 @@ DOOM_TOURNAMENT.NICE_ITEMS =
   -- Play Seven Bullets, bruh.
   enhanced_shock_rifle =
   {
+    name = "enhanced_shock_rifle",
     actor_name = "EnhancedShockRifle",
     kind = "powerup",
     pref = 10,
-    add_prob = 2,
-    secret_prob = 20,
+    add_prob = 8,
+    secret_prob = 40,
+    storage_prob = 5,
     level = 9,
 
     --[[attack = "hitscan",
@@ -313,7 +315,6 @@ DOOM_TOURNAMENT.AMMO =
     actor_name = "ShockAmmo2",
     kind = "ammo",
     add_prob = 20,
-    closet_prob = 20,
     cluster = {1,3},
     give = { {ammo="ShockAmmo", count=3} }
   },
