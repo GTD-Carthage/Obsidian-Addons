@@ -15,5 +15,17 @@ PREFABS.Pic_d3_tech_silverbottom_brown_lite_1 =
   deep   =  16,
 
   x_fit = "frame",
-  y_fit = "top",
+  y_fit = "top"
+}
+
+PREFABS.Pic_d3_tech_blue_machine_row =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map    = "MAP02",
+
+  group = "d3_tech_blue_machine_row",
+  
+  height = 112,
+
+  x_fit = { 92,164 }
 }
