@@ -1,6 +1,6 @@
 PREFABS.Pic_d3_tech_silverbottom_brown_lite_1 =
 {
-  file   = "picture/pic_box_d3.wad",
+  file   = "picture/pic_gtd_d3_tech_groups.wad",
   map    = "MAP01",
 
   prob  = 100,
