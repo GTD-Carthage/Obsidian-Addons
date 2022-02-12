@@ -29,3 +29,31 @@ PREFABS.Pic_d3_tech_blue_machine_row =
 
   x_fit = { 92,164 }
 }
+
+PREFABS.Pic_d3_grid_light_green_bands =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map    = "MAP03",
+
+  group = "d3_grid_light_green_bands",
+  
+  height = 128,
+
+  x_fit = { 68,188 },
+  z_fit = { 110,112 },
+
+  bound_z1 = 0,
+  bound_z2 = 128
+}
+
+PREFABS.Pic_d3_tech_door_thing_bronze_lite =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP04",
+
+  group = "d3_tech_door_thing_bronze_lite",
+
+  height = 120,
+
+  x_fit = { 36,52 , 204,220 }
+}
