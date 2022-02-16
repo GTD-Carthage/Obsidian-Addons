@@ -1,5 +1,5 @@
 # Obsidian-Addons
-An assortment of personal addons for Obsidian Level Generator.
+An assortment of addons for Obsidian Level Generator.
 
 ### Barebones Shape Grammar
 An addon containing an extremely simple shape grammar to use as a basis for learning about the grammar system and creating your own. Maps will essentially be
