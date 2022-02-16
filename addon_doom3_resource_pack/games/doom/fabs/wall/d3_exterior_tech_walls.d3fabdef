@@ -251,3 +251,39 @@ PREFABS.Wall_tech_d3_brown_lite_grey_frame =
 
   group = "d3_brown_lite_grey_frame"
 }
+
+--
+
+PREFABS.Wall_tech_d3_4 =
+{
+  template = "Wall_tech_d3_1"
+  map = "MAP18",
+
+  group = "d3_binary_lite_top_vent"
+}
+
+--
+
+PREFABS.Wall_tech_d4_5 =
+{
+  template = "Wall_tech_d3_1"
+  map = "MAP19",
+
+  group = "d3_brown_scaffold_double_lite_inset"
+}
+
+--
+
+PREFABS.Wall_tech_d4_6 =
+{
+  template = "Wall_tech_d3_1"
+  map = "MAP19",
+
+  group = "d3_small_round_door_n_grate_inset",
+
+  tex_D3DOORW6 =
+  {
+    D3DOORW6 = 3,
+    D3GYHL6 = 10,
+  }
+}
