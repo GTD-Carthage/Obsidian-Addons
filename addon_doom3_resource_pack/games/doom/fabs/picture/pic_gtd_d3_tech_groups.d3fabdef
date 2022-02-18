@@ -57,3 +57,15 @@ PREFABS.Pic_d3_tech_door_thing_bronze_lite =
 
   x_fit = { 36,52 , 204,220 }
 }
+
+PREFABS.Pic_d3_tetromino_grate =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP05",
+
+  group = "d3_tetromino_grate",
+
+  height = 112,
+
+  x_fit = { 80,104 , 152,176 }
+}

@@ -168,3 +168,18 @@ PREFABS.Decor_gtd_tech_grey_girder_lite_point =
 
   bound_z2 = 68,
 }
+
+--
+
+PREFABS.Decor_d3_tetromino_grate =
+{
+  template = "Decor_gtd_d3_comp_box_single",
+  map = "MAP10",
+
+  size = 88,
+  height = 112,
+
+  group = "d3_tetromino_grate",
+
+  bound_z2 = 112,
+}

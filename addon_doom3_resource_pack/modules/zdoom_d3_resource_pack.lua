@@ -793,7 +793,10 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tall_window_lite = 1,
       d3_grey_banded_lite3 = 1,
       d3_round_lite_set = 1,
-      d3_brown_lite_grey_frame = 1
+      d3_brown_lite_grey_frame = 1,
+      d3_binary_lite_top_vent = 1,
+      d3_brown_scaffold_double_lite_inset = 1,
+      d3_small_round_door_n_grate_inset = 1
     },
   },
 
