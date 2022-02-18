@@ -526,7 +526,7 @@ SPROUT_TELEPORTER_1x1 =
   },
 },
 
-SQUARE_OUT_FROM_CORNER_2X =
+SQUARE_OUT =
 {
   pass = "square_out",
 
@@ -534,8 +534,8 @@ SQUARE_OUT_FROM_CORNER_2X =
 
   structure =
   {
-    "1.","11",
-    "x1","x1",
+    ".",".",
+    "1","1",
   },
 },
 
