@@ -14,7 +14,7 @@ PREFABS.Pic_d3_tech_silverbottom_brown_lite_1 =
   height = 136,
   deep   =  16,
 
-  x_fit = "frame",
+  x_fit = { 120,136 },
   y_fit = "top"
 }
 
