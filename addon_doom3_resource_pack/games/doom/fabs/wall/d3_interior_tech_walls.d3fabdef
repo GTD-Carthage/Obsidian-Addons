@@ -626,3 +626,30 @@ PREFABS.Wall_d3_tech_grey_girder_lite_banded_diag =
 
   bound_z2 = 128
 }
+
+--
+
+PREFABS.Wall_d3_tech_blue_banding =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP32",
+
+  group = "d3_tech_blue_banding",
+
+  height = 128,
+
+  bound_z2 = 128
+}
+
+PREFABS.Wall_d3_tech_blue_banding_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP33",
+
+  group = "d3_tech_blue_banding",
+  where = "diagonal",
+
+  height = 128,
+
+  bound_z2 = 128
+}
