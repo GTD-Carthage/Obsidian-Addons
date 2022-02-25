@@ -69,3 +69,51 @@ PREFABS.Pic_d3_tetromino_grate =
 
   x_fit = { 80,104 , 152,176 }
 }
+
+PREFABS.Pic_d3_tech_comp_tile_cascade =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP06",
+
+  group = "d3_tech_comp_tile_cascade",
+
+  height = 128,
+
+  tex_D3BRCP5 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1
+  },
+
+  tex_D3DKCP1 =
+  {
+    D3BRCP1 = 1,
+    D3BRCP2 = 1,
+    D3BRCP3 = 1,
+    D3BRCP4 = 1,
+    D3BRCP5 = 1,
+    D3DKCP1 = 1,
+    D3DKCP2 = 1,
+    D3DKCP3 = 1,
+    D3DKCP4 = 1,
+    D3DKCP5 = 1,
+    D3DKCP6 = 1,
+    D3DKCP7 = 1,
+    D3DKCP8 = 1,
+    D3DKCP9 = 1
+  },
+
+  x_fit = { 68,188 }
+}
