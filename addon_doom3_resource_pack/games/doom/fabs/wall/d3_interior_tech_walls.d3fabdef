@@ -653,3 +653,30 @@ PREFABS.Wall_d3_tech_blue_banding_diag =
 
   bound_z2 = 128
 }
+
+--
+
+PREFABS.Wall_d3_tech_brown_cantilever =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP34",
+
+  group = "d3_tech_brown_cantilever",
+
+  height = 128,
+
+  bound_z2 = 128
+}
+
+PREFABS.Wall_d3_tech_brown_cantilever_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP35",
+
+  group = "d3_tech_brown_cantilever",
+  where = "diagonal",
+
+  height = 128,
+
+  bound_z2 = 128
+}
