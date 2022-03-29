@@ -277,7 +277,7 @@ PREFABS.Wall_tech_d4_5 =
 PREFABS.Wall_tech_d4_6 =
 {
   template = "Wall_tech_d3_1",
-  map = "MAP19",
+  map = "MAP20",
 
   group = "d3_small_round_door_n_grate_inset",
 
@@ -286,4 +286,16 @@ PREFABS.Wall_tech_d4_6 =
     D3DOORW6 = 3,
     D3GYHL6 = 10,
   }
+}
+
+-- 
+
+PREFABS.Wall_tech_d4_orange_white_stripe_lite =
+{
+  template = "Wall_tech_d3_1",
+  map = "MAP21",
+
+  group = "d4_orange_white_stripe_lite",
+
+  z_fit = { 103,106 }
 }
