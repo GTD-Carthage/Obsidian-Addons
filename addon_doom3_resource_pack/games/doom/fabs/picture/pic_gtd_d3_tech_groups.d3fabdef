@@ -165,3 +165,33 @@ PREFABS.Pic_d3_tech_pockmarked =
 
   x_fit = { 24,56 , 200,232 }
 }
+
+PREFABS.Pic_d3_tech_bronze_light =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP07",
+
+  rank = 1,
+  group = "d3_tech_bronze_light",
+
+  height = 136,
+
+  x_fit = "frame",
+}
+
+PREFABS.Pic_d3_tech_bronze_light_2 =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP07",
+
+  rank = 2,
+  group = "d3_tech_bronze_light",
+
+  seed_w = 3,
+  height = 136,
+
+  x_fit = "frame",
+
+  sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
+}
+
