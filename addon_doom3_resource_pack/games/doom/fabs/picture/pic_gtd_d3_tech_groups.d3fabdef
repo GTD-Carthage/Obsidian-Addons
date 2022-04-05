@@ -199,7 +199,7 @@ PREFABS.Pic_d3_tech_bronze_light_2 =
 
 --
 
-PREFABS.Pic =
+PREFABS.Pic_d3_tech_silver_v_lite =
 {
   template = "Pic_d3_tech_silverbottom_brown_lite_1",
   map = "MAP10",
@@ -208,6 +208,23 @@ PREFABS.Pic =
 
   seed_w = 2,
   height = 128,
+
+  x_fit = nil,
+
+  sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
+}
+
+--
+
+PREFABS.Pic_d3_tech_comp_machine_light =
+{
+  template = "Pic_d3_tech_silverbottom_brown_lite_1",
+  map = "MAP11",
+
+  group = "d3_tech_comp_machine_light",
+
+  seed_w = 2,
+  height = 112,
 
   x_fit = nil,
 
