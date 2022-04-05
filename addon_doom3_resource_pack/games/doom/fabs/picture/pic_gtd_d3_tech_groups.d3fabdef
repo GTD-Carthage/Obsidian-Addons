@@ -209,7 +209,7 @@ PREFABS.Pic_d3_tech_silver_v_lite =
   seed_w = 2,
   height = 128,
 
-  x_fit = nil,
+  x_fit = false,
 
   sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
 }
@@ -226,7 +226,7 @@ PREFABS.Pic_d3_tech_comp_machine_light =
   seed_w = 2,
   height = 112,
 
-  x_fit = nil,
+  x_fit = { 88,168 },
 
   sector_1 = {[0]=17, [1]=1, [2]=1, [17]=1}
 }
