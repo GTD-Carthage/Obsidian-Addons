@@ -74,9 +74,9 @@ PREFABS.Wall_d3_tech_comp_machine_light =
 
   group = "d3_tech_comp_machine_light",
 
-  height = 96,
+  height = 104,
 
-  bound_z2 = 96,
+  bound_z2 = 104,
 
   tex_D3METCP2 =
   {

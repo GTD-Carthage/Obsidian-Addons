@@ -224,7 +224,7 @@ PREFABS.Pic_d3_tech_comp_machine_light =
   group = "d3_tech_comp_machine_light",
 
   seed_w = 2,
-  height = 112,
+  height = 104,
 
   x_fit = { 88,168 },
 
