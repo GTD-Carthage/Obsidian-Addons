@@ -5,8 +5,8 @@ An assortment of addons for Obsidian Level Generator.
 An addon containing an extremely simple shape grammar to use as a basis for learning about the grammar system and creating your own. Maps will essentially be
 a series of identical and directly connected squares.
 
-### Doom 3 Resource Pack
-An addon containing various new textures, prefabs, and themes based on Craneo's Doom 3 texture conversion for Doom. https://forum.zdoom.org/viewtopic.php?f=46&t=72353
+### Delta Resource Pack
+An addon containing various new textures, prefabs, and themes based on hidfan's Doom 3 texture rips Craneo's Doom 3 texture conversion for Doom.
 
 ### Realm 667 Monsters and Weapons Modules
 An update to the module for mridlen's Oblige Realm667 Monsters and Weapons addon making it compatible with Lua 5.4/Obsidian. You will still need the Realm667.pk3 and Realm667_weapons.pk3 files from his repository at https://github.com/mridlen/Oblige_Realm667_Mod
