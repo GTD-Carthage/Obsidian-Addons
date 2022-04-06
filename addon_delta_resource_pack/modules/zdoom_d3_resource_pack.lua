@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------
---  MODULE: Doom 3 Resource Pack
+--  MODULE: Delta Obsidian Resource Pack
 ------------------------------------------------------------------------
 --
 --  Copyright (C) 2021 MsrSgtShooterPerson
@@ -3728,7 +3728,7 @@ OB_MODULES["DOOM3_RESOURCE_PACK"] =
 
   name = "DOOM3_RESOURCE_PACK",
 
-  label = _("ZDoom: Doom 3 Resource Pack"),
+  label = _("ZDoom: Delta Resource Pack"),
 
   side = "left",
   priority = 74,
