@@ -780,7 +780,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tetromino_grate = 30,
       d3_tech_grey_girder_lite_banded = 30,
       d3_tech_blue_banding = 30,
-      d3_tech_brown_cantilever = 30
+      d3_tech_brown_cantilever = 30,
+      d3_tech_brown_girder = 30
     },
 
     outdoor_wall_groups =
@@ -957,7 +958,8 @@ DOOM3_RESOURCE_PACK.THEMES =
       d3_tetromino_grate = 15,
       d3_tech_grey_girder_lite_banded = 15,
       d3_tech_blue_banding = 15,
-      d3_tech_brown_cantilever = 15
+      d3_tech_brown_cantilever = 15,
+      d3_tech_brown_girder = 15
     },
 
     scenic_fences =

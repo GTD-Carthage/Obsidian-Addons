@@ -680,3 +680,32 @@ PREFABS.Wall_d3_tech_brown_cantilever_diag =
 
   bound_z2 = 128
 }
+
+--#
+
+PREFABS.Wall_d3_tech_brown_girder =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP36",
+
+  group = "d3_tech_brown_girder",
+  
+  height = 96,
+  bound_z2 = 96,
+
+  z_fit = "top"
+}
+
+PREFABS.Wall_d3_tech_brown_girder_diag =
+{
+  template = "Wall_d3_tech_bronze_light",
+  map = "MAP37",
+
+  group = "d3_tech_brown_girder",
+  where = "diagonal",
+  
+  height = 96,
+  bound_z2 = 96,
+
+  z_fit = "top"
+}
