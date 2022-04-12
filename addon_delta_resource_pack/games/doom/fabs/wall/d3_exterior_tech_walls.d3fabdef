@@ -112,7 +112,7 @@ PREFABS.Wall_tech_d3_brown_girder =
   template = "Wall_tech_d3_1",
   map = "MAP06",
 
-  group = "d3_tech_brown_girder",
+  group = "d3_tech_o_brown_girder",
 }
 
 --
