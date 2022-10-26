@@ -40,7 +40,7 @@ PREFABS.Pic_d3_machine_comp_double =
   template = "Pic_d3_machine_1",
   map = "MAP04",
 
-  engine = "zdoom"
+  port = "zdoom"
 }
 
 PREFABS.Pic_d3_machine_comp_triple =
@@ -48,7 +48,7 @@ PREFABS.Pic_d3_machine_comp_triple =
   template = "Pic_d3_machine_1",
   map = "MAP05",
 
-  engine = "zdoom",
+  port = "zdoom",
 
   seed_w = 3
 }

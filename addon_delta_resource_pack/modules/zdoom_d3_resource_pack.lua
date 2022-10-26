@@ -3735,7 +3735,7 @@ OB_MODULES["DOOM3_RESOURCE_PACK"] =
   side = "left",
   priority = 74,
 
-  engine = "zdoom",
+  port = "zdoom",
 
   game = "doomish",
 

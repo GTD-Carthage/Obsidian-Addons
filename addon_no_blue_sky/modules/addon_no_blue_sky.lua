@@ -35,7 +35,7 @@ OB_MODULES["NO_BLUE_SKY"] =
   side = "left",
   priority = 94,
 
-  engine = "zdoom",
+  port = "zdoom",
 
   game = "doomish",
 

@@ -51,7 +51,7 @@ PREFABS.Wall_d3_hell_tablets =
   map = "MAP03",
 
   rank = 2,
-  engine = "zdoom",
+  port = "zdoom",
   prob = 50,
 
   where = "edge",
