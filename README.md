@@ -19,7 +19,8 @@ An addon that causes levels to completely have different room themes per room, i
 
 # Installation Steps
 * Download the repository.
-* Zip the contents of the addon folder you wish to use. (for example, zip the contents of the Doom 3 Resource Pack folder into `d3_resource_pack.pk3`)
+* Zip the contents of the addon folder you wish to use. (for example, zip the contents of the Doom 3 Resource Pack folder into `d3_resource_pack.oaf`)
+* The *.oaf extension is required to distinguish other package files from Obsidian addons but they are all structurally the same (ZIP files)
 * Place the resulting archive into Obsidian's addon folder.
 * Activate the addon from the Addon List (under File menu or shortcut F3) in Obsidian.
 * Look for the addon module among the panels and activate the checkbox. More options will appear on certain addons modules when checked.
