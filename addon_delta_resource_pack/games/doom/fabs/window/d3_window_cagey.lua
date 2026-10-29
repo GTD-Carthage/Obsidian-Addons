@@ -16,7 +16,7 @@ PREFABS.Window_d3_cagey_1 =
   z_fit = "top",
 
   bound_z1 = 0,
-  bound_z2 = 96,
+  bound_z2 = 96
 }
 
 PREFABS.Window_d3_cagey_2 =
@@ -24,7 +24,7 @@ PREFABS.Window_d3_cagey_2 =
   template = "Window_d3_cagey_1",
   map = "MAP02",
 
-  seed_w = 2,
+  seed_w = 2
 }
 
 PREFABS.Window_d3_cagey_3 =
@@ -32,5 +32,21 @@ PREFABS.Window_d3_cagey_3 =
   template = "Window_d3_cagey_1",
   map = "MAP03",
 
-  seed_w = 3,
+  seed_w = 3
+}
+
+PREFABS.Window_d3_cagey_4 =
+{
+  template = "Window_d3_cagey_1",
+  map = "MAP04",
+
+  seed_w = 4
+}
+
+PREFABS.Window_d3_cagey_diag =
+{
+  template = "Window_d3_cagey_1",
+  map = "MAP11",
+
+  where = "diagonal"
 }
